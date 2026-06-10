@@ -1,0 +1,219 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10 21:45",
+  "news": [
+    {
+      "source": "NVIDIA官方 / Tom's Hardware",
+      "title": "NVIDIA Computex 2026发布RTX Spark超级芯片，目标将Windows PC打造成AI代理平台",
+      "summary": "NVIDIA在Computex 2026发布RTX Spark，集成Blackwell GPU（6144个CUDA核心）与20核Grace ARM CPU，统一内存128GB、带宽300GB/s，支持FP4精度。定位取代苹果M系列、英特尔与高通，将Windows PC打造成原生AI代理操作系统，预计2026年秋季上市。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design"
+      ]
+    },
+    {
+      "source": "GlobeNewswire / NVIDIA新闻室",
+      "title": "NVIDIA与台积电宣布将AI引入晶圆厂，推进半导体设计与制造升级",
+      "summary": "2026年6月1日，NVIDIA与台积电在Computex宣布将AI技术深度整合至晶圆厂生产流程，通过AI优化良率预测、工艺控制与芯片设计验证，旨在提升半导体制造效率并缩短开发周期。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry"
+      ]
+    },
+    {
+      "source": "华为Central / TechRadar",
+      "title": "华为发布昇腾950DT并承诺每年一代算力翻倍，AI芯片收入预计升至120亿美元",
+      "summary": "2026年6月5日，华为副总裁陈黎明在云INSPIRE大会宣布昇腾950DT将上线华为云，升级向量算力与内存带宽，原生支持FP8格式。华为承诺年度新一代芯片算力翻倍，预计2026年AI芯片收入从75亿美元增至120亿美元。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "domestic_gpu"
+      ]
+    },
+    {
+      "source": "CNBC",
+      "title": "英伟达CEO：已基本让出中国AI芯片市场，华为主导格局成形",
+      "summary": "英伟达CEO黄仁勋5月21日表示，受美国出口管制限制，英伟达已基本放弃中国AI芯片市场，华为昇腾系列成为主导力量。中国AI芯片市场规模预计2030年达670亿美元，国产替代进程持续加速。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "domestic_gpu"
+      ]
+    },
+    {
+      "source": "mlq.ai / GlobalBanking",
+      "title": "英特尔与鸿海Computex达成机架级AI基础设施战略合作",
+      "summary": "2026年6月4日，英特尔与鸿海精密在Computex台北宣布战略合作，联合开发以英特尔至强处理器为核心的机架级AI数据中心方案，集成SambaNova SN 50可重构数据流单元，并延伸至边缘AI与工业机器人等场景。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "dc_operator"
+      ]
+    },
+    {
+      "source": "TechTimes / Google",
+      "title": "谷歌Gemini 3.5 Pro临近正式发布，支持200万token上下文与深度推理模式",
+      "summary": "谷歌Gemini 3.5 Pro于5月19日谷歌I/O大会宣布，预计6月正式GA，支持200万token超长上下文与Deep Think深度推理能力，承担最复杂多模态任务，输入价格约15美元/百万token，取代原Ultra定位。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    },
+    {
+      "source": "TechCrunch / OpenAI",
+      "title": "OpenAI秘密提交IPO申请，并完成1220亿美元融资加速AI研发",
+      "summary": "2026年6月8日，OpenAI继Anthropic之后向SEC秘密提交IPO申请，公司表示具体时间尚未确定。此前OpenAI完成1220亿美元融资，同时宣布DevDay 2026开发者大会定于9月29日在旧金山举行。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "EnkiAI / 高盛研究",
+      "title": "超大规模云厂商2026年AI资本支出达7250亿美元，电力缺口成最大制约",
+      "summary": "Q1 2026财报显示五大超大规模云厂商年度资本支出合计约7250亿美元，较2025年增长64%，约75%用于AI基础设施。高盛测算美国数据中心电力缺口当前超11GW，2028年将扩至45GW，主要市场电网接入等待超四年。",
+      "sector_ids": [
+        "infra"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "power_supply"
+      ]
+    },
+    {
+      "source": "半岛电视台 / 美国商务部",
+      "title": "美国明确AI芯片出口禁令适用于中国企业境外子公司，并研究更宽泛预审机制",
+      "summary": "2026年6月1日，美国商务部明确对华AI芯片出口限制同样适用于中国企业境外子公司，NVIDIA Blackwell对此类实体出货须申请许可。据报特朗普政府同时研究对所有目的地AI芯片出口实施预先审批的更宽泛管控机制。",
+      "sector_ids": [
+        "chips",
+        "apps"
+      ],
+      "role_ids": [
+        "chip_design",
+        "ai_compliance"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "AI芯片/算力",
+      "icon": "⚡",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "Computex 2026密集发布AI芯片新品，NVIDIA、华为、英特尔三线并进，国产替代与出口管制同步加速。",
+      "content": "本周Computex 2026（6月1-5日）成为全球AI芯片最密集发布窗口：NVIDIA推出RTX Spark超级芯片，集成Blackwell GPU与Grace ARM CPU；NVIDIA与台积电宣布将AI引入晶圆厂流程；英特尔联合鸿海发布机架级AI数据中心方案。华为昇腾950DT上云并承诺年度迭代算力倍增，2026年AI芯片收入目标120亿美元。英伟达坦承已基本让出中国市场，国产替代态势进一步确立。美国出口管制6月1日收紧，扩大至中国企业境外子公司，全球芯片供应链格局持续分化。",
+      "roles": [
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "AI模型/平台",
+      "icon": "🧠",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "谷歌Gemini 3.5 Pro临近发布，OpenAI融资与IPO双线推进，大模型商业化持续提速。",
+      "content": "谷歌Gemini 3.5 Flash已于5月上线并超越上代Pro，Gemini 3.5 Pro预计6月正式GA，配备200万token超长上下文与Deep Think深度推理，承担最高难度多模态任务，定价约15美元/百万输入token。OpenAI方面，完成1220亿美元融资后于6月8日秘密提交IPO申请，Codex代码生成全面开放并入驻AWS；ChatGPT新增Dreaming记忆系统，GPT-Rosalind聚焦生命科学垂直场景。大模型能力边界持续扩展，商业化路径日趋清晰。",
+      "roles": [
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "AI应用层",
+      "icon": "📱",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "AI代理应用加速落地，监管框架尚未稳定，产业生态持续演进中。",
+      "content": "Computex 2026核心主题聚焦AI代理，NVIDIA RTX Spark定位原生AI代理PC平台，ASUS等OEM同步推出企业到边缘AI方案。OpenAI Codex全面开放降低AI代码生成应用门槛，企业SaaS整合AI能力趋势明确。合规层面，美国出口管制范围进一步扩大，特朗普政府据报研究针对所有出口目的地的AI芯片预审机制，全球AI应用部署合规成本与不确定性上升。整体落地势头确定，但监管框架尚未稳定，跨境部署风险需持续关注。",
+      "roles": [
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "数据中心/基础设施",
+      "icon": "🏗️",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "超大规模云厂商资本支出创历史新高，电力供应已成AI基础设施扩张的核心瓶颈。",
+      "content": "五大超大规模云厂商2026年资本支出合计约7250亿美元（同比增约64%），其中Alphabet约700-740亿美元、微软逾800亿美元、Meta约800-1000亿美元用于数据中心建设，约75%直接流向AI基础设施。电力已成首要制约：高盛测算美国电力缺口当前超11GW、2028年将达45GW；主要市场电网接入等待时间普遍超四年，推动运营商转向就地储能与分布式电源方案。AI服务器机架功率密度持续攀升，液冷散热需求快速增长。",
+      "roles": [
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
+      ]
+    }
+  ],
+  "macro": "美国6月1日进一步收紧AI芯片出口管制，明确覆盖中国企业境外子公司，并据报研究全球出口预审新规；超大规模云厂商资本支出持续创历史新高，AI基础设施军备竞赛无收敛迹象；华为稳固中国市场主导地位并加速自主芯片迭代，中美AI产业链分化态势持续强化。",
+  "tomorrow_focus": [
+    "谷歌Gemini 3.5 Pro正式GA发布时间窗口（预期6月内），关注性能评测与商业定价公告",
+    "美国商务部AI芯片全球出口预审新规的进一步细节及行业协会反馈",
+    "华为昇腾950DT在华为云正式上线时间表及头部企业客户采购动态"
+  ]
+}
