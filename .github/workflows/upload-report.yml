@@ -1,0 +1,72 @@
+name: Upload Report to WeChat Cloud DB
+
+on:
+  push:
+    paths:
+      - 'reports/**.json'
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Call uploadReport Cloud Function
+        run: |
+          # 获取 access_token
+          TOKEN_RESP=$(curl -s "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${{ secrets.WECHAT_APPID }}&secret=${{ secrets.WECHAT_SECRET }}")
+          ACCESS_TOKEN=$(echo $TOKEN_RESP | python3 -c "import sys,json; print(json.load(sys.stdin).get('access_token',''))")
+          
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "❌ access_token 获取失败"
+            exit 1
+          fi
+          echo "✅ access_token 获取成功"
+
+          # 找到本次 push 的报告文件
+          REPORT_FILE=$(git diff --name-only HEAD~1 HEAD -- 'reports/*.json' | head -1)
+          if [ -z "$REPORT_FILE" ]; then
+            REPORT_FILE=$(ls reports/*.json | sort | tail -1)
+          fi
+          echo "📄 上传文件：$REPORT_FILE"
+
+          # 封装请求体
+          python3 -c "
+          import json
+          report = json.load(open('$REPORT_FILE'))
+          with open('/tmp/request.json', 'w', encoding='utf-8') as f:
+              json.dump({'report': report}, f, ensure_ascii=False)
+          print('✅ 请求体准备完成')
+          "
+
+          # 调用云函数写入云数据库
+          curl -s -X POST \
+            "https://api.weixin.qq.com/tcb/invokecloudfunction?access_token=${ACCESS_TOKEN}&env=${{ secrets.CLOUDBASE_ENV }}&name=uploadReport" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d @/tmp/request.json \
+            > /tmp/cf_result.json
+
+          echo "云函数响应："
+          cat /tmp/cf_result.json
+
+          python3 - << 'PYEOF'
+          import json, sys
+          try:
+              result = json.load(open('/tmp/cf_result.json'))
+              errcode = result.get('errcode', -1)
+              if errcode == 0:
+                  resp = json.loads(result.get('resp_body', '{}'))
+                  if resp.get('success'):
+                      print('✅ 报告已成功写入云数据库！')
+                  else:
+                      print('❌ 云函数失败:', resp.get('error', '未知'))
+                      sys.exit(1)
+              else:
+                  print(f'❌ API失败 errcode={errcode}:', result.get('errmsg', ''))
+                  sys.exit(1)
+          except Exception as e:
+              print('❌ 解析失败:', e)
+              print('原始响应:', open('/tmp/cf_result.json').read())
+              sys.exit(1)
+          PYEOF
