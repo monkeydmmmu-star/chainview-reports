@@ -56,7 +56,7 @@ jobs:
               result = json.load(open('/tmp/cf_result.json'))
               errcode = result.get('errcode', -1)
               if errcode == 0:
-                  resp = json.loads(result.get('resp_body', '{}'))
+                  resp = json.loads(result.get('resp_data', '{}'))
                   if resp.get('success'):
                       print('✅ 报告已成功写入云数据库！')
                   else:
