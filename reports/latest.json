@@ -1,153 +1,219 @@
 {
-  "date": "2026-05-20",
-  "generated_at": "2026-05-20 10:30",
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10 21:45",
   "news": [
     {
-      "source": "Kiplinger / Multiple Sources",
-      "title": "英伟达今日盘后发布Q1 FY2027财报，分析师预期营收789亿美元",
-      "summary": "英伟达将于今日（5月20日）美股收盘后公布第一财季财报，华尔街共识预期营收约789亿美元（同比+79%），EPS约1.77美元。Blackwell架构出货加速及数据中心AI需求旺盛是核心驱动力；Q2指引将是最大市场变量，分析师普遍预计需超过80%增速方能推动股价上行。"
+      "source": "NVIDIA官方 / Tom's Hardware",
+      "title": "NVIDIA Computex 2026发布RTX Spark超级芯片，目标将Windows PC打造成AI代理平台",
+      "summary": "NVIDIA在Computex 2026发布RTX Spark，集成Blackwell GPU（6144个CUDA核心）与20核Grace ARM CPU，统一内存128GB、带宽300GB/s，支持FP4精度。定位取代苹果M系列、英特尔与高通，将Windows PC打造成原生AI代理操作系统，预计2026年秋季上市。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design"
+      ]
     },
     {
-      "source": "CNBC / Google Developers Blog",
-      "title": "Google I/O 2026：发布Gemini Spark个人AI代理与Gemini 3.5系列，用户突破9亿",
-      "summary": "谷歌在I/O 2026大会（5月19-20日）上宣布推出Gemini Spark——一款24小时运行的个人AI代理，可在锁屏后继续后台执行任务。同步发布Gemini 3.5 Flash轻量模型及Gemini Omni视频生成模型。Gemini App活跃用户从4亿激增至9亿，每月处理超3.2千万亿token。高级版AI Ultra订阅售价100美元/月。"
+      "source": "GlobeNewswire / NVIDIA新闻室",
+      "title": "NVIDIA与台积电宣布将AI引入晶圆厂，推进半导体设计与制造升级",
+      "summary": "2026年6月1日，NVIDIA与台积电在Computex宣布将AI技术深度整合至晶圆厂生产流程，通过AI优化良率预测、工艺控制与芯片设计验证，旨在提升半导体制造效率并缩短开发周期。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "谷歌与黑石集团计划联合成立AI云公司，黑石初始注资50亿美元",
-      "summary": "谷歌与私募巨头黑石集团（Blackstone）达成协议，计划成立一家专注AI云服务的联合公司，黑石提供初始50亿美元股权资本。该合作将整合谷歌的AI模型与云算力基础设施，以及黑石的数据中心资产网络，旨在抢占企业AI云市场份额。"
-    },
-    {
-      "source": "AMD Investor Relations / DataCenter Dynamics",
-      "title": "AMD与OpenAI战略合作深化：MI450 GPU今年下半年开始1GW规模部署",
-      "summary": "AMD与OpenAI于2025年10月签订的6吉瓦GPU供应协议进入兑现阶段，MI450系列GPU将于2026年下半年启动首批1GW部署。MI450采用台积电2nm工艺，提供40 PFLOP AI算力与432GB HBM4内存。AMD预计该协议将在四年内带来超1000亿美元新增收入，分析师将此视为英伟达垄断格局出现裂缝的标志性信号。"
-    },
-    {
-      "source": "CNBC / WinBuzzer",
-      "title": "微软接管OpenAI多个Stargate数据中心项目，掌控万亿美元AI基础设施",
-      "summary": "微软已接手OpenAI撤出的多个Stargate数据中心项目，包括挪威纳尔维克（3万枚英伟达芯片）及德克萨斯Crusoe园区的设施。Stargate项目自1月宣布以来已超越10GW里程碑，与甲骨文合作的Abilene数据中心建设加速，2026年底运行芯片数将超200万枚。"
-    },
-    {
-      "source": "Built In / Multiple Sources",
-      "title": "特朗普解除对华AI芯片出口限制，英伟达H200获批向10家中国企业销售",
-      "summary": "美国商务部批准阿里巴巴、腾讯、字节跳动等约10家中国企业采购英伟达H200芯片，每家限75000枚。但协议仍面临法律不确定性，实际交付尚未开始。5月12日美中贸易休战将关税从145%降至30%，短期内缓解了AI芯片出口管制压力，但Blackwell及更新一代芯片出口禁令依然维持。"
-    },
-    {
-      "source": "DataCenter Dynamics",
-      "title": "KKR宣布成立Helix数字基础设施公司，预算超100亿美元，前AWS CEO领衔",
-      "summary": "私募股权巨头KKR宣布成立Helix Digital Infrastructure，专注于AI数据中心、电力及网络资产的开发与管理，预算规模超100亿美元，由前AWS CEO挂帅。这是继微软、谷歌等科技巨头万亿级AI基础设施投资后，传统资本市场大规模押注AI基础设施的最新案例。"
+      "source": "华为Central / TechRadar",
+      "title": "华为发布昇腾950DT并承诺每年一代算力翻倍，AI芯片收入预计升至120亿美元",
+      "summary": "2026年6月5日，华为副总裁陈黎明在云INSPIRE大会宣布昇腾950DT将上线华为云，升级向量算力与内存带宽，原生支持FP8格式。华为承诺年度新一代芯片算力翻倍，预计2026年AI芯片收入从75亿美元增至120亿美元。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "domestic_gpu"
+      ]
     },
     {
       "source": "CNBC",
-      "title": "英伟达今年在AI生态系统股权投资超400亿美元，布局芯片生态闭环",
-      "summary": "英伟达在2026财年以股权投资方式向AI生态圈累计押注逾400亿美元，主要投向早期AI初创公司及基础设施基金。近期签署了向玻璃制造商康宁投资32亿美元、向数据中心运营商IREN投资21亿美元的协议。分析师指出此举有助于构建英伟达GPU生态系统的长期壁垒。"
+      "title": "英伟达CEO：已基本让出中国AI芯片市场，华为主导格局成形",
+      "summary": "英伟达CEO黄仁勋5月21日表示，受美国出口管制限制，英伟达已基本放弃中国AI芯片市场，华为昇腾系列成为主导力量。中国AI芯片市场规模预计2030年达670亿美元，国产替代进程持续加速。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "domestic_gpu"
+      ]
+    },
+    {
+      "source": "mlq.ai / GlobalBanking",
+      "title": "英特尔与鸿海Computex达成机架级AI基础设施战略合作",
+      "summary": "2026年6月4日，英特尔与鸿海精密在Computex台北宣布战略合作，联合开发以英特尔至强处理器为核心的机架级AI数据中心方案，集成SambaNova SN 50可重构数据流单元，并延伸至边缘AI与工业机器人等场景。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "dc_operator"
+      ]
+    },
+    {
+      "source": "TechTimes / Google",
+      "title": "谷歌Gemini 3.5 Pro临近正式发布，支持200万token上下文与深度推理模式",
+      "summary": "谷歌Gemini 3.5 Pro于5月19日谷歌I/O大会宣布，预计6月正式GA，支持200万token超长上下文与Deep Think深度推理能力，承担最复杂多模态任务，输入价格约15美元/百万token，取代原Ultra定位。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    },
+    {
+      "source": "TechCrunch / OpenAI",
+      "title": "OpenAI秘密提交IPO申请，并完成1220亿美元融资加速AI研发",
+      "summary": "2026年6月8日，OpenAI继Anthropic之后向SEC秘密提交IPO申请，公司表示具体时间尚未确定。此前OpenAI完成1220亿美元融资，同时宣布DevDay 2026开发者大会定于9月29日在旧金山举行。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "EnkiAI / 高盛研究",
+      "title": "超大规模云厂商2026年AI资本支出达7250亿美元，电力缺口成最大制约",
+      "summary": "Q1 2026财报显示五大超大规模云厂商年度资本支出合计约7250亿美元，较2025年增长64%，约75%用于AI基础设施。高盛测算美国数据中心电力缺口当前超11GW，2028年将扩至45GW，主要市场电网接入等待超四年。",
+      "sector_ids": [
+        "infra"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "power_supply"
+      ]
+    },
+    {
+      "source": "半岛电视台 / 美国商务部",
+      "title": "美国明确AI芯片出口禁令适用于中国企业境外子公司，并研究更宽泛预审机制",
+      "summary": "2026年6月1日，美国商务部明确对华AI芯片出口限制同样适用于中国企业境外子公司，NVIDIA Blackwell对此类实体出货须申请许可。据报特朗普政府同时研究对所有目的地AI芯片出口实施预先审批的更宽泛管控机制。",
+      "sector_ids": [
+        "chips",
+        "apps"
+      ],
+      "role_ids": [
+        "chip_design",
+        "ai_compliance"
+      ]
     }
   ],
   "sectors": [
     {
       "id": "chips",
-      "name": "芯片与半导体",
+      "name": "AI芯片/算力",
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "英伟达Q1财报今日发布，预期强劲；AMD MI450加速落地；台积电维持72%市占率",
-      "content": "今日为英伟达Q1 FY2027财报日，市场预期营收789亿美元（YoY+79%），Blackwell出货加速叠加AI算力需求不减是主因。AMD凭借OpenAI 6GW GPU协议确立第二梯队地位，MI450将于下半年大规模交付。台积电2nm产能被AMD MI450及英伟达下一代产品争相预订，先进封装供不应求。英特尔因产能瓶颈（依赖台积电代工计算芯片）进展迟缓，市场份额持续流失。整体板块受AI基础设施超级周期驱动，估值仍有支撑。",
-      "key_stocks": ["NVDA", "AMD", "TSM", "INTC", "AVGO"]
+      "summary": "Computex 2026密集发布AI芯片新品，NVIDIA、华为、英特尔三线并进，国产替代与出口管制同步加速。",
+      "content": "本周Computex 2026（6月1-5日）成为全球AI芯片最密集发布窗口：NVIDIA推出RTX Spark超级芯片，集成Blackwell GPU与Grace ARM CPU；NVIDIA与台积电宣布将AI引入晶圆厂流程；英特尔联合鸿海发布机架级AI数据中心方案。华为昇腾950DT上云并承诺年度迭代算力倍增，2026年AI芯片收入目标120亿美元。英伟达坦承已基本让出中国市场，国产替代态势进一步确立。美国出口管制6月1日收紧，扩大至中国企业境外子公司，全球芯片供应链格局持续分化。",
+      "roles": [
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
+      ]
     },
     {
       "id": "models",
-      "name": "AI大模型",
+      "name": "AI模型/平台",
       "icon": "🧠",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "Google I/O推出Gemini Spark代理与3.5系列；大模型竞争格局加速",
-      "content": "谷歌I/O 2026是本周最大催化剂：Gemini Spark个人AI代理、Gemini 3.5 Flash轻量模型及Gemini Omni视频模型集中亮相，AI Ultra订阅定价100美元/月彰显货币化信心。Gemini App用户9亿、月处理3.2千万亿token显示规模优势。Meta的Muse Spark模型以Llama 4 Maverick同等能力、十分之一算力成本冲击市场。OpenAI推出ChatGPT广告平台，标志盈利模式从纯订阅向广告混合转型。多模型并行繁荣推动算力需求持续扩张。",
-      "key_stocks": ["GOOGL", "META", "MSFT", "BIDU", "AMZN"]
+      "summary": "谷歌Gemini 3.5 Pro临近发布，OpenAI融资与IPO双线推进，大模型商业化持续提速。",
+      "content": "谷歌Gemini 3.5 Flash已于5月上线并超越上代Pro，Gemini 3.5 Pro预计6月正式GA，配备200万token超长上下文与Deep Think深度推理，承担最高难度多模态任务，定价约15美元/百万输入token。OpenAI方面，完成1220亿美元融资后于6月8日秘密提交IPO申请，Codex代码生成全面开放并入驻AWS；ChatGPT新增Dreaming记忆系统，GPT-Rosalind聚焦生命科学垂直场景。大模型能力边界持续扩展，商业化路径日趋清晰。",
+      "roles": [
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
+      ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "谷歌AI Ultra定价100美元/月；ChatGPT广告平台上线；AI助手商业化加速",
-      "content": "大模型商业化进入新阶段：谷歌推出月费100美元的AI Ultra高级订阅，目标开发者与创意专业人士，并整合Gemini Spark代理功能。OpenAI开放ChatGPT自助广告平台，品牌可在对话中直接推广产品，颠覆传统搜索广告逻辑。Gemini深度整合Chrome浏览器，提供跨网页内容摘要与实时翻译，直接威胁传统SaaS工具市场。中国AI应用（字节跳动、阿里）获得H200采购资格，国内大模型落地应用有望提速。",
-      "key_stocks": ["GOOGL", "META", "MSFT", "BIDU", "SNOW"]
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "AI代理应用加速落地，监管框架尚未稳定，产业生态持续演进中。",
+      "content": "Computex 2026核心主题聚焦AI代理，NVIDIA RTX Spark定位原生AI代理PC平台，ASUS等OEM同步推出企业到边缘AI方案。OpenAI Codex全面开放降低AI代码生成应用门槛，企业SaaS整合AI能力趋势明确。合规层面，美国出口管制范围进一步扩大，特朗普政府据报研究针对所有出口目的地的AI芯片预审机制，全球AI应用部署合规成本与不确定性上升。整体落地势头确定，但监管框架尚未稳定，跨境部署风险需持续关注。",
+      "roles": [
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
+      ]
     },
     {
       "id": "infra",
-      "name": "AI基础设施",
+      "name": "数据中心/基础设施",
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "2026年全球AI基础设施资本支出6900亿美元；Stargate超10GW里程碑；KKR百亿入场",
-      "content": "AI基础设施投资正以前所未有的速度推进：2026年全球数据中心运营商资本支出近7500亿美元（同比增近70%），全球超23GW数据中心容量在建，四分之三位于美国。微软强化Stargate数据中心项目控制权，与甲骨文合作的Abilene园区加速扩张，首批Stargate训练模型预计2026年底亮相。KKR的Helix Digital Infrastructure入场表明传统资本已将AI基础设施视为战略资产。电力供应与社区许可成为主要瓶颈，相关电力股、冷却设备商迎来新催化剂。",
-      "key_stocks": ["EQIX", "DLR", "VRT", "CEG", "NEE"]
+      "summary": "超大规模云厂商资本支出创历史新高，电力供应已成AI基础设施扩张的核心瓶颈。",
+      "content": "五大超大规模云厂商2026年资本支出合计约7250亿美元（同比增约64%），其中Alphabet约700-740亿美元、微软逾800亿美元、Meta约800-1000亿美元用于数据中心建设，约75%直接流向AI基础设施。电力已成首要制约：高盛测算美国电力缺口当前超11GW、2028年将达45GW；主要市场电网接入等待时间普遍超四年，推动运营商转向就地储能与分布式电源方案。AI服务器机架功率密度持续攀升，液冷散热需求快速增长。",
+      "roles": [
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
+      ]
     }
   ],
-  "watchlist": {
-    "positive": [
-      {
-        "code": "NVDA",
-        "name": "英伟达",
-        "event": "Q1 FY2027财报今日盘后发布，市场预期营收789亿美元（YoY+79%）",
-        "logic": "Blackwell GPU出货持续加速，数据中心业务占比超80%；Q2指引若超预期将打开新一轮上涨空间；AMD虽有竞争但英伟达CUDA生态壁垒短期难以撼动",
-        "risk": "股价已计入强劲预期，Q1若仅符合预期而Q2指引不够激进，可能出现卖出获利现象；中国出口管制不确定性持续",
-        "signal": "hold"
-      },
-      {
-        "code": "GOOGL",
-        "name": "谷歌/Alphabet",
-        "event": "Google I/O 2026发布Gemini Spark代理、Gemini 3.5系列及与黑石成立AI云公司",
-        "logic": "Gemini用户规模达9亿，商业化路径清晰；AI Ultra高价订阅+广告收入双轮驱动；与黑石合作开辟企业AI云新赛道",
-        "risk": "AI Ultra竞争激烈（OpenAI GPT-4.5 Turbo、Anthropic Claude）；反垄断监管压力持续",
-        "signal": "buy"
-      },
-      {
-        "code": "AMD",
-        "name": "超微半导体",
-        "event": "MI450 GPU获OpenAI 1GW部署订单，今年下半年开始交付",
-        "logic": "6GW框架协议提供长期营收能见度，预计四年贡献超1000亿美元；台积电2nm工艺赋予MI450性能竞争力；华尔街对AI芯片爱好从英伟达向AMD转移",
-        "risk": "MI450量产良率与交付时间存在不确定性；英伟达CUDA生态粘性高，AI训练市场份额争夺仍艰难",
-        "signal": "buy"
-      },
-      {
-        "code": "TSM",
-        "name": "台积电",
-        "event": "掌握英伟达Blackwell与AMD MI450等先进芯片代工，先进封装供不应求",
-        "logic": "AI算力需求扩张直接转化为台积电3nm/2nm产能溢价；CoWoS先进封装几乎垄断，72%纯晶圆代工市占率护城河深厚；2026年股价已涨33%仍具相对价值",
-        "risk": "美中贸易摩擦导致地缘政治风险；美国本土建厂成本高企压缩利润率；台海局势风险溢价",
-        "signal": "hold"
-      },
-      {
-        "code": "VRT",
-        "name": "维谛技术（Vertiv）",
-        "event": "AI数据中心冷却及电力管理需求激增，2026年全球数据中心Capex超7500亿美元",
-        "logic": "AI服务器功耗密度大幅超出传统服务器，液冷解决方案成刚需；KKR等资本持续加码数据中心建设直接拉动Vertiv订单；AI超级周期下基础设施供应商稀缺性凸显",
-        "risk": "数据中心社区许可阻力增大可能延缓建设进度；电力配套滞后影响装机节奏",
-        "signal": "buy"
-      }
-    ],
-    "negative": [
-      {
-        "code": "INTC",
-        "name": "英特尔",
-        "event": "产能瓶颈制约增长：Intel计算芯片依赖台积电代工，产能扩张受限",
-        "impact": "英特尔无法独立解决CPU产能约束，即使市场需求存在也无法快速提升出货。在AI服务器市场，ARM架构（AWS Graviton、Ampere）和英伟达持续蚕食x86份额。AI芯片市场英特尔Gaudi系列存在感弱，与AMD、英伟达差距扩大。2026年股价虽翻倍但基本面改善有限，估值修复风险高。"
-      },
-      {
-        "code": "QCOM",
-        "name": "高通",
-        "event": "被中国监管机构列入反垄断调查名单，中国市场营收面临压力",
-        "impact": "在美中贸易休战框架下，中国正对英伟达、高通、英特尔发起反垄断调查作为谈判筹码。高通智能手机芯片业务依赖中国市场（占收入约30%），监管压力可能影响客户采购决策。同时端侧AI芯片竞争加剧（联发科、Apple自研芯片），核心业务增长逻辑减弱。"
-      }
-    ]
-  },
-  "macro": "美中贸易休战将关税从145%降至30%，AI芯片出口管制边际松动（H200向10家中企开放，限额75000枚），但Blackwell及更新代芯片禁令维持。2026年全球AI基础设施Capex约6900亿美元，联储政策维持观望。英伟达财报将为AI超级周期定调，是本周宏观最大风险事件。",
+  "macro": "美国6月1日进一步收紧AI芯片出口管制，明确覆盖中国企业境外子公司，并据报研究全球出口预审新规；超大规模云厂商资本支出持续创历史新高，AI基础设施军备竞赛无收敛迹象；华为稳固中国市场主导地位并加速自主芯片迭代，中美AI产业链分化态势持续强化。",
   "tomorrow_focus": [
-    "英伟达Q1 FY2027财报结果解读：关注Q2营收指引是否超预期800亿美元，以及Blackwell产品组合毛利率走势",
-    "Google I/O 2026开发者主题演讲跟进：Gemini Spark正式发布时间线及企业版AI Ultra商业化细节",
-    "AMD MI450量产进度更新：TSMC 2nm CoWoS封装产能分配及下半年出货时间表确认",
-    "美中AI监管对话进展：特朗普-习近平峰会框架下AI芯片出口管制谈判最新动态"
+    "谷歌Gemini 3.5 Pro正式GA发布时间窗口（预期6月内），关注性能评测与商业定价公告",
+    "美国商务部AI芯片全球出口预审新规的进一步细节及行业协会反馈",
+    "华为昇腾950DT在华为云正式上线时间表及头部企业客户采购动态"
   ]
 }
