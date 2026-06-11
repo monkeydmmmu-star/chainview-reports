@@ -1,62 +1,93 @@
 {
-  "date": "2026-06-10",
-  "generated_at": "2026-06-11 07:06",
+  "date": "2026-06-11",
+  "generated_at": "2026-06-12 07:06",
   "news": [
     {
-      "source": "Bloomberg / TechBriefly",
-      "title": "中国拟投入约2950亿美元建设全国AI数据中心网络，要求80%采用国产芯片",
-      "summary": "据Bloomberg报道，中国国家发改委牵头起草全国算力网络规划，拟5年内投入约2950亿元人民币（约2950亿美元），依托中国移动、中国电信运营互联数据中心集群，目标2028年贯通全国算力网格。该计划要求至少80%的AI芯片来自华为等国内供应商，实质排除英伟达和AMD参与采购。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["domestic_gpu", "dc_operator", "power_supply"]
+      "source": "Bloomberg / Axios",
+      "title": "Bezos旗下工业AI公司Prometheus完成120亿美元B轮融资，估值达410亿美元",
+      "summary": "Jeff Bezos创立的工业AI公司Prometheus完成120亿美元B轮融资，估值达410亿美元。投资方包括摩根大通、高盛、贝莱德及DST Global。公司专注研发人工通用工程师系统，目标将喷气发动机、医疗器械等复杂物理产品从概念到量产全流程自动化，现有员工约150人。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "enterprise_saas",
+        "autonomous"
+      ]
     },
     {
-      "source": "新浪财经",
-      "title": "全球AI巨头竞速IPO：OpenAI提交机密S-1，中国AI军团密集筹备上市",
-      "summary": "OpenAI于6月8日向SEC提交机密IPO申请，估值约8520亿美元；Anthropic于6月1日先行递交，估值9650亿美元，Goldman Sachs与Morgan Stanley联合承销。国内方面，智谱华章拟科创板募资不超150亿元，燧原科技科创板、粤芯半导体创业板IPO申请将于6月15日上会审核，中国AI产业集体加速资本化。",
-      "sector_ids": ["models", "chips"],
-      "role_ids": ["llm_lab", "chip_design"]
+      "source": "NPR / TechCrunch",
+      "title": "SpaceX以每股135美元定价IPO，募资750亿美元创史上最大IPO纪录",
+      "summary": "SpaceX于6月11日完成IPO定价，每股135美元，计划募资约750亿美元，估值约1.77万亿美元，超越沙特阿美2019年纪录成为史上最大规模IPO。股票代码SPCX，将于6月12日在纳斯达克开始交易。",
+      "sector_ids": [
+        "infra"
+      ],
+      "role_ids": [
+        "dc_operator"
+      ]
     },
     {
-      "source": "Huawei Central / Tom's Hardware",
-      "title": "华为Ascend将承担中国AI数据中心80%算力供给，国产芯片规模落地挑战犹存",
-      "summary": "中国2950亿美元AI基础设施计划明确以华为Ascend系列芯片为核心算力支撑，百度昆仑芯亦被纳入替代选项。然而多位国内芯片高管承认，国产AI数据中心芯片与国际领先水平仍存5至10年差距，大规模训练集群量产爬坡是计划落地的核心挑战。",
-      "sector_ids": ["chips"],
-      "role_ids": ["domestic_gpu", "chip_design", "wafer_foundry"]
+      "source": "GuruFocus / TrendForce",
+      "title": "台积电宣布下半年3纳米制程代工价格上调约15%，AI芯片需求持续超供",
+      "summary": "台积电计划2026年下半年将3纳米制程晶圆代工价格上调约15%，并预计2027年进一步上调5%-10%。AI相关订单需求强劲是主要驱动因素，月产能规划16至17.5万片仍难满足需求。公司预计2026年全年营收增速超过30%。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "chip_design",
+        "adv_packaging"
+      ]
     },
     {
-      "source": "GlobeNewswire",
-      "title": "Skyworks在PCIM Europe 2026展示面向AI基础设施的软件定义电源产品组合",
-      "summary": "Skyworks Solutions于6月10日在德国纽伦堡PCIM Europe 2026展会展示其软件定义电源方案，覆盖AI数据中心及智能出行应用场景，聚焦高效率电源转换与管理芯片。展示反映AI算力密度提升背景下，数据中心对精细化电源管理解决方案的旺盛需求。",
-      "sector_ids": ["infra"],
-      "role_ids": ["power_supply", "dc_operator"]
+      "source": "OpenAI / Oracle官方公告",
+      "title": "OpenAI与甲骨文宣布企业云合作，Oracle Cloud客户可直接调用前沿AI模型",
+      "summary": "OpenAI与甲骨文宣布合作，Oracle Cloud Infrastructure企业客户可通过现有Oracle通用积分（UCM）直接访问OpenAI前沿AI模型及Codex编程助手，无需新建独立采购渠道，进一步拓宽OpenAI在企业市场的部署覆盖。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform",
+        "enterprise_ai"
+      ]
     },
     {
-      "source": "PR Newswire",
-      "title": "SuperAI Singapore 2026开幕：亚洲最大AI峰会聚集150国万名参与者，覆盖AI基础设施与前沿模型",
-      "summary": "SuperAI Singapore 2026于6月10日至11日在新加坡滨海湾金沙举办，逾万名与会者来自150个国家，已全部售罄。展商涵盖Arm、阿里云、Mistral AI等AI基础设施与前沿模型厂商，议题涉及具身AI、大模型、AI基础设施及生物科技，是新加坡AI周（6月8日至14日）的核心活动。",
-      "sector_ids": ["models", "chips", "apps"],
-      "role_ids": ["llm_lab", "cloud_platform", "enterprise_ai"]
+      "source": "Axios / Bloomberg / TechTimes",
+      "title": "Anthropic CEO呼吁政府获得阻止危险AI部署的法律权力，同日宣布3.5亿美元社会应对基金",
+      "summary": "Anthropic CEO Dario Amodei发表两部分政策白皮书，呼吁政府对前沿AI模型实施强制第三方审计，并在安全风险超标时有权阻止或撤销模型发布。Anthropic同日宣布设立2亿美元经济未来研究基金及1.5亿美元全国学者奖学金计划，合计3.5亿美元用于应对AI对劳动力市场的冲击。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "NVIDIA Newsroom / GlobeNewswire",
-      "title": "NVIDIA与台积电合作将AI引入晶圆厂：加速光刻仿真与缺陷检测，助力2nm良率提升",
-      "summary": "NVIDIA与台积电宣布在GTC Taipei深化AI制造合作，将CUDA-X加速库及AI模型应用于台积电光刻仿真、晶体管模拟、先进过程控制及晶圆厂运营优化。cuLitho计算光刻工具可将芯片掩模设计成本或周期降低20%至50%，为台积电2nm制程产线良率提升提供支撑。",
-      "sector_ids": ["chips"],
-      "role_ids": ["wafer_foundry", "chip_design", "adv_packaging"]
+      "source": "Fortune / Inc.",
+      "title": "OpenAI秘密向SEC提交S-1招股书草案，目标2026年底完成上市",
+      "summary": "OpenAI于6月8日向美国证券交易委员会秘密提交S-1招股书草案，由高盛和摩根士丹利主导，JPMorgan参与。公司当前估值约8520亿美元，2025年年度经常性收入超200亿美元，预计2026年亏损约140亿美元，预计2029年实现盈利。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
     },
     {
-      "source": "Holland & Knight / OneTrust",
-      "title": "欧盟AI法案8月合规大限临近：透明度与高风险AI监管全面执法，违规最高罚款全球营收3%",
-      "summary": "欧盟AI法案将于2026年8月2日全面进入执法阶段，监管机构届时获得完整处罚权力，企业需满足透明度披露与高风险AI系统文档要求，违规最高处罚1500万欧元或全球营收的3%。美国企业合规准备窗口持续收窄，科罗拉多、德克萨斯等州AI法规亦于2026年同步生效。",
-      "sector_ids": ["apps", "models"],
-      "role_ids": ["ai_compliance", "enterprise_ai", "llm_lab"]
-    },
-    {
-      "source": "TechCrunch / CNBC",
-      "title": "AI基础设施监控初创Coralogix完成2亿美元融资，押注AI Agent时代运维工具市场",
-      "summary": "AI监控软件公司Coralogix完成2亿美元新一轮融资，押注AI Agent规模部署将催生对新一代监控、排障和自主软件管理工具的需求。同期数据库平台Supabase已于6月4日完成5亿美元融资（估值105亿美元），其增长主要由Anthropic Claude Code和OpenAI Codex驱动的AI编码用量贡献。",
-      "sector_ids": ["apps", "infra"],
-      "role_ids": ["enterprise_saas", "dc_operator"]
+      "source": "BuildFastWithAI / CNBC",
+      "title": "DeepSeek持续激进定价策略抢占市场份额，西方AI实验室商业模式面临结构性压力",
+      "summary": "DeepSeek继续以远低于西方同类产品的价格扩大市场，在模型性能持续追赶的同时，引发外界对西方AI实验室能否在承载百亿美元基础设施投入的同时匹配中国定价的结构性质疑，加剧全球AI模型层竞争格局分化。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform",
+        "domestic_gpu"
+      ]
     }
   ],
   "sectors": [
@@ -66,62 +97,101 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "中国2950亿美元AI数据中心建设计划明确国产芯片优先，NVIDIA-台积电AI制造合作深化",
-      "content": "中国发改委牵头拟定全国算力网络规划，5年内投入约2950亿美元建设数据中心集群，要求80%算力来自华为Ascend等国产芯片，实质性排除英伟达和AMD，为国产GPU产业链带来确定性需求空间。但多位业内人士指出，国产AI芯片与国际领先水平仍有5至10年差距，大规模训练集群量产是核心瓶颈。与此同时，NVIDIA与台积电深化合作，将CUDA-X AI模型引入晶圆厂光刻、缺陷检测和过程控制，cuLitho工具可提升掩模设计效率20%-50%，助力台积电2nm良率维持竞争优势。全球半导体2026年年度销售额预计达9750亿美元历史峰值，AI算力需求仍是核心驱动。",
+      "summary": "台积电宣布下半年3纳米提价约15%，AI算力供不应求格局持续强化",
+      "content": "台积电宣布2026年下半年3纳米制程晶圆代工价格上调约15%，2027年预计再涨5%-10%，核心驱动力为AI相关订单持续超出供给。公司预测全年营收增速超30%。台积电在CoWoS先进封装市场占据核心地位，NVIDIA约占全球CoWoS需求的60%。价格上调短期对NVIDIA、AMD等芯片设计客户利润率构成压力，但也再度印证AI算力供给约束的结构性特征，整体对产业链上游晶圆代工及先进封装环节利好。",
       "roles": [
-        { "id": "chip_design",   "name": "芯片设计" },
-        { "id": "wafer_foundry", "name": "晶圆代工" },
-        { "id": "adv_packaging", "name": "先进封装" },
-        { "id": "domestic_gpu",  "name": "国产替代" }
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
       ]
     },
     {
       "id": "models",
       "name": "AI模型/平台",
       "icon": "🧠",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "OpenAI与Anthropic相继递交IPO申请，全球大模型资本化进入加速期，AI编码工具竞争白热化",
-      "content": "OpenAI于6月8日向SEC提交机密S-1文件，估值约8520亿美元，Goldman Sachs与Morgan Stanley主承销，最快四季度上市。Anthropic一周前递交，估值9650亿美元反超OpenAI。国内智谱华章、MiniMax、燧原科技等企业同步密集推进港股及A股上市，中国AI产业资本化浪潮加速形成。产品层面，Microsoft Build推出MAI-Code-1-Flash等自研大模型，Anthropic Claude Code持续占据企业编码市场主导地位，Google推出百元AI开发者订阅力争下沉市场。AI编码工具成为头部厂商必争高地，企业端争夺激烈。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "OpenAI加速商业化同时推进IPO，监管与竞争压力双重升温",
+      "content": "OpenAI宣布与甲骨文云服务合作扩大企业覆盖，并已秘密提交IPO招股书，目标2026年底上市；Anthropic CEO主动倡导政府强制审计前沿AI模型，监管预期趋严；DeepSeek持续激进定价对西方AI实验室商业模式形成结构性压力。三重因素叠加，大模型层竞争格局持续激化，商业变现与安全监管之间的张力进一步加剧，整体呈中性分化态势。",
       "roles": [
-        { "id": "llm_lab",        "name": "大模型研发" },
-        { "id": "cloud_platform", "name": "云计算平台" },
-        { "id": "enterprise_ai",  "name": "企业AI工具" }
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
       ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "欧盟AI法案8月合规大限临近，企业合规压力上升；AI编码与企业SaaS需求保持强劲",
-      "content": "欧盟AI法案将于8月2日全面执法，对高风险AI系统提出文档和透明度要求，美国企业合规准备参差不齐。科罗拉多、德克萨斯等美国州级AI法规同步于2026年生效，全球AI治理框架加速细化，中期合规成本是不确定因素。应用层增长侧，Anthropic Claude Code和OpenAI Codex持续带动开发工具生态扩张，Supabase等数据库基础设施随AI编码普及量价齐升；Coralogix获2亿美元融资，AI Agent监控与运维市场形成新细分赛道。整体看，AI原生企业SaaS和开发基础设施需求强劲，监管合规是中期压力变量。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "Bezos押注工业AI赛道，Prometheus融资规模刷新工业AI纪录",
+      "content": "Jeff Bezos旗下工业AI公司Prometheus完成120亿美元B轮融资（估值410亿美元），聚焦将复杂物理制造流程从概念到量产全流程自动化，目标打造人工通用工程师。摩根大通、高盛、贝莱德等主流金融机构参与投资，标志着AI应用层从软件向物理制造渗透的投资趋势获得机构资本认可。Anthropic同日宣布设立3.5亿美元应对AI劳动力冲击的社会基金，显示头部AI公司开始主动应对应用落地的社会影响。",
       "roles": [
-        { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶" },
-        { "id": "ai_compliance",   "name": "合规监管" }
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
       ]
     },
     {
       "id": "infra",
       "name": "数据中心/基础设施",
       "icon": "🏗️",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "中国2万亿元算力网格规划推进，全球数据中心电力与散热需求持续扩张",
-      "content": "中国拟以中国移动、中国电信为主体运营全国互联算力网格，目标2028年建成，叠加电网升级后总规模或超5万亿元，将拉动液冷、电力设备等国内供应链需求。全球范围内，AI算力密度持续提升，机架功率从30-40kW向数百千瓦乃至兆瓦级跃升，800VDC供电和直接液冷正从前沿向标配过渡。美国已宣布190GW超大规模数据中心容量，但电网接入周期长达5至7年，成为扩张关键瓶颈。Skyworks于PCIM Europe展示AI基础设施软件定义电源方案，反映电源管理芯片精细化需求持续升温，全球数据中心用电量预计2030年达400-600TWh。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "SpaceX创史上最大IPO，科技基础设施投资者信心处于历史高位",
+      "content": "SpaceX以750亿美元募资规模创史上最大IPO纪录，估值达1.77万亿美元，彰显科技基础设施资本市场热度持续高涨。全球AI数据中心资本支出方面，七大科技巨头2026年预计合计投入5270亿美元，电力供给与电网容量已成为数据中心扩张的核心约束，项目布局日益向电力富余地区倾斜。整体基础设施板块供需趋紧，短期估值已较高，呈中性态势。",
       "roles": [
-        { "id": "dc_operator",    "name": "数据中心运营" },
-        { "id": "power_supply",   "name": "电力供给" },
-        { "id": "liquid_cooling", "name": "液冷散热" }
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
       ]
     }
   ],
-  "macro": "中国发布约2950亿美元AI数据中心建设规划，要求80%采用国产芯片，推动AI产业链本土化加速。OpenAI与Anthropic相继向SEC提交机密IPO申请，全球AI头部公司集体进入资本化加速期。欧盟AI法案8月全面执法，全球AI治理体系加速成型。",
+  "macro": "AI监管争议升温：Anthropic CEO主动倡导政府强制审计前沿AI，与美国白宫以促进创新为导向的AI行政令形成对比。SpaceX创史上最大IPO印证科技资本市场热度高企。DeepSeek价格战深化中美AI竞争格局，台积电宣布提价揭示全球AI算力供给约束仍未缓解，产业链供需失衡态势延续。",
   "tomorrow_focus": [
-    "SuperAI Singapore 2026第二日（6月11日）主题演讲：重点关注Arm、阿里云等AI基础设施厂商及前沿模型公司是否有重大产品或合作发布",
-    "燧原科技科创板、粤芯半导体创业板IPO申请将于6月15日上会，本周监管审核动态值得跟踪",
-    "OpenAI递交机密S-1后的市场情绪及估值博弈，以及Anthropic与OpenAI上市时间窗口竞争动态"
+    "SpaceX（SPCX）6月12日在纳斯达克开盘首日交易，将成为科技与AI板块估值及市场情绪的重要风向标",
+    "OpenAI IPO进程跟踪：SEC对S-1草案的审核节奏，以及后续公开路演时间表与定价预期",
+    "台积电3纳米提价向下游传导：NVIDIA、AMD及苹果等主要客户的成本转嫁策略与利润率影响"
   ]
 }
