@@ -1,92 +1,116 @@
 {
-  "date": "2026-06-11",
-  "generated_at": "2026-06-12 07:06",
+  "date": "2026-06-12",
+  "generated_at": "2026-06-13 07:07",
   "news": [
     {
-      "source": "Bloomberg / Axios",
-      "title": "Bezos旗下工业AI公司Prometheus完成120亿美元B轮融资，估值达410亿美元",
-      "summary": "Jeff Bezos创立的工业AI公司Prometheus完成120亿美元B轮融资，估值达410亿美元。投资方包括摩根大通、高盛、贝莱德及DST Global。公司专注研发人工通用工程师系统，目标将喷气发动机、医疗器械等复杂物理产品从概念到量产全流程自动化，现有员工约150人。",
-      "sector_ids": [
-        "apps"
-      ],
-      "role_ids": [
-        "enterprise_saas",
-        "autonomous"
-      ]
-    },
-    {
-      "source": "NPR / TechCrunch",
-      "title": "SpaceX以每股135美元定价IPO，募资750亿美元创史上最大IPO纪录",
-      "summary": "SpaceX于6月11日完成IPO定价，每股135美元，计划募资约750亿美元，估值约1.77万亿美元，超越沙特阿美2019年纪录成为史上最大规模IPO。股票代码SPCX，将于6月12日在纳斯达克开始交易。",
-      "sector_ids": [
-        "infra"
-      ],
-      "role_ids": [
-        "dc_operator"
-      ]
-    },
-    {
-      "source": "GuruFocus / TrendForce",
-      "title": "台积电宣布下半年3纳米制程代工价格上调约15%，AI芯片需求持续超供",
-      "summary": "台积电计划2026年下半年将3纳米制程晶圆代工价格上调约15%，并预计2027年进一步上调5%-10%。AI相关订单需求强劲是主要驱动因素，月产能规划16至17.5万片仍难满足需求。公司预计2026年全年营收增速超过30%。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "wafer_foundry",
-        "chip_design",
-        "adv_packaging"
-      ]
-    },
-    {
-      "source": "OpenAI / Oracle官方公告",
-      "title": "OpenAI与甲骨文宣布企业云合作，Oracle Cloud客户可直接调用前沿AI模型",
-      "summary": "OpenAI与甲骨文宣布合作，Oracle Cloud Infrastructure企业客户可通过现有Oracle通用积分（UCM）直接访问OpenAI前沿AI模型及Codex编程助手，无需新建独立采购渠道，进一步拓宽OpenAI在企业市场的部署覆盖。",
-      "sector_ids": [
-        "models"
-      ],
-      "role_ids": [
-        "llm_lab",
-        "cloud_platform",
-        "enterprise_ai"
-      ]
-    },
-    {
-      "source": "Axios / Bloomberg / TechTimes",
-      "title": "Anthropic CEO呼吁政府获得阻止危险AI部署的法律权力，同日宣布3.5亿美元社会应对基金",
-      "summary": "Anthropic CEO Dario Amodei发表两部分政策白皮书，呼吁政府对前沿AI模型实施强制第三方审计，并在安全风险超标时有权阻止或撤销模型发布。Anthropic同日宣布设立2亿美元经济未来研究基金及1.5亿美元全国学者奖学金计划，合计3.5亿美元用于应对AI对劳动力市场的冲击。",
+      "source": "CNBC",
+      "title": "SpaceX以SPCX代码登陆纳斯达克，史上最大IPO融资750亿美元，首日收涨19%",
+      "summary": "SpaceX于6月12日在纳斯达克以SPCX代码上市，发行价135美元，开盘150美元，收盘161美元，涨幅19%。本次IPO发行5.566亿股，融资约750亿美元，创史上最大IPO纪录。SpaceX已于今年2月收购马斯克AI创业公司xAI，旗下包含Grok大模型及社交网络X。xAI在2025年录得63.6亿美元运营亏损，2026年一季度单季亏损24亿美元。",
       "sector_ids": [
         "models",
         "apps"
       ],
       "role_ids": [
         "llm_lab",
-        "ai_compliance"
+        "enterprise_ai"
       ]
     },
     {
-      "source": "Fortune / Inc.",
-      "title": "OpenAI秘密向SEC提交S-1招股书草案，目标2026年底完成上市",
-      "summary": "OpenAI于6月8日向美国证券交易委员会秘密提交S-1招股书草案，由高盛和摩根士丹利主导，JPMorgan参与。公司当前估值约8520亿美元，2025年年度经常性收入超200亿美元，预计2026年亏损约140亿美元，预计2029年实现盈利。",
+      "source": "TechTimes / Bloomberg",
+      "title": "伦敦科技周闭幕：微软承诺300亿美元投入英国AI基础设施，NHS将为50.5万医护人员部署Copilot",
+      "summary": "伦敦科技周6月12日闭幕，带来一批重大AI承诺：微软宣布向英国AI基础设施及技能培训投入300亿美元（约合230亿英镑），并承诺NHS England将于2026年10月前为50.5万名医护人员及支持人员部署Microsoft 365 Copilot。AMD宣布未来五年向英国AI基础设施投入20亿英镑，并联合剑桥大学建立AI创新实验室。云基础设施商Nebius承诺约17亿英镑扩大在英业务。",
       "sector_ids": [
+        "infra",
         "models"
       ],
       "role_ids": [
-        "llm_lab",
+        "dc_operator",
+        "cloud_platform",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "Bloomberg",
+      "title": "英国科技大臣Liz Kendall承诺扩大对AI初创企业的资金支持，拟改革养老金投资规则",
+      "summary": "英国科技大臣Liz Kendall于6月12日表示，政府将加强推动机构资金流向英国科技企业，并计划通过立法改革养老金管理规则，以释放更多资金投入AI领域。此外，英国政府宣布向本国芯片采购投入4亿英镑，包含7.5亿英镑国家超算（2030年完工）、1.5亿英镑用于向国内企业采购新一代推理芯片。",
+      "sector_ids": [
+        "chips",
+        "apps"
+      ],
+      "role_ids": [
+        "chip_design",
+        "ai_compliance",
+        "enterprise_saas"
+      ]
+    },
+    {
+      "source": "GURUfocus / Tom's Hardware",
+      "title": "马斯克在ASML年会发布Terafab芯片工厂计划，初期投资550亿美元，最高达1190亿美元",
+      "summary": "6月11-12日，马斯克在ASML年度技术大会上正式展示Terafab芯片制造计划。Terafab是Tesla、SpaceX和xAI的联合项目，拟在德克萨斯州建设晶圆厂，初期投资至少550亿美元，全规模后总成本或高达1190亿美元。长期目标为每月100万片晶圆起量，年产千亿枚定制AI和存储芯片。英特尔将提供14A制程技术。ASML首席执行官确认已与马斯克进行直接谈判。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry",
+        "dc_operator"
+      ]
+    },
+    {
+      "source": "TechStartups / Tom's Hardware",
+      "title": "中国规划2万亿元（2950亿美元）国家AI数据中心网格，要求80%硬件采用国产芯片",
+      "summary": "中国拟向全国AI数据中心建设定向投入约2万亿元人民币（约合2950亿美元），由国家发改委主导，中国移动和中国电信负责运营，目标2028年建成统一国家算力网格。该计划要求至少80%的硬件和软件（含AI芯片）来自华为等国内供应商，实际上将NVIDIA和AMD排除在外。若纳入电网升级，总成本或超过5万亿元。",
+      "sector_ids": [
+        "infra",
+        "chips"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "domestic_gpu",
+        "power_supply"
+      ]
+    },
+    {
+      "source": "CNBC / Tom's Hardware",
+      "title": "NVIDIA CEO黄仁勋称已「基本放弃」中国AI芯片市场，华为AI芯片2026年营收预计同比增长60%至120亿美元",
+      "summary": "NVIDIA CEO黄仁勋表示公司已大幅收缩中国AI芯片市场份额，受持续的出口管制影响，该市场正向华为快速转移。分析师预测华为AI芯片2026年营收将同比增长60%，达到约120亿美元。中国GPU云服务正集中在百度和华为两大平台，国产AI芯片规模持续扩大。百度预计2026年AI芯片销售额将增长六倍，达80亿元人民币。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "domestic_gpu",
+        "chip_design",
         "cloud_platform"
       ]
     },
     {
-      "source": "BuildFastWithAI / CNBC",
-      "title": "DeepSeek持续激进定价策略抢占市场份额，西方AI实验室商业模式面临结构性压力",
-      "summary": "DeepSeek继续以远低于西方同类产品的价格扩大市场，在模型性能持续追赶的同时，引发外界对西方AI实验室能否在承载百亿美元基础设施投入的同时匹配中国定价的结构性质疑，加剧全球AI模型层竞争格局分化。",
+      "source": "WindowsForum / TLT Insights",
+      "title": "伦敦科技周宣布英国AI主权计划：1.1亿英镑AI硬件方案，含国产推理芯片采购与芯片设计投入",
+      "summary": "伦敦科技周期间，英国政府公布AI主权计划核心——11亿英镑AI硬件方案：包括7.5亿英镑国家超算（预计2030年）、1.5亿英镑本夏向国内企业采购新一代推理芯片、1.2亿英镑用于芯片设计，以及4500万英镑工程师培训。AWS重申80亿英镑英国投资承诺。各项投资合计显示英国政府将AI主权计算视为优先战略目标。",
       "sector_ids": [
-        "models"
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "dc_operator",
+        "power_supply",
+        "ai_compliance"
+      ]
+    },
+    {
+      "source": "Ballotpedia / Mayer Brown",
+      "title": "美国白宫签署《推进人工智能创新与安全》行政令，要求AI开发商提前30天向政府共享前沿模型",
+      "summary": "特朗普政府于本周签署《推进人工智能创新与安全》行政令，要求AI开发商在向合作伙伴和公众开放前沿模型前，最多提前30天向联邦政府提供访问权限，用于网络安全评估。行政令还指示联邦机构以AI增强网络防御能力，并建立AI网络安全信息交换中心。此举标志着美国AI安全监管框架的重要推进。",
+      "sector_ids": [
+        "models",
+        "apps"
       ],
       "role_ids": [
         "llm_lab",
-        "cloud_platform",
-        "domestic_gpu"
+        "ai_compliance",
+        "enterprise_ai"
       ]
     }
   ],
@@ -97,8 +121,8 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "台积电宣布下半年3纳米提价约15%，AI算力供不应求格局持续强化",
-      "content": "台积电宣布2026年下半年3纳米制程晶圆代工价格上调约15%，2027年预计再涨5%-10%，核心驱动力为AI相关订单持续超出供给。公司预测全年营收增速超30%。台积电在CoWoS先进封装市场占据核心地位，NVIDIA约占全球CoWoS需求的60%。价格上调短期对NVIDIA、AMD等芯片设计客户利润率构成压力，但也再度印证AI算力供给约束的结构性特征，整体对产业链上游晶圆代工及先进封装环节利好。",
+      "summary": "英美两国相继推出重大芯片主权计划，马斯克Terafab项目正式亮相，国产替代加速推进。",
+      "content": "英国政府在伦敦科技周宣布11亿英镑AI硬件主权计划，含国产推理芯片采购与芯片设计专项资金；AMD承诺20亿英镑投入英国AI基础设施。马斯克在ASML年会正式发布Terafab芯片工厂计划，初期投资550亿美元、最高可达1190亿美元，英特尔提供14A制程合作。中国方面，华为AI芯片收入预计2026年同比增长60%至120亿美元，NVIDIA已基本退出中国AI芯片市场；中国2万亿元国家AI算力网格计划要求80%国产芯片，进一步加速国产替代进程。",
       "roles": [
         {
           "id": "chip_design",
@@ -124,8 +148,8 @@
       "icon": "🧠",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "OpenAI加速商业化同时推进IPO，监管与竞争压力双重升温",
-      "content": "OpenAI宣布与甲骨文云服务合作扩大企业覆盖，并已秘密提交IPO招股书，目标2026年底上市；Anthropic CEO主动倡导政府强制审计前沿AI模型，监管预期趋严；DeepSeek持续激进定价对西方AI实验室商业模式形成结构性压力。三重因素叠加，大模型层竞争格局持续激化，商业变现与安全监管之间的张力进一步加剧，整体呈中性分化态势。",
+      "summary": "SpaceX IPO将xAI/Grok带入公众视野，美国行政令要求前沿模型提前30天向政府开放。",
+      "content": "SpaceX完成史上最大IPO，融资750亿美元，其旗下xAI及Grok模型随之进入公众资本市场。Grok月活从今年1月的2000万次下载跌至4月约830万次，下降约60%。美国白宫行政令要求AI开发商在商业发布前最多30天向联邦政府共享前沿模型，进行网络安全评估，为大模型合规设定新门槛。英国政府在伦敦科技周期间确认将Copilot规模部署入NHS，显示企业级AI应用加速落地。",
       "roles": [
         {
           "id": "llm_lab",
@@ -147,8 +171,8 @@
       "icon": "📱",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "Bezos押注工业AI赛道，Prometheus融资规模刷新工业AI纪录",
-      "content": "Jeff Bezos旗下工业AI公司Prometheus完成120亿美元B轮融资（估值410亿美元），聚焦将复杂物理制造流程从概念到量产全流程自动化，目标打造人工通用工程师。摩根大通、高盛、贝莱德等主流金融机构参与投资，标志着AI应用层从软件向物理制造渗透的投资趋势获得机构资本认可。Anthropic同日宣布设立3.5亿美元应对AI劳动力冲击的社会基金，显示头部AI公司开始主动应对应用落地的社会影响。",
+      "summary": "微软Copilot大规模进入英国NHS医疗体系，AI企业应用落地提速。",
+      "content": "伦敦科技周闭幕期间，微软宣布NHS England将于2026年10月前将Microsoft 365 Copilot部署给50.5万名医护人员，是迄今最大规模的企业AI工具政府部署案例之一。英国科技大臣同期承诺进一步推动机构资金进入AI应用领域，并拟改革养老金投资规则以释放更多资本支持AI初创企业。美国白宫行政令为企业AI工具设定合规新框架，要求前沿模型向政府开放评估。",
       "roles": [
         {
           "id": "enterprise_saas",
@@ -168,10 +192,10 @@
       "id": "infra",
       "name": "数据中心/基础设施",
       "icon": "🏗️",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "SpaceX创史上最大IPO，科技基础设施投资者信心处于历史高位",
-      "content": "SpaceX以750亿美元募资规模创史上最大IPO纪录，估值达1.77万亿美元，彰显科技基础设施资本市场热度持续高涨。全球AI数据中心资本支出方面，七大科技巨头2026年预计合计投入5270亿美元，电力供给与电网容量已成为数据中心扩张的核心约束，项目布局日益向电力富余地区倾斜。整体基础设施板块供需趋紧，短期估值已较高，呈中性态势。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "中英两国大规模AI基础设施投入计划密集落地，算力基础设施建设需求持续扩张。",
+      "content": "中国规划2万亿元国家AI数据中心网格，由中国移动和中国电信运营，目标2028年建成，总电力及配套投入或超5万亿元。英国伦敦科技周期间，微软承诺300亿美元、AMD承诺20亿英镑、Nebius承诺17亿英镑投入英国AI基础设施，英国政府另投资7.5亿英镑建设国家超算。马斯克Terafab芯片工厂计划在德克萨斯州建设，以支撑AI、机器人及太空数据中心需求。算力基础设施正成为全球各主要经济体的战略资源争夺焦点。",
       "roles": [
         {
           "id": "dc_operator",
@@ -188,10 +212,10 @@
       ]
     }
   ],
-  "macro": "AI监管争议升温：Anthropic CEO主动倡导政府强制审计前沿AI，与美国白宫以促进创新为导向的AI行政令形成对比。SpaceX创史上最大IPO印证科技资本市场热度高企。DeepSeek价格战深化中美AI竞争格局，台积电宣布提价揭示全球AI算力供给约束仍未缓解，产业链供需失衡态势延续。",
+  "macro": "本日宏观面聚焦政策与资本双重驱动：美国白宫签署AI行政令强化国家安全框架，英国伦敦科技周带来合计逾500亿美元AI投资承诺，中国发布2万亿元国家算力网格计划。SpaceX IPO史上最大规模融资表明资本市场对AI产业链长期投入意愿强烈，但监管趋严与地缘科技博弈压力同步上升。",
   "tomorrow_focus": [
-    "SpaceX（SPCX）6月12日在纳斯达克开盘首日交易，将成为科技与AI板块估值及市场情绪的重要风向标",
-    "OpenAI IPO进程跟踪：SEC对S-1草案的审核节奏，以及后续公开路演时间表与定价预期",
-    "台积电3纳米提价向下游传导：NVIDIA、AMD及苹果等主要客户的成本转嫁策略与利润率影响"
+    "SpaceX（SPCX）上市后续交易动向及市场对xAI/Grok估值的定价反应",
+    "英国政府1.5亿英镑国产推理芯片采购方案的具体厂商名单及时间表",
+    "中国2万亿元AI数据中心计划的正式文件发布及华为Ascend芯片供应进展"
   ]
 }
