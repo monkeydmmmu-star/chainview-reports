@@ -1,117 +1,69 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-13 07:07",
+  "date": "2026-06-13",
+  "generated_at": "2026-06-14 07:04",
   "news": [
     {
-      "source": "CNBC",
-      "title": "SpaceX以SPCX代码登陆纳斯达克，史上最大IPO融资750亿美元，首日收涨19%",
-      "summary": "SpaceX于6月12日在纳斯达克以SPCX代码上市，发行价135美元，开盘150美元，收盘161美元，涨幅19%。本次IPO发行5.566亿股，融资约750亿美元，创史上最大IPO纪录。SpaceX已于今年2月收购马斯克AI创业公司xAI，旗下包含Grok大模型及社交网络X。xAI在2025年录得63.6亿美元运营亏损，2026年一季度单季亏损24亿美元。",
-      "sector_ids": [
-        "models",
-        "apps"
-      ],
-      "role_ids": [
-        "llm_lab",
-        "enterprise_ai"
-      ]
-    },
-    {
-      "source": "TechTimes / Bloomberg",
-      "title": "伦敦科技周闭幕：微软承诺300亿美元投入英国AI基础设施，NHS将为50.5万医护人员部署Copilot",
-      "summary": "伦敦科技周6月12日闭幕，带来一批重大AI承诺：微软宣布向英国AI基础设施及技能培训投入300亿美元（约合230亿英镑），并承诺NHS England将于2026年10月前为50.5万名医护人员及支持人员部署Microsoft 365 Copilot。AMD宣布未来五年向英国AI基础设施投入20亿英镑，并联合剑桥大学建立AI创新实验室。云基础设施商Nebius承诺约17亿英镑扩大在英业务。",
-      "sector_ids": [
-        "infra",
-        "models"
-      ],
-      "role_ids": [
-        "dc_operator",
-        "cloud_platform",
-        "enterprise_ai"
-      ]
+      "source": "CNBC / NPR",
+      "title": "SpaceX创史上最大规模IPO：纳斯达克首日涨19%，融资750亿美元",
+      "summary": "SpaceX于6月12日在纳斯达克以SPCX代码上市，首日收于160.95美元，较发行价上涨19%，成为有史以来规模最大的IPO。公司早些时候已完成对xAI的收购并整合入旗下AI部门，此次上市被视为AI基础设施估值体系的重要验证。",
+      "sector_ids": ["infra", "apps"],
+      "role_ids": ["dc_operator", "enterprise_ai"]
     },
     {
       "source": "Bloomberg",
-      "title": "英国科技大臣Liz Kendall承诺扩大对AI初创企业的资金支持，拟改革养老金投资规则",
-      "summary": "英国科技大臣Liz Kendall于6月12日表示，政府将加强推动机构资金流向英国科技企业，并计划通过立法改革养老金管理规则，以释放更多资金投入AI领域。此外，英国政府宣布向本国芯片采购投入4亿英镑，包含7.5亿英镑国家超算（2030年完工）、1.5亿英镑用于向国内企业采购新一代推理芯片。",
-      "sector_ids": [
-        "chips",
-        "apps"
-      ],
-      "role_ids": [
-        "chip_design",
-        "ai_compliance",
-        "enterprise_saas"
-      ]
+      "title": "中国机器人初创EngineAI机密申请香港IPO，估值超10亿美元",
+      "summary": "深圳人形机器人企业EngineAI已向港交所机密递交上市申请，联席保荐人为中金公司与中信证券。公司4月完成2亿美元B轮融资，估值超过100亿元人民币。其深圳工厂每15分钟可下线一台T800机器人，已于6月1日正式投产。",
+      "sector_ids": ["apps", "chips"],
+      "role_ids": ["autonomous", "chip_design"]
     },
     {
-      "source": "GURUfocus / Tom's Hardware",
-      "title": "马斯克在ASML年会发布Terafab芯片工厂计划，初期投资550亿美元，最高达1190亿美元",
-      "summary": "6月11-12日，马斯克在ASML年度技术大会上正式展示Terafab芯片制造计划。Terafab是Tesla、SpaceX和xAI的联合项目，拟在德克萨斯州建设晶圆厂，初期投资至少550亿美元，全规模后总成本或高达1190亿美元。长期目标为每月100万片晶圆起量，年产千亿枚定制AI和存储芯片。英特尔将提供14A制程技术。ASML首席执行官确认已与马斯克进行直接谈判。",
-      "sector_ids": [
-        "chips",
-        "infra"
-      ],
-      "role_ids": [
-        "chip_design",
-        "wafer_foundry",
-        "dc_operator"
-      ]
+      "source": "Ramp AI Index (June 2026)",
+      "title": "Ramp报告：Anthropic企业端采用率首次超越OpenAI",
+      "summary": "美国企业支出平台Ramp发布2026年6月AI指数显示，Anthropic在美国企业付费AI产品采用率达41%，首次超过OpenAI的34%。过去一年Anthropic采用率翻了四倍，而OpenAI同期仅增长0.3%。报告同时指出Anthropic面临成本控制和算力供应等三大风险。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "enterprise_ai"]
     },
     {
-      "source": "TechStartups / Tom's Hardware",
-      "title": "中国规划2万亿元（2950亿美元）国家AI数据中心网格，要求80%硬件采用国产芯片",
-      "summary": "中国拟向全国AI数据中心建设定向投入约2万亿元人民币（约合2950亿美元），由国家发改委主导，中国移动和中国电信负责运营，目标2028年建成统一国家算力网格。该计划要求至少80%的硬件和软件（含AI芯片）来自华为等国内供应商，实际上将NVIDIA和AMD排除在外。若纳入电网升级，总成本或超过5万亿元。",
-      "sector_ids": [
-        "infra",
-        "chips"
-      ],
-      "role_ids": [
-        "dc_operator",
-        "domestic_gpu",
-        "power_supply"
-      ]
+      "source": "OpenAI",
+      "title": "OpenAI推出GPT-5.5 Instant个性化更新，向免费用户扩展",
+      "summary": "OpenAI于6月9日宣布GPT-5.5 Instant个性化改进功能逐步向ChatGPT Go及免费版用户开放。该模型于5月5日取代GPT-5.3 Instant成为ChatGPT默认模型，主打低延迟、低幻觉率，在法律、医疗、金融等敏感领域表现更稳定。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "cloud_platform"]
     },
     {
-      "source": "CNBC / Tom's Hardware",
-      "title": "NVIDIA CEO黄仁勋称已「基本放弃」中国AI芯片市场，华为AI芯片2026年营收预计同比增长60%至120亿美元",
-      "summary": "NVIDIA CEO黄仁勋表示公司已大幅收缩中国AI芯片市场份额，受持续的出口管制影响，该市场正向华为快速转移。分析师预测华为AI芯片2026年营收将同比增长60%，达到约120亿美元。中国GPU云服务正集中在百度和华为两大平台，国产AI芯片规模持续扩大。百度预计2026年AI芯片销售额将增长六倍，达80亿元人民币。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "domestic_gpu",
-        "chip_design",
-        "cloud_platform"
-      ]
+      "source": "Bloomberg",
+      "title": "中国拟5年投2万亿元建AI数据中心，80%采用华为昇腾芯片",
+      "summary": "彭博社报道称，中国计划在未来五年投入约2万亿元人民币（约2950亿美元）在全国布局AI数据中心。华为被定位为国家级AI战略核心，其昇腾系列芯片预计承担80%的算力供给。此举旨在推动国内AI产业赶超美国，并加速芯片自主化进程。",
+      "sector_ids": ["chips", "infra"],
+      "role_ids": ["domestic_gpu", "dc_operator", "power_supply"]
     },
     {
-      "source": "WindowsForum / TLT Insights",
-      "title": "伦敦科技周宣布英国AI主权计划：1.1亿英镑AI硬件方案，含国产推理芯片采购与芯片设计投入",
-      "summary": "伦敦科技周期间，英国政府公布AI主权计划核心——11亿英镑AI硬件方案：包括7.5亿英镑国家超算（预计2030年）、1.5亿英镑本夏向国内企业采购新一代推理芯片、1.2亿英镑用于芯片设计，以及4500万英镑工程师培训。AWS重申80亿英镑英国投资承诺。各项投资合计显示英国政府将AI主权计算视为优先战略目标。",
-      "sector_ids": [
-        "chips",
-        "infra"
-      ],
-      "role_ids": [
-        "chip_design",
-        "dc_operator",
-        "power_supply",
-        "ai_compliance"
-      ]
+      "source": "NVIDIA Newsroom",
+      "title": "NVIDIA Vera Rubin平台进入量产，合作伙伴系统下半年起陆续交付",
+      "summary": "NVIDIA在台北GTC（6月1日）确认Vera Rubin AI加速平台已进入量产阶段，合作厂商产品将于2026年下半年开始交付。Vera Rubin NVL72机架式系统将部署于微软Fairwater AI超级工厂等下一代AI数据中心，搭载HBM4显存与TSMC N3工艺。",
+      "sector_ids": ["chips", "infra"],
+      "role_ids": ["chip_design", "wafer_foundry", "adv_packaging", "dc_operator"]
     },
     {
-      "source": "Ballotpedia / Mayer Brown",
-      "title": "美国白宫签署《推进人工智能创新与安全》行政令，要求AI开发商提前30天向政府共享前沿模型",
-      "summary": "特朗普政府于本周签署《推进人工智能创新与安全》行政令，要求AI开发商在向合作伙伴和公众开放前沿模型前，最多提前30天向联邦政府提供访问权限，用于网络安全评估。行政令还指示联邦机构以AI增强网络防御能力，并建立AI网络安全信息交换中心。此举标志着美国AI安全监管框架的重要推进。",
-      "sector_ids": [
-        "models",
-        "apps"
-      ],
-      "role_ids": [
-        "llm_lab",
-        "ai_compliance",
-        "enterprise_ai"
-      ]
+      "source": "Holland & Knight / EU Commission",
+      "title": "欧盟AI法案核心条款将于2026年8月生效，美国企业合规倒计时",
+      "summary": "欧盟AI法案剩余主要条款将于2026年8月2日正式生效，涵盖高风险AI系统的透明度要求与使用限制。欧盟委员会正在敲定AI生成内容标注行为准则。美国各AI企业正加速合规整备，违规面临最高营业额6%的罚款。",
+      "sector_ids": ["apps", "models"],
+      "role_ids": ["ai_compliance", "enterprise_ai", "llm_lab"]
+    },
+    {
+      "source": "Colorado Legislature / Wilson Sonsini",
+      "title": "美国科罗拉多州AI法案6月30日生效，成首个落地的州级AI立法",
+      "summary": "科罗拉多州AI法案将于2026年6月30日生效，成为美国首个正式落地的州级AI监管法规，对AI开发者和部署方提出算法透明度、影响评估等实质性要求。法律界认为该法案将加速其他州的仿效立法，并催生全美AI合规市场需求。",
+      "sector_ids": ["apps"],
+      "role_ids": ["ai_compliance", "enterprise_saas"]
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Cognition AI完成逾10亿美元D轮融资，八个月内估值翻番",
+      "summary": "AI编程代理公司Cognition AI完成D轮融资，融资额超过10亿美元，八个月内公司估值实现翻番。此次融资进一步印证企业AI工具赛道的高热度，亦与微软、谷歌在AI编程助手领域的激烈竞争形成呼应。",
+      "sector_ids": ["models", "apps"],
+      "role_ids": ["llm_lab", "enterprise_saas", "enterprise_ai"]
     }
   ],
   "sectors": [
@@ -121,25 +73,13 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "英美两国相继推出重大芯片主权计划，马斯克Terafab项目正式亮相，国产替代加速推进。",
-      "content": "英国政府在伦敦科技周宣布11亿英镑AI硬件主权计划，含国产推理芯片采购与芯片设计专项资金；AMD承诺20亿英镑投入英国AI基础设施。马斯克在ASML年会正式发布Terafab芯片工厂计划，初期投资550亿美元、最高可达1190亿美元，英特尔提供14A制程合作。中国方面，华为AI芯片收入预计2026年同比增长60%至120亿美元，NVIDIA已基本退出中国AI芯片市场；中国2万亿元国家AI算力网格计划要求80%国产芯片，进一步加速国产替代进程。",
+      "summary": "NVIDIA Vera Rubin量产落地，中国2万亿AI算力投资计划刺激国产芯片需求",
+      "content": "NVIDIA Vera Rubin平台进入量产，HBM4显存与TSMC N3工艺组合进一步巩固其在高端AI训练推理市场的地位。中国政府公布5年2万亿元AI数据中心建设计划，明确以华为昇腾芯片为主要算力供给，为国产替代路线提供政策背书。中国机器人企业EngineAI赴港IPO申请亦体现出AI边缘芯片需求的拓展。先进封装产能持续偏紧，TSMC在亚利桑那州的新封装厂建设进展备受关注。",
       "roles": [
-        {
-          "id": "chip_design",
-          "name": "芯片设计"
-        },
-        {
-          "id": "wafer_foundry",
-          "name": "晶圆代工"
-        },
-        {
-          "id": "adv_packaging",
-          "name": "先进封装"
-        },
-        {
-          "id": "domestic_gpu",
-          "name": "国产替代"
-        }
+        { "id": "chip_design",   "name": "芯片设计" },
+        { "id": "wafer_foundry", "name": "晶圆代工" },
+        { "id": "adv_packaging", "name": "先进封装" },
+        { "id": "domestic_gpu",  "name": "国产替代" }
       ]
     },
     {
@@ -148,44 +88,26 @@
       "icon": "🧠",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "SpaceX IPO将xAI/Grok带入公众视野，美国行政令要求前沿模型提前30天向政府开放。",
-      "content": "SpaceX完成史上最大IPO，融资750亿美元，其旗下xAI及Grok模型随之进入公众资本市场。Grok月活从今年1月的2000万次下载跌至4月约830万次，下降约60%。美国白宫行政令要求AI开发商在商业发布前最多30天向联邦政府共享前沿模型，进行网络安全评估，为大模型合规设定新门槛。英国政府在伦敦科技周期间确认将Copilot规模部署入NHS，显示企业级AI应用加速落地。",
+      "summary": "Anthropic企业采用率首超OpenAI，大模型竞争格局出现新拐点",
+      "content": "Ramp AI指数最新数据显示Anthropic企业端采用率首次超越OpenAI，达41%，标志着Claude系列产品在企业市场的持续渗透。OpenAI则以GPT-5.5 Instant个性化更新反击，将功能扩展至免费用户层。Cognition AI超10亿美元D轮融资显示AI编程代理市场热度未减。模型层整体进入多强竞争阶段，用户迁移成本降低带来格局流动性加大，中性态势为主。",
       "roles": [
-        {
-          "id": "llm_lab",
-          "name": "大模型研发"
-        },
-        {
-          "id": "cloud_platform",
-          "name": "云计算平台"
-        },
-        {
-          "id": "enterprise_ai",
-          "name": "企业AI工具"
-        }
+        { "id": "llm_lab",        "name": "大模型研发" },
+        { "id": "cloud_platform", "name": "云计算平台" },
+        { "id": "enterprise_ai",  "name": "企业AI工具" }
       ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "微软Copilot大规模进入英国NHS医疗体系，AI企业应用落地提速。",
-      "content": "伦敦科技周闭幕期间，微软宣布NHS England将于2026年10月前将Microsoft 365 Copilot部署给50.5万名医护人员，是迄今最大规模的企业AI工具政府部署案例之一。英国科技大臣同期承诺进一步推动机构资金进入AI应用领域，并拟改革养老金投资规则以释放更多资本支持AI初创企业。美国白宫行政令为企业AI工具设定合规新框架，要求前沿模型向政府开放评估。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "监管双轨推进（欧盟8月、科州6月），人形机器人赴港IPO开启新融资通道",
+      "content": "应用层呈现机遇与压力并存态势。EngineAI赴港上市申请标志着中国人形机器人企业开始寻求公开市场融资，或引领同类企业效仿。与此同时，监管收紧趋势明确：科罗拉多州AI法案6月30日生效，欧盟AI法案高风险条款8月落地，企业合规成本上升。SpaceX IPO成功则为AI应用层整体估值逻辑提供正向参照。",
       "roles": [
-        {
-          "id": "enterprise_saas",
-          "name": "企业SaaS"
-        },
-        {
-          "id": "autonomous",
-          "name": "自动驾驶"
-        },
-        {
-          "id": "ai_compliance",
-          "name": "合规监管"
-        }
+        { "id": "enterprise_saas", "name": "企业SaaS" },
+        { "id": "autonomous",      "name": "自动驾驶/机器人" },
+        { "id": "ai_compliance",   "name": "合规监管" }
       ]
     },
     {
@@ -194,28 +116,19 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "中英两国大规模AI基础设施投入计划密集落地，算力基础设施建设需求持续扩张。",
-      "content": "中国规划2万亿元国家AI数据中心网格，由中国移动和中国电信运营，目标2028年建成，总电力及配套投入或超5万亿元。英国伦敦科技周期间，微软承诺300亿美元、AMD承诺20亿英镑、Nebius承诺17亿英镑投入英国AI基础设施，英国政府另投资7.5亿英镑建设国家超算。马斯克Terafab芯片工厂计划在德克萨斯州建设，以支撑AI、机器人及太空数据中心需求。算力基础设施正成为全球各主要经济体的战略资源争夺焦点。",
+      "summary": "中美双线推进大规模AI数据中心建设，电力与封装产能成核心瓶颈",
+      "content": "中国2万亿元AI基础设施计划与美国Fairwater等超级AI工厂建设同步推进，数据中心行业需求景气度高。NVIDIA Vera Rubin NVL72机架系统将率先部署于微软下一代AI数据中心。液冷散热、高密度供电方案需求随机架功耗突破百千瓦量级而持续扩大。美国数据中心电力供给趋于紧张，估计至2030年用电需求将从180TWh增至400-600TWh，电力基础设施投资前景明确。",
       "roles": [
-        {
-          "id": "dc_operator",
-          "name": "数据中心运营"
-        },
-        {
-          "id": "power_supply",
-          "name": "电力供给"
-        },
-        {
-          "id": "liquid_cooling",
-          "name": "液冷散热"
-        }
+        { "id": "dc_operator",    "name": "数据中心运营" },
+        { "id": "power_supply",   "name": "电力供给" },
+        { "id": "liquid_cooling", "name": "液冷散热" }
       ]
     }
   ],
-  "macro": "本日宏观面聚焦政策与资本双重驱动：美国白宫签署AI行政令强化国家安全框架，英国伦敦科技周带来合计逾500亿美元AI投资承诺，中国发布2万亿元国家算力网格计划。SpaceX IPO史上最大规模融资表明资本市场对AI产业链长期投入意愿强烈，但监管趋严与地缘科技博弈压力同步上升。",
+  "macro": "中国5年2万亿AI基础设施计划公布，华为昇腾成国家级算力主干；美欧监管双轨并进，科罗拉多州AI法案本月底生效，欧盟AI法案核心条款8月落地；全球AI估值中枢上移，SpaceX创史上最大IPO印证AI基础设施赛道资本热度。",
   "tomorrow_focus": [
-    "SpaceX（SPCX）上市后续交易动向及市场对xAI/Grok估值的定价反应",
-    "英国政府1.5亿英镑国产推理芯片采购方案的具体厂商名单及时间表",
-    "中国2万亿元AI数据中心计划的正式文件发布及华为Ascend芯片供应进展"
+    "科罗拉多州AI法案（6月30日生效）：企业合规进展与科技行业游说动态",
+    "Anthropic IPO时间表：$900B估值融资轮与10月上市计划最新进展",
+    "中国华为昇腾950系列芯片量产节点：能否支撑2万亿元AI数据中心计划落地"
   ]
 }
