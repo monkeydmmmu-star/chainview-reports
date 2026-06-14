@@ -1,69 +1,62 @@
 {
-  "date": "2026-06-13",
-  "generated_at": "2026-06-14 07:04",
+  "date": "2026-06-14",
+  "generated_at": "2026-06-15 07:06",
   "news": [
     {
-      "source": "CNBC / NPR",
-      "title": "SpaceX创史上最大规模IPO：纳斯达克首日涨19%，融资750亿美元",
-      "summary": "SpaceX于6月12日在纳斯达克以SPCX代码上市，首日收于160.95美元，较发行价上涨19%，成为有史以来规模最大的IPO。公司早些时候已完成对xAI的收购并整合入旗下AI部门，此次上市被视为AI基础设施估值体系的重要验证。",
-      "sector_ids": ["infra", "apps"],
-      "role_ids": ["dc_operator", "enterprise_ai"]
-    },
-    {
-      "source": "Bloomberg",
-      "title": "中国机器人初创EngineAI机密申请香港IPO，估值超10亿美元",
-      "summary": "深圳人形机器人企业EngineAI已向港交所机密递交上市申请，联席保荐人为中金公司与中信证券。公司4月完成2亿美元B轮融资，估值超过100亿元人民币。其深圳工厂每15分钟可下线一台T800机器人，已于6月1日正式投产。",
-      "sector_ids": ["apps", "chips"],
-      "role_ids": ["autonomous", "chip_design"]
-    },
-    {
-      "source": "Ramp AI Index (June 2026)",
-      "title": "Ramp报告：Anthropic企业端采用率首次超越OpenAI",
-      "summary": "美国企业支出平台Ramp发布2026年6月AI指数显示，Anthropic在美国企业付费AI产品采用率达41%，首次超过OpenAI的34%。过去一年Anthropic采用率翻了四倍，而OpenAI同期仅增长0.3%。报告同时指出Anthropic面临成本控制和算力供应等三大风险。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "enterprise_ai"]
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI推出GPT-5.5 Instant个性化更新，向免费用户扩展",
-      "summary": "OpenAI于6月9日宣布GPT-5.5 Instant个性化改进功能逐步向ChatGPT Go及免费版用户开放。该模型于5月5日取代GPT-5.3 Instant成为ChatGPT默认模型，主打低延迟、低幻觉率，在法律、医疗、金融等敏感领域表现更稳定。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform"]
-    },
-    {
-      "source": "Bloomberg",
-      "title": "中国拟5年投2万亿元建AI数据中心，80%采用华为昇腾芯片",
-      "summary": "彭博社报道称，中国计划在未来五年投入约2万亿元人民币（约2950亿美元）在全国布局AI数据中心。华为被定位为国家级AI战略核心，其昇腾系列芯片预计承担80%的算力供给。此举旨在推动国内AI产业赶超美国，并加速芯片自主化进程。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["domestic_gpu", "dc_operator", "power_supply"]
-    },
-    {
-      "source": "NVIDIA Newsroom",
-      "title": "NVIDIA Vera Rubin平台进入量产，合作伙伴系统下半年起陆续交付",
-      "summary": "NVIDIA在台北GTC（6月1日）确认Vera Rubin AI加速平台已进入量产阶段，合作厂商产品将于2026年下半年开始交付。Vera Rubin NVL72机架式系统将部署于微软Fairwater AI超级工厂等下一代AI数据中心，搭载HBM4显存与TSMC N3工艺。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["chip_design", "wafer_foundry", "adv_packaging", "dc_operator"]
-    },
-    {
-      "source": "Holland & Knight / EU Commission",
-      "title": "欧盟AI法案核心条款将于2026年8月生效，美国企业合规倒计时",
-      "summary": "欧盟AI法案剩余主要条款将于2026年8月2日正式生效，涵盖高风险AI系统的透明度要求与使用限制。欧盟委员会正在敲定AI生成内容标注行为准则。美国各AI企业正加速合规整备，违规面临最高营业额6%的罚款。",
-      "sector_ids": ["apps", "models"],
-      "role_ids": ["ai_compliance", "enterprise_ai", "llm_lab"]
-    },
-    {
-      "source": "Colorado Legislature / Wilson Sonsini",
-      "title": "美国科罗拉多州AI法案6月30日生效，成首个落地的州级AI立法",
-      "summary": "科罗拉多州AI法案将于2026年6月30日生效，成为美国首个正式落地的州级AI监管法规，对AI开发者和部署方提出算法透明度、影响评估等实质性要求。法律界认为该法案将加速其他州的仿效立法，并催生全美AI合规市场需求。",
-      "sector_ids": ["apps"],
-      "role_ids": ["ai_compliance", "enterprise_saas"]
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Cognition AI完成逾10亿美元D轮融资，八个月内估值翻番",
-      "summary": "AI编程代理公司Cognition AI完成D轮融资，融资额超过10亿美元，八个月内公司估值实现翻番。此次融资进一步印证企业AI工具赛道的高热度，亦与微软、谷歌在AI编程助手领域的激烈竞争形成呼应。",
+      "source": "Reuters / Axios",
+      "title": "Anthropic高管赴华盛顿会见白宫官员，谋求解除AI旗舰模型全球封禁",
+      "summary": "美国政府以Fable 5存在越狱漏洞为由，下令Anthropic禁止外国公民访问Fable 5及Mythos 5。Anthropic随即暂停全球访问权限。6月14日，Anthropic高级技术人员已赴华盛顿与白宫官员展开正式磋商，寻求恢复服务。",
       "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "enterprise_saas", "enterprise_ai"]
+      "role_ids": ["llm_lab", "ai_compliance"]
+    },
+    {
+      "source": "Fortune / CNN Business",
+      "title": "亚马逊CEO警告触发白宫封禁Anthropic Mythos模型，事件背后安全逻辑曝光",
+      "summary": "据Fortune 6月14日报道，亚马逊CEO贾西曾向政府提交Fable 5越狱风险研究报告，担忧中国利用该漏洞获取敏感能力。报告促使特朗普政府下令切断所有外国用户对Anthropic旗舰模型的访问渠道，Anthropic随即全面下线Fable 5和Mythos 5。",
+      "sector_ids": ["models", "apps"],
+      "role_ids": ["llm_lab", "ai_compliance", "cloud_platform"]
+    },
+    {
+      "source": "TrendForce / Bloomberg",
+      "title": "台积电拟对3纳米工艺H2提价约15%，2027年再追加涨幅",
+      "summary": "台积电宣布将于2026年下半年对3纳米制程提价约15%，2027年再涨5%-10%。AI芯片及ASIC需求持续远超月产能16-17.5万片的供给上限，CEO魏哲家维持全年营收增速超30%预测，并明确表态先进制程供应紧缺将延续数年。",
+      "sector_ids": ["chips"],
+      "role_ids": ["wafer_foundry", "chip_design"]
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SpaceX IPO市值突破2万亿美元，谷歌天价算力租约凸显AI基础设施需求",
+      "summary": "SpaceX于6月13日上市后市值突破2万亿美元。此前谷歌已与SpaceX签订协议，每月支付9.2亿美元租用约11万块英伟达GPU，合同期延伸至2029年6月，体现超大型科技公司锁定AI算力资源的长期意愿。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
+    },
+    {
+      "source": "White House / Mayer Brown",
+      "title": "特朗普签署AI行政令，建立前沿模型政府审查30天窗口期机制",
+      "summary": "特朗普政府6月2日颁布行政令《促进先进人工智能创新与安全》，要求联邦机构部署AI防御工具并建立AI网络安全信息共享平台。核心机制为：AI开发商在向受信合作方发布前沿模型前，自愿向政府提供最多30天的审查窗口。此举被认为是Anthropic封禁事件的政策背景。",
+      "sector_ids": ["models", "apps"],
+      "role_ids": ["llm_lab", "ai_compliance"]
+    },
+    {
+      "source": "CNBC / Benzinga",
+      "title": "微软AI负责人：已大幅缩小差距，自研MAI模型减少对OpenAI依赖",
+      "summary": "微软AI负责人穆斯塔法·苏莱曼6月表示，公司已推出7款自研MAI模型，其中推理模型在代码任务上性能可比肩Anthropic旗舰模型，微软在战略上正逐步降低对OpenAI的单一依赖，实现模型层自主化。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "cloud_platform", "enterprise_ai"]
+    },
+    {
+      "source": "Tech-Insider / Tom's Hardware",
+      "title": "华为Ascend 950PR量产推进，年度出货目标75万片，国产替代加速",
+      "summary": "华为Ascend 950PR持续推进量产，2026年出货目标75万片。该芯片FP4精度算力为英伟达H20的2.8倍，采用更兼容CUDA生态的架构，面向推理工作负载，是中国AI数据中心国产化路径的核心供给侧资产。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "domestic_gpu"]
+    },
+    {
+      "source": "Tech-Insider / US Utilities",
+      "title": "美国电力企业宣布1.4万亿美元AI数据中心电力建设计划，并网瓶颈仍达5-7年",
+      "summary": "美国投资者所有电力企业公布1.4万亿美元资本支出路线图（截至2030年），较去年提升27%，主因是AI数据中心电力需求的爆炸式增长。然而数据中心建设周期仅12-18个月，而新电网并网等待期长达5-7年，供需错配矛盾突出。",
+      "sector_ids": ["infra"],
+      "role_ids": ["power_supply", "dc_operator", "liquid_cooling"]
     }
   ],
   "sectors": [
@@ -73,8 +66,8 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "NVIDIA Vera Rubin量产落地，中国2万亿AI算力投资计划刺激国产芯片需求",
-      "content": "NVIDIA Vera Rubin平台进入量产，HBM4显存与TSMC N3工艺组合进一步巩固其在高端AI训练推理市场的地位。中国政府公布5年2万亿元AI数据中心建设计划，明确以华为昇腾芯片为主要算力供给，为国产替代路线提供政策背书。中国机器人企业EngineAI赴港IPO申请亦体现出AI边缘芯片需求的拓展。先进封装产能持续偏紧，TSMC在亚利桑那州的新封装厂建设进展备受关注。",
+      "summary": "台积电3nm提价与持续强劲营收印证AI芯片供需长期紧张，算力资产价值重估逻辑持续强化",
+      "content": "台积电宣布2026年下半年对3纳米制程提价约15%，CEO魏哲家预警全球AI芯片供应将长期不及需求，5月营收同比增长约30%验证了这一判断。英伟达与台积电深化合作，将AI技术引入晶圆制造以提升生产效率。与此同时，华为Ascend 950PR量产推进，2026年目标出货75万片，国产GPU在国内推理场景的渗透率持续提升。整体来看，供应约束叠加持续的资本支出扩张，AI芯片板块基本面支撑仍然稳固。",
       "roles": [
         { "id": "chip_design",   "name": "芯片设计" },
         { "id": "wafer_foundry", "name": "晶圆代工" },
@@ -86,10 +79,10 @@
       "id": "models",
       "name": "AI模型/平台",
       "icon": "🧠",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "Anthropic企业采用率首超OpenAI，大模型竞争格局出现新拐点",
-      "content": "Ramp AI指数最新数据显示Anthropic企业端采用率首次超越OpenAI，达41%，标志着Claude系列产品在企业市场的持续渗透。OpenAI则以GPT-5.5 Instant个性化更新反击，将功能扩展至免费用户层。Cognition AI超10亿美元D轮融资显示AI编程代理市场热度未减。模型层整体进入多强竞争阶段，用户迁移成本降低带来格局流动性加大，中性态势为主。",
+      "trend": "bearish",
+      "trend_label": "利空",
+      "summary": "美国政府封禁Anthropic旗舰模型引发行业高度关注，AI模型出口管制风险显著上升",
+      "content": "本周最大冲击来自美国政府以越狱安全漏洞为由，下令Anthropic暂停外国公民访问Fable 5和Mythos 5，Anthropic被迫关闭全球访问权限。6月14日Anthropic高级技术人员赴华盛顿进行密集谈判。这一事件表明前沿AI模型面临日益收紧的出口管制，可能波及OpenAI、Google等其他前沿模型厂商，并加速美国国内AI监管框架的形成。微软方面则持续推进自研MAI模型战略，降低单一外部依赖。",
       "roles": [
         { "id": "llm_lab",        "name": "大模型研发" },
         { "id": "cloud_platform", "name": "云计算平台" },
@@ -102,11 +95,11 @@
       "icon": "📱",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "监管双轨推进（欧盟8月、科州6月），人形机器人赴港IPO开启新融资通道",
-      "content": "应用层呈现机遇与压力并存态势。EngineAI赴港上市申请标志着中国人形机器人企业开始寻求公开市场融资，或引领同类企业效仿。与此同时，监管收紧趋势明确：科罗拉多州AI法案6月30日生效，欧盟AI法案高风险条款8月落地，企业合规成本上升。SpaceX IPO成功则为AI应用层整体估值逻辑提供正向参照。",
+      "summary": "AI合规监管趋严，应用层出口限制风险上升，自动驾驶商业化版图持续扩张",
+      "content": "特朗普政府6月AI行政令要求建立前沿模型部署前30天政府审查机制，合规体系建设需求显著提升。Anthropic封禁事件进一步凸显前沿AI应用的出口管制合规风险，企业AI工具落地面临更严格的安全审查压力。自动驾驶领域，Uber联合WeRide、AVOMO在马德里启动西班牙首个商业Robotaxi服务；BYD发布自研自动驾驶SoC玄玑A3，并进军人形机器人领域，车企跨界AI应用布局加速。",
       "roles": [
         { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶/机器人" },
+        { "id": "autonomous",      "name": "自动驾驶" },
         { "id": "ai_compliance",   "name": "合规监管" }
       ]
     },
@@ -116,8 +109,8 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "中美双线推进大规模AI数据中心建设，电力与封装产能成核心瓶颈",
-      "content": "中国2万亿元AI基础设施计划与美国Fairwater等超级AI工厂建设同步推进，数据中心行业需求景气度高。NVIDIA Vera Rubin NVL72机架系统将率先部署于微软下一代AI数据中心。液冷散热、高密度供电方案需求随机架功耗突破百千瓦量级而持续扩大。美国数据中心电力供给趋于紧张，估计至2030年用电需求将从180TWh增至400-600TWh，电力基础设施投资前景明确。",
+      "summary": "SpaceX上市市值破2万亿，谷歌天价锁定算力，AI基础设施长期需求信号强烈",
+      "content": "SpaceX上市市值突破2万亿美元，谷歌提前签约每月支付9.2亿美元租用约11万块英伟达GPU至2029年，彰显超大型科技公司锁定AI算力资源的长期意愿。美国电力企业公布1.4万亿美元电力基础设施建设路线图，数据中心已成为电网扩容最主要驱动力。然而数据中心建设周期仅12-18个月，电网并网等待期长达5-7年，电力供给瓶颈仍是制约AI算力扩张的核心变量。",
       "roles": [
         { "id": "dc_operator",    "name": "数据中心运营" },
         { "id": "power_supply",   "name": "电力供给" },
@@ -125,10 +118,10 @@
       ]
     }
   ],
-  "macro": "中国5年2万亿AI基础设施计划公布，华为昇腾成国家级算力主干；美欧监管双轨并进，科罗拉多州AI法案本月底生效，欧盟AI法案核心条款8月落地；全球AI估值中枢上移，SpaceX创史上最大IPO印证AI基础设施赛道资本热度。",
+  "macro": "美国政府以国家安全为由对Anthropic前沿模型实施出口管制，并同步推进AI行政令建立自愿审查框架，折射出美国在推进AI领先地位与防范安全风险之间的政策张力。台积电提价信号及美国电力企业史上最大规模资本支出计划，表明AI算力基础设施建设热潮短期不会降温。中美AI产业竞争持续深化，华为国产GPU量产提速。",
   "tomorrow_focus": [
-    "科罗拉多州AI法案（6月30日生效）：企业合规进展与科技行业游说动态",
-    "Anthropic IPO时间表：$900B估值融资轮与10月上市计划最新进展",
-    "中国华为昇腾950系列芯片量产节点：能否支撑2万亿元AI数据中心计划落地"
+    "Anthropic与白宫谈判进展：能否达成协议恢复Fable 5和Mythos 5外国用户访问，以及是否有其他前沿模型厂商面临类似管控",
+    "台积电3nm提价落地反馈：英伟达、AMD等主要芯片客户的接受态度，以及涨价能否进一步推升台积电毛利率",
+    "AI数据中心电力并网瓶颈：美国能源企业能否加快电网改造节奏，缓解全球AI算力扩张的关键制约"
   ]
 }
