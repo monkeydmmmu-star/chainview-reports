@@ -1,62 +1,108 @@
 {
-  "date": "2026-06-14",
-  "generated_at": "2026-06-15 07:06",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-16 07:05",
   "news": [
     {
-      "source": "Reuters / Axios",
-      "title": "Anthropic高管赴华盛顿会见白宫官员，谋求解除AI旗舰模型全球封禁",
-      "summary": "美国政府以Fable 5存在越狱漏洞为由，下令Anthropic禁止外国公民访问Fable 5及Mythos 5。Anthropic随即暂停全球访问权限。6月14日，Anthropic高级技术人员已赴华盛顿与白宫官员展开正式磋商，寻求恢复服务。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "ai_compliance"]
+      "source": "Bloomberg / TechTimes",
+      "title": "Anthropic高管赴华盛顿与特朗普政府谈判，争取解除Fable 5/Mythos 5出口禁令",
+      "summary": "美国商务部6月12日援引出口管制条款，禁止外国人访问Anthropic旗下Fable 5和Mythos 5模型，Anthropic被迫关闭两款模型的全球访问。6月15日，Anthropic派遣顶级工程师和高管赴华盛顿商务部与特朗普政府官员谈判，寻求解除禁令。政府声称担忧模型存在越狱风险，Anthropic对此提出异议。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "Fortune / CNN Business",
-      "title": "亚马逊CEO警告触发白宫封禁Anthropic Mythos模型，事件背后安全逻辑曝光",
-      "summary": "据Fortune 6月14日报道，亚马逊CEO贾西曾向政府提交Fable 5越狱风险研究报告，担忧中国利用该漏洞获取敏感能力。报告促使特朗普政府下令切断所有外国用户对Anthropic旗舰模型的访问渠道，Anthropic随即全面下线Fable 5和Mythos 5。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "ai_compliance", "cloud_platform"]
+      "source": "TechCrunch",
+      "title": "分析：美政府封禁Anthropic模型并非因越狱漏洞，背后是长期政策博弈",
+      "summary": "TechCrunch报道指出，美国政府宣称封禁Fable 5/Mythos 5的理由（模型越狱风险）与实际情况不符，其他公开模型同样存在类似漏洞。分析认为，真实原因是Anthropic长期拒绝将其模型用于五角大楼大规模监控和自主武器系统，以及双方在AI安全监管立场上的根本分歧。欧盟随即强调技术主权紧迫性。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "TrendForce / Bloomberg",
-      "title": "台积电拟对3纳米工艺H2提价约15%，2027年再追加涨幅",
-      "summary": "台积电宣布将于2026年下半年对3纳米制程提价约15%，2027年再涨5%-10%。AI芯片及ASIC需求持续远超月产能16-17.5万片的供给上限，CEO魏哲家维持全年营收增速超30%预测，并明确表态先进制程供应紧缺将延续数年。",
-      "sector_ids": ["chips"],
-      "role_ids": ["wafer_foundry", "chip_design"]
+      "source": "TipRanks",
+      "title": "AI芯片股6月15日集体上涨，英特尔维持双位数涨幅领跑板块",
+      "summary": "6月15日美股盘前，英伟达、AMD、英特尔、博通、美光等AI芯片股集体走强。英特尔维持约11-12%涨幅，AMD涨逾4%，英伟达涨约2%，美光领涨逾8%，投资者提前布局6月24日三季报。地缘政治层面，美伊和平协议推动油价下行，提振整体科技股情绪。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "SpaceX IPO市值突破2万亿美元，谷歌天价算力租约凸显AI基础设施需求",
-      "summary": "SpaceX于6月13日上市后市值突破2万亿美元。此前谷歌已与SpaceX签订协议，每月支付9.2亿美元租用约11万块英伟达GPU，合同期延伸至2029年6月，体现超大型科技公司锁定AI算力资源的长期意愿。",
-      "sector_ids": ["infra"],
-      "role_ids": ["dc_operator", "power_supply"]
+      "source": "Yahoo Finance / Reuters / The Information",
+      "title": "谷歌向英特尔下达300万颗TPU定制芯片大单，推动英特尔晶圆代工业务突破",
+      "summary": "谷歌向英特尔下达超过300万颗TPU定制芯片订单，采用英特尔18A制程工艺，计划于2028年量产，若良率达标订单或扩至600万颗以上。此举使英特尔获得顶级科技客户重大背书，也反映谷歌寻求降低对台积电集中依赖的战略意图。英特尔年初至今累计涨幅已达约196%。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry"
+      ]
     },
     {
-      "source": "White House / Mayer Brown",
-      "title": "特朗普签署AI行政令，建立前沿模型政府审查30天窗口期机制",
-      "summary": "特朗普政府6月2日颁布行政令《促进先进人工智能创新与安全》，要求联邦机构部署AI防御工具并建立AI网络安全信息共享平台。核心机制为：AI开发商在向受信合作方发布前沿模型前，自愿向政府提供最多30天的审查窗口。此举被认为是Anthropic封禁事件的政策背景。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "ai_compliance"]
+      "source": "South China Morning Post / Capacity",
+      "title": "DeepSeek V4深度适配华为昇腾950PR，单卡推理性能较H20提升187%",
+      "summary": "DeepSeek V4专门针对华为昇腾950PR芯片进行深度优化，单卡推理性能较英伟达中国版H20提升2.87倍，多模态生成效率提升60%。字节跳动、腾讯、阿里巴巴等加速采购昇腾950芯片。华为预计2026年生产约75万颗昇腾950PR，下半年起出货，国产AI算力替代进程加速。",
+      "sector_ids": [
+        "chips",
+        "models"
+      ],
+      "role_ids": [
+        "domestic_gpu",
+        "llm_lab"
+      ]
     },
     {
-      "source": "CNBC / Benzinga",
-      "title": "微软AI负责人：已大幅缩小差距，自研MAI模型减少对OpenAI依赖",
-      "summary": "微软AI负责人穆斯塔法·苏莱曼6月表示，公司已推出7款自研MAI模型，其中推理模型在代码任务上性能可比肩Anthropic旗舰模型，微软在战略上正逐步降低对OpenAI的单一依赖，实现模型层自主化。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform", "enterprise_ai"]
+      "source": "Silicon Republic / Stocktwits",
+      "title": "欧盟借Anthropic禁令事件重申技术主权需求，加速本土AI能力建设",
+      "summary": "Anthropic Fable 5/Mythos 5遭美国出口管制封禁后，欧盟官员表示此事件凸显欧洲对美国AI基础设施的战略依赖风险。欧盟此前刚于6月初获得Mythos访问权，如今被迫中断，进一步强化了推进欧洲本土大模型及AI基础设施建设的政策意愿，技术主权议题再次被提上政策日程。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "Tech-Insider / Tom's Hardware",
-      "title": "华为Ascend 950PR量产推进，年度出货目标75万片，国产替代加速",
-      "summary": "华为Ascend 950PR持续推进量产，2026年出货目标75万片。该芯片FP4精度算力为英伟达H20的2.8倍，采用更兼容CUDA生态的架构，面向推理工作负载，是中国AI数据中心国产化路径的核心供给侧资产。",
-      "sector_ids": ["chips"],
-      "role_ids": ["chip_design", "domestic_gpu"]
+      "source": "Holland & Knight / EU Commission",
+      "title": "欧盟AI法案高风险系统合规期限8月2日届至，全球企业进入最终冲刺",
+      "summary": "欧盟人工智能法对高风险AI系统（Annex III）的合规截止日期定于2026年8月2日，涉及招聘、信贷评分、执法等领域AI应用，全球在欧运营企业须完成透明度要求和注册义务。欧盟已于6月完成行为准则终稿，违规最高处以全球营收7%或3500万欧元罚款，合规窗口紧迫。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_saas"
+      ]
     },
     {
-      "source": "Tech-Insider / US Utilities",
-      "title": "美国电力企业宣布1.4万亿美元AI数据中心电力建设计划，并网瓶颈仍达5-7年",
-      "summary": "美国投资者所有电力企业公布1.4万亿美元资本支出路线图（截至2030年），较去年提升27%，主因是AI数据中心电力需求的爆炸式增长。然而数据中心建设周期仅12-18个月，而新电网并网等待期长达5-7年，供需错配矛盾突出。",
-      "sector_ids": ["infra"],
-      "role_ids": ["power_supply", "dc_operator", "liquid_cooling"]
+      "source": "CNBC / Fortune",
+      "title": "Meta与谷歌签署多年期TPU租赁协议，大科技AI算力采购多元化趋势加速",
+      "summary": "Meta与谷歌签订多年期AI芯片租赁协议，将使用谷歌张量处理器训练高级AI模型，以分散对英伟达GPU的依赖。2026年主要科技公司合计AI资本支出预计逾6700亿美元，高盛估算2026-2031年全球AI基础设施累计投入达7.6万亿美元，算力采购多元化布局成为明显趋势。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "dc_operator",
+        "cloud_platform"
+      ]
     }
   ],
   "sectors": [
@@ -66,13 +112,25 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "台积电3nm提价与持续强劲营收印证AI芯片供需长期紧张，算力资产价值重估逻辑持续强化",
-      "content": "台积电宣布2026年下半年对3纳米制程提价约15%，CEO魏哲家预警全球AI芯片供应将长期不及需求，5月营收同比增长约30%验证了这一判断。英伟达与台积电深化合作，将AI技术引入晶圆制造以提升生产效率。与此同时，华为Ascend 950PR量产推进，2026年目标出货75万片，国产GPU在国内推理场景的渗透率持续提升。整体来看，供应约束叠加持续的资本支出扩张，AI芯片板块基本面支撑仍然稳固。",
+      "summary": "英特尔谷歌TPU大单拉动芯片股全线走强，国产算力华为昇腾加速替代",
+      "content": "6月15日AI芯片板块整体走强：英特尔因谷歌300万颗TPU订单维持11-12%涨幅，AMD涨超4%，英伟达、博通小幅上涨，美光领涨逾8%。谷歌向英特尔18A制程下达大单，标志着芯片代工格局出现新变量，台积电的主导地位面临挑战。国内方面，DeepSeek V4针对华为昇腾950PR深度优化，单卡推理性能较英伟达H20提升近3倍，字节、腾讯、阿里加速抢购华为国产AI芯片，国产算力替代进程明显提速。Meta与谷歌签署TPU租赁协议，算力采购进一步多元化。",
       "roles": [
-        { "id": "chip_design",   "name": "芯片设计" },
-        { "id": "wafer_foundry", "name": "晶圆代工" },
-        { "id": "adv_packaging", "name": "先进封装" },
-        { "id": "domestic_gpu",  "name": "国产替代" }
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
       ]
     },
     {
@@ -81,26 +139,44 @@
       "icon": "🧠",
       "trend": "bearish",
       "trend_label": "利空",
-      "summary": "美国政府封禁Anthropic旗舰模型引发行业高度关注，AI模型出口管制风险显著上升",
-      "content": "本周最大冲击来自美国政府以越狱安全漏洞为由，下令Anthropic暂停外国公民访问Fable 5和Mythos 5，Anthropic被迫关闭全球访问权限。6月14日Anthropic高级技术人员赴华盛顿进行密集谈判。这一事件表明前沿AI模型面临日益收紧的出口管制，可能波及OpenAI、Google等其他前沿模型厂商，并加速美国国内AI监管框架的形成。微软方面则持续推进自研MAI模型战略，降低单一外部依赖。",
+      "summary": "Anthropic Fable 5/Mythos 5遭美出口管制禁令，全球访问中断引发模型供应链重大担忧",
+      "content": "6月12日美国商务部援引出口管制条款禁止外国人访问Anthropic旗下Fable 5和Mythos 5，Anthropic被迫全球关停两款旗舰模型。Fable 5仅上线三天即遭封禁，Mythos 5是Anthropic最强大的前沿模型，停摆影响全球大量企业及开发者。6月15日Anthropic高管赴华盛顿谈判，结果待定。欧盟将此事件列为推进AI技术主权的重要依据，全球对AI模型供应链集中于单一国家管辖的风险警惕上升。",
       "roles": [
-        { "id": "llm_lab",        "name": "大模型研发" },
-        { "id": "cloud_platform", "name": "云计算平台" },
-        { "id": "enterprise_ai",  "name": "企业AI工具" }
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
       ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "AI合规监管趋严，应用层出口限制风险上升，自动驾驶商业化版图持续扩张",
-      "content": "特朗普政府6月AI行政令要求建立前沿模型部署前30天政府审查机制，合规体系建设需求显著提升。Anthropic封禁事件进一步凸显前沿AI应用的出口管制合规风险，企业AI工具落地面临更严格的安全审查压力。自动驾驶领域，Uber联合WeRide、AVOMO在马德里启动西班牙首个商业Robotaxi服务；BYD发布自研自动驾驶SoC玄玑A3，并进军人形机器人领域，车企跨界AI应用布局加速。",
+      "trend": "bearish",
+      "trend_label": "利空",
+      "summary": "Anthropic禁令冲击企业级应用，EU AI法案高风险合规窗口临近双重压力叠加",
+      "content": "Fable 5和Mythos 5全球访问中断，直接影响大量依赖Anthropic API的企业应用和开发者工具，供应链可靠性受到质疑。与此同时，欧盟AI法案高风险系统合规截止日为2026年8月2日，距今不足两月，涉及招聘、信贷、执法等领域的AI应用须完成合规注册，违规处罚力度较重。两大压力同期叠加，企业AI应用层面临合规成本上升与模型供应不确定性的双重考验。",
       "roles": [
-        { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶" },
-        { "id": "ai_compliance",   "name": "合规监管" }
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
       ]
     },
     {
@@ -109,19 +185,28 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "SpaceX上市市值破2万亿，谷歌天价锁定算力，AI基础设施长期需求信号强烈",
-      "content": "SpaceX上市市值突破2万亿美元，谷歌提前签约每月支付9.2亿美元租用约11万块英伟达GPU至2029年，彰显超大型科技公司锁定AI算力资源的长期意愿。美国电力企业公布1.4万亿美元电力基础设施建设路线图，数据中心已成为电网扩容最主要驱动力。然而数据中心建设周期仅12-18个月，电网并网等待期长达5-7年，电力供给瓶颈仍是制约AI算力扩张的核心变量。",
+      "summary": "大科技公司AI基础设施投入创历史新高，算力采购多元化布局加速",
+      "content": "Meta与谷歌达成多年期TPU租赁协议，算力采购格局持续多元化，不再单一依赖英伟达。2026年主要科技公司AI资本支出预计超6700亿美元，高盛估算2026-2031年全球AI基础设施累计投入达7.6万亿美元，相当于美国年度GDP近四分之一。美伊和平协议带动油价下行，对数据中心长期电力成本形成潜在利好。液冷散热、先进封装等配套需求随算力密度提升持续扩大。",
       "roles": [
-        { "id": "dc_operator",    "name": "数据中心运营" },
-        { "id": "power_supply",   "name": "电力供给" },
-        { "id": "liquid_cooling", "name": "液冷散热" }
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
       ]
     }
   ],
-  "macro": "美国政府以国家安全为由对Anthropic前沿模型实施出口管制，并同步推进AI行政令建立自愿审查框架，折射出美国在推进AI领先地位与防范安全风险之间的政策张力。台积电提价信号及美国电力企业史上最大规模资本支出计划，表明AI算力基础设施建设热潮短期不会降温。中美AI产业竞争持续深化，华为国产GPU量产提速。",
+  "macro": "美伊和平协议推动油价下行，提振科技股整体情绪；美国对Anthropic实施出口管制禁令引发全球对AI技术主权和模型供应链依赖的战略警觉；欧盟AI法案高风险合规窗口临近（8月2日），监管压力上升；中美芯片博弈背景下，华为国产算力因DeepSeek V4适配而加速获得市场认可。",
   "tomorrow_focus": [
-    "Anthropic与白宫谈判进展：能否达成协议恢复Fable 5和Mythos 5外国用户访问，以及是否有其他前沿模型厂商面临类似管控",
-    "台积电3nm提价落地反馈：英伟达、AMD等主要芯片客户的接受态度，以及涨价能否进一步推升台积电毛利率",
-    "AI数据中心电力并网瓶颈：美国能源企业能否加快电网改造节奏，缓解全球AI算力扩张的关键制约"
+    "Anthropic与特朗普政府谈判结果：Fable 5/Mythos 5禁令是否解除或部分放开，对全球AI模型访问格局的影响",
+    "英特尔-谷歌TPU订单官方确认情况及市场后续反应，关注英特尔18A制程量产良率进展",
+    "欧盟是否出台具体技术主权推进措施，以应对Anthropic禁令暴露的战略依赖风险"
   ]
 }
