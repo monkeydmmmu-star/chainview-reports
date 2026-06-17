@@ -1,101 +1,108 @@
 {
-  "date": "2026-06-16",
-  "generated_at": "2026-06-17 07:06",
+  "date": "2026-06-17",
+  "generated_at": "2026-06-18 07:05",
   "news": [
     {
-      "source": "The Register / Reuters",
-      "title": "高通洽谈以80-100亿美元收购AI芯片创企Tenstorrent",
-      "summary": "据报道高通正与Jim Keller创立的AI芯片公司Tenstorrent谈判收购事宜，估值80-100亿美元，较该公司去年32亿美元估值大幅溢价。消息传出后高通股价当日涨逾3%。谈判仍在进行，结果尚不确定。",
+      "source": "BusinessWire / TechCrunch",
+      "title": "世界模型AI创企Odyssey完成3.1亿美元B轮融资，亚马逊与AMD参投",
+      "summary": "Odyssey宣布完成3.1亿美元B轮融资，估值达14.5亿美元，Natural Capital领投，亚马逊、AMD Ventures、GV等跟投。亚马逊AWS将作为首选云平台并提供Trainium芯片支持实时世界仿真，挑战英伟达在AI计算领域的主导地位。创始人来自自动驾驶领域。",
       "sector_ids": [
-        "chips"
+        "apps",
+        "chips",
+        "infra"
       ],
       "role_ids": [
+        "llm_lab",
+        "dc_operator",
         "chip_design"
       ]
     },
     {
-      "source": "Bloomberg / TechTimes",
-      "title": "英伟达完成250亿美元债券发行，创历史最大单次融资规模",
-      "summary": "英伟达于6月15日完成250亿美元高评级债券发行，订单超过850亿美元，获超额认购逾三倍。债券分七个期限，收益率4.25%-5.625%。此为英伟达自2021年以来首次发行企业债，所得用于通用企业用途。",
+      "source": "European Express / CNBC",
+      "title": "英特尔18A-P制程进入风险量产阶段，性能较18A提升9%",
+      "summary": "英特尔在VLSI研讨会宣布18A-P芯片制程正式进入风险量产阶段（小批量验证生产），相比基础18A节点可提升9%性能或降低18%功耗，且无需芯片重新设计，便于吸引外部代工客户。分析师认为此举显示英特尔晶圆代工业务信心提振，英特尔股价盘前上涨。",
       "sector_ids": [
         "chips"
       ],
       "role_ids": [
-        "chip_design"
+        "chip_design",
+        "wafer_foundry"
       ]
     },
     {
-      "source": "BusinessToday / Fast Company",
-      "title": "美国白宫要求Anthropic在90分钟内限制Claude Fable 5访问权限",
-      "summary": "美国政府于6月12日命令Anthropic限制Claude Fable 5模型访问，理由是担忧中国相关方获取渠道。Anthropic被要求在90分钟内实施出口管制令。此后Anthropic与白宫、商务部官员展开谈判，双方分歧尚存，协商仍在进行中。",
+      "source": "TechCrunch / Axios",
+      "title": "机器人训练数据平台XDOF完成7000万美元融资，Thrive Capital领投",
+      "summary": "机器人训练数据基础设施公司XDOF完成7000万美元融资，Thrive Capital、Spark Capital、a16z、Lux等参投。公司为前沿AI实验室和机器人企业构建数据采集、管道和标注系统，已服务约20家客户，并与UC Berkeley合作发布全球最大高质量机器人训练数据集ABC。",
+      "sector_ids": [
+        "apps",
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "enterprise_saas",
+        "autonomous"
+      ]
+    },
+    {
+      "source": "TechCrunch / Business Standard",
+      "title": "AI形式化验证初创Pramaana Labs获Khosla Ventures领投2700万美元种子轮",
+      "summary": "Pramaana Labs完成2700万美元种子轮融资，Khosla Ventures领投，Accel、Nexus等跟投。公司将税法、临床协议等专业规则转化为机器可验证的形式语言，使用LEAN编程语言进行推理验证，聚焦税务、法律、药物研发等高风险合规垂直领域。",
+      "sector_ids": [
+        "apps",
+        "models"
+      ],
+      "role_ids": [
+        "enterprise_ai",
+        "ai_compliance",
+        "enterprise_saas"
+      ]
+    },
+    {
+      "source": "TechCrunch / Euronews / CNBC",
+      "title": "G7峰会：多国领导人就美国AI模型访问控制风险表达关切",
+      "summary": "G7峰会期间，法国总统马克龙和印度总理莫迪等就美国可能切断盟国访问美国顶级AI模型表示担忧，背景是美国政府近期对Anthropic的Fable 5和Mythos 5模型实施出口管制。各方讨论建立可信伙伴机制，使非美国盟友在一定框架下持续获取前沿模型。",
       "sector_ids": [
         "models",
         "apps"
       ],
       "role_ids": [
         "llm_lab",
-        "ai_compliance"
+        "ai_compliance",
+        "cloud_platform"
       ]
     },
     {
-      "source": "The Motley Fool / Electrek",
-      "title": "特斯拉AI5芯片完成流片，算力较前代提升5倍",
-      "summary": "特斯拉AI5自动驾驶芯片已于4月完成流片。该芯片单颗算力约为现行AI4双芯片方案的5倍，片上内存提升9倍，内存带宽提升5倍。工程样片预计2026年底交付，量产目标为2027年中，将用于FSD、Optimus机器人及Robotaxi平台。",
+      "source": "OpenAI / TechTimes",
+      "title": "OpenAI发布Deployment Simulation：上线前用真实对话检测模型行为漂移",
+      "summary": "OpenAI公布部署模拟技术，通过回放去标识化历史用户对话测试候选模型，在发布前检测行为漂移、奖励攻击和对齐风险。该方法分析约130万段对话，涵盖GPT-5至GPT-5.4版本，中位数预测误差为1.5倍，优于此前基准方法，可随算力规模扩大而提升覆盖率。",
       "sector_ids": [
-        "chips",
-        "apps"
+        "models"
       ],
       "role_ids": [
-        "chip_design",
-        "autonomous"
+        "llm_lab"
       ]
     },
     {
-      "source": "Snowflake",
-      "title": "Snowflake发布AI Pulse 6月版，推出CoWork与CoCo企业智能体功能",
-      "summary": "Snowflake于6月16日举办AI Pulse月度发布会，推出企业知识工作者AI助手CoWork和数据原生AI编程智能体CoCo，同时更新Snowflake ML中的智能体能力及自适应计算功能，面向数据科学与ML团队提速。",
+      "source": "TechCrunch / Pinterest Newsroom",
+      "title": "Pinterest推出AI购物应用Ask Pinterest，引入对话式多步骤购物体验",
+      "summary": "Pinterest发布实验性AI购物应用Ask Pinterest（仅限美国），采用对话交互方式支持多步骤购物决策，依托公司内部品味图谱（Taste Graph）提供个性化商品推荐，同步推出Pinterest MCP协议供广告主使用，是Pinterest将AI融入电商购物场景的重要布局。",
       "sector_ids": [
-        "models",
         "apps"
       ],
       "role_ids": [
-        "cloud_platform",
         "enterprise_saas"
       ]
     },
     {
-      "source": "E&E News / Tom's Hardware",
-      "title": "AI数据中心致美国最大电网市场PJM电力批发价同比飙升76%",
-      "summary": "美国PJM电网2026年Q1电力批发价同比上涨76%至每兆瓦时136.53美元，主要原因是AI数据中心电力需求急剧增加。联邦监管机构认为价格影响不可逆转，要求科技企业自行承担电网基础设施建设成本，而非转嫁给消费者。",
+      "source": "TechCrunch / Pew Research Center",
+      "title": "皮尤调查：仅16%美国人认为AI将在未来20年内对社会产生正面影响",
+      "summary": "皮尤研究中心最新调查显示，仅16%美国人认为AI将在未来20年中对社会产生积极影响，约40%认为影响将是负面的。这一数据反映出公众对AI普及的广泛疑虑，可能影响美国未来监管政策走向及AI应用的社会接受度。",
       "sector_ids": [
-        "infra"
+        "apps",
+        "models"
       ],
       "role_ids": [
-        "dc_operator",
-        "power_supply"
-      ]
-    },
-    {
-      "source": "SEMI / Digitimes",
-      "title": "2026年Q1全球半导体设备出货额创纪录，同比增长14%至365亿美元",
-      "summary": "SEMI报告显示2026年Q1全球半导体设备出货额达365.5亿美元，同比增长14%，创单季历史记录。增长由AI驱动的先进逻辑、DRAM及先进封装产能投资带动。中国以109.9亿美元保持最大市场地位，台湾、韩国分别位居二、三位。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "wafer_foundry",
-        "adv_packaging"
-      ]
-    },
-    {
-      "source": "Reuters Institute for the Study of Journalism",
-      "title": "路透新闻学研究所2026年报告：AI聊天机器人获取新闻比例升至10%，Google搜索流量降33%",
-      "summary": "路透新闻学研究所6月16日发布2026年数字新闻报告，覆盖48个市场逾10万受访者。每周使用AI聊天机器人获取新闻比例从2025年7%升至10%；Google有机搜索流量全球下降33%，出版商预计搜索引擎来源流量三年内将减少43%。",
-      "sector_ids": [
-        "apps"
-      ],
-      "role_ids": [
-        "enterprise_ai"
+        "ai_compliance"
       ]
     }
   ],
@@ -106,8 +113,8 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "高通拟百亿并购Tenstorrent，英伟达250亿债券彰显资本信心，半导体设备出货连续创纪录。",
-      "content": "AI芯片赛道并购与融资活动持续活跃。高通洽购Jim Keller旗下Tenstorrent（估值80-100亿美元）标志传统芯片巨头加速布局AI推理算力。英伟达以250亿美元史上最大规模债券融资巩固AI基础设施投资能力，机构需求热度不减。SEMI数据显示Q1全球半导体设备出货额创纪录365.5亿美元，先进封装与DRAM投资持续放量。特斯拉AI5芯片完成流片亦预示车规级AI算力新一轮迭代周期启动。",
+      "summary": "英特尔18A-P进入风险量产，AI算力生态多元化提速",
+      "content": "英特尔18A-P节点在VLSI研讨会宣布进入风险量产，与基础18A相比性能提升9%或降低18%功耗，且兼容现有设计无需重新流片，有助于英特尔吸引外部代工客户，分析师认为此举是对晶圆代工复苏的积极信号。与此同时，Odyssey世界模型B轮融资中，亚马逊以Trainium芯片作为云算力支持，标志着AI算力供给侧多元化竞争格局深化。整体来看，AI芯片制造能力持续推进，但英伟达CoWoS封装资源仍保持高度紧张，先进封装产能依然是行业短板。",
       "roles": [
         {
           "id": "chip_design",
@@ -133,8 +140,8 @@
       "icon": "🧠",
       "trend": "bearish",
       "trend_label": "利空",
-      "summary": "Anthropic遭美政府出口限制，Claude Fable 5访问受限，地缘政治风险上升。",
-      "content": "美国政府以国家安全为由对Anthropic Claude Fable 5实施出口管制，要求在90分钟内限制外国人访问，包括Anthropic自身外籍雇员。事件叠加政府对中国获取先进AI模型的担忧，标志美国对领先AI模型的管控进入直接干预阶段，影响前沿AI的商业化与全球推广节奏。Snowflake推出CoWork、CoCo等企业智能体，显示企业级AI平台仍在积极扩张。",
+      "summary": "Anthropic模型出口禁令余震持续，G7峰会引发AI主权讨论",
+      "content": "G7峰会期间，Anthropic Fable 5和Mythos 5遭美国出口管制一事仍是核心议题，多国领导人对美国模型访问控制风险表达关切，各方开始讨论AI模型访问的多边框架，政策不确定性对全球服务商形成潜在压制。OpenAI公布的部署模拟技术代表模型安全评估领域的进步，通过回放真实对话提升上线前风险检测能力。皮尤调查显示公众信任度低迷，亦制约前沿模型的规模化商业落地。",
       "roles": [
         {
           "id": "llm_lab",
@@ -154,10 +161,10 @@
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "特斯拉AI5推进自动驾驶芯片迭代，AI新闻消费渗透率稳步提升，合规压力加重。",
-      "content": "特斯拉AI5芯片完成流片，单颗算力较AI4提升5倍，将支撑FSD、Optimus机器人及Robotaxi等多条产品线，预计2027年中量产。路透新闻研究所报告显示AI聊天机器人已成为重要资讯获取渠道，用户渗透率持续提升，但Google搜索流量大幅下滑对内容分发格局形成冲击。Anthropic出口管制事件提示AI应用出海面临日益复杂的合规环境。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "机器人、AI购物、AI合规多赛道融资活跃，应用层扩张提速",
+      "content": "6月17日多个AI应用赛道均有重量级融资落地：世界模型公司Odyssey完成3.1亿美元B轮（估值14.5亿美元），机器人训练数据公司XDOF获7000万美元，AI形式化验证公司Pramaana Labs获2700万美元种子轮。Pinterest推出对话式AI购物应用Ask Pinterest，拓展AI在电商中的落地路径。Odyssey专注物理世界实时仿真，XDOF服务机器人训练数据全链路，两者共同反映出具身智能基础设施投资持续升温，资金向有真实客户和收入的初创公司集中。",
       "roles": [
         {
           "id": "enterprise_saas",
@@ -177,10 +184,10 @@
       "id": "infra",
       "name": "数据中心/基础设施",
       "icon": "🏗️",
-      "trend": "bearish",
-      "trend_label": "利空",
-      "summary": "AI数据中心致PJM电网电力价格同比暴涨76%，监管机构要求科技公司自担基础设施成本。",
-      "content": "AI算力扩张对电力基础设施的冲击已引发监管警示。美国PJM电网Q1电力批发价同比上涨76%，联邦监管方表示价格影响不可逆转。监管机构要求科技巨头自建电网基础设施，而非将成本转嫁给消费者。这一政策导向将提升数据中心运营商的前期资本开支，对新进入者构成更高门槛。供电时序错位（数据中心建设2-3年、电力基础设施5-10年）持续制约AI算力实际部署速度。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "Anthropic加入碳移除联盟，AI基础设施绿色化议题升温",
+      "content": "Anthropic宣布成为首家加入Frontier碳移除联盟的AI初创公司，参与一笔9.15亿美元的碳移除融资，反映出AI企业开始主动回应数据中心扩张带来的能耗与碳排放压力。从行业整体来看，2026年AI数据中心功率密度持续攀升（部分机架达数百千瓦），液冷散热与800VDC供电逐步成为高密度AI机架标配，但电力供给仍是制约数据中心扩张的核心瓶颈，约30-50%规划容量因电网互联排队而推迟至2028年。",
       "roles": [
         {
           "id": "dc_operator",
@@ -197,10 +204,10 @@
       ]
     }
   ],
-  "macro": "美国政府对AI模型出口管制力度加强，Anthropic Claude Fable 5遭出口限制，地缘政治风险成前沿AI商业化新变量。同期SEMI数据显示全球半导体设备出货额创纪录，AI算力投资势头不减。电力基础设施瓶颈与监管成本压力成为数据中心扩张的主要制约因素。",
+  "macro": "G7峰会聚焦AI主权与模型访问安全，美国对Anthropic前沿模型的出口管制引发盟友不满，各方探讨建立多边AI访问框架。欧盟AI法案透明度条款将于2026年8月生效，Q1已开出2.5亿欧元罚款。皮尤调查显示美国公众对AI的负面认知比例持续走高，将影响监管政策走向。",
   "tomorrow_focus": [
-    "Anthropic与白宫、商务部谈判进展：Claude Fable 5访问限制是否解除或调整",
-    "高通-Tenstorrent并购谈判：是否有新进展或正式公告",
-    "英伟达250亿美元债券定价落地后市场反应及AI资本支出预期变化"
+    "英特尔18A-P风险量产进展及是否推进与苹果的晶圆代工合作谈判",
+    "美国政府与Anthropic就Fable 5/Mythos 5出口管制的后续谈判进展",
+    "G7峰会最终公报中涉AI主权与多边模型访问框架的政策表述"
   ]
 }
