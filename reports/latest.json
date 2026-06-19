@@ -1,95 +1,62 @@
 {
-  "date": "2026-06-18",
-  "generated_at": "2026-06-19 07:10",
+  "date": "2026-06-19",
+  "generated_at": "2026-06-20 07:05",
   "news": [
     {
-      "source": "Bloomberg",
-      "title": "亚马逊洽谈向第三方数据中心出售Trainium AI芯片，挑战英伟达主导地位",
-      "summary": "亚马逊正与外部数据中心洽谈销售其自研Trainium AI芯片，这将是该芯片首次向AWS以外客户开放。亚马逊高级副总裁Peter DeSantis证实谈判进行中但未透露潜在客户名称。Trainium已累计获得超2250亿美元营收承诺，若向第三方销售年营收或突破500亿美元。",
-      "sector_ids": [
-        "chips",
-        "infra"
-      ],
-      "role_ids": [
-        "chip_design",
-        "dc_operator"
-      ]
+      "source": "Time / Fortune / Anthropic",
+      "title": "美国政府发出出口管制令，Anthropic全球下线Fable 5与Mythos 5模型",
+      "summary": "美国政府以国家安全为由，于6月12日向Anthropic发出出口管制令，要求限制所有外国公民访问Fable 5和Mythos 5模型。Anthropic因无法实时区分用户国籍，对全平台用户停止服务。背景涉及白宫认定Anthropic投资方SK电信与中国存在关联，亚马逊研究人员亦独立报告了Fable 5的安全漏洞。其他Claude模型服务正常。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "ai_compliance"]
     },
     {
-      "source": "Bloomberg",
-      "title": "Meta与Crusoe签署协议，锁定1.6吉瓦AI算力用于超级智能扩张",
-      "summary": "Meta与数据中心开发商Crusoe签署新协议，在德克萨斯州Childress和密苏里州Warrenton两处选址合计获取约1.6吉瓦算力容量，用于支撑其AI研究和推理工作负载的持续扩张。这是Meta近期系列基础设施部署的重要组成部分。",
-      "sector_ids": [
-        "infra"
-      ],
-      "role_ids": [
-        "dc_operator",
-        "power_supply"
-      ]
+      "source": "9to5Mac / MSN",
+      "title": "OpenAI上线ChatGPT定时任务功能，支持提醒与自动化重复操作",
+      "summary": "6月17日，OpenAI正式推出ChatGPT定时任务功能，付费用户可设置提醒、周期性任务及主动监控任务。新增「定时任务」专属管理页面，用户单次最多可创建10条活跃任务。该功能向Go、Plus、Pro、Business及Enterprise用户在网页端和移动端滚动开放，原Pulse功能将于两周内退役。",
+      "sector_ids": ["models", "apps"],
+      "role_ids": ["llm_lab", "enterprise_saas"]
     },
     {
-      "source": "Bloomberg",
-      "title": "AI图像生成公司Midjourney宣布转型健康领域，发布全身超声波扫描仪",
-      "summary": "Midjourney在旧金山发布首款硬件产品全身超声波扫描设备Midjourney Scanner，目标是以几美元成本在60秒内完成全身内部扫描。现有原型机扫描耗时约20分钟，由40个Butterfly Network超声芯片模块驱动，尚未获FDA认证，计划2027年在旧金山开设首个商业体验点。",
-      "sector_ids": [
-        "apps",
-        "chips"
-      ],
-      "role_ids": [
-        "enterprise_saas",
-        "chip_design"
-      ]
+      "source": "Windows Forum / Cornell Tech",
+      "title": "Cornell研究：仅需13个词即可操控AI搜索结果，ChatGPT深度研究与Gemini均受影响",
+      "summary": "康奈尔科技学院研究人员披露WARP（网络代理检索投毒）攻击技术：攻击者在普通网页中植入约13个促销词，即可操控ChatGPT Deep Research、Google Gemini等AI搜索代理输出虚假推荐内容。研究指出AI搜索工具存在系统性信任漏洞，与早期网络搜索引擎面临的SEO操纵问题类似。",
+      "sector_ids": ["models", "apps"],
+      "role_ids": ["llm_lab", "ai_compliance"]
     },
     {
-      "source": "Bloomberg",
-      "title": "AI收费模式转变：从固定月费向按Token计量迁移，重度用户费用或暴涨数十倍",
-      "summary": "GitHub、OpenAI、Anthropic等主要AI服务商正集体转向按Token计量的使用量计费模式。GitHub Copilot从固定月费切换后，重度用户账单已出现从29美元升至近750美元的案例。AI Agent工作模式导致单任务Token消耗量大幅上升是核心驱动因素。",
-      "sector_ids": [
-        "models",
-        "apps"
-      ],
-      "role_ids": [
-        "llm_lab",
-        "cloud_platform",
-        "enterprise_ai",
-        "enterprise_saas"
-      ]
+      "source": "Yahoo Finance / Tom's Hardware",
+      "title": "SpaceX披露AI1轨道数据中心卫星，计划至2027年末建设1GW太空算力",
+      "summary": "SpaceX在IPO路演期间公开AI1卫星设计：翼展70米、峰值算力150千瓦，复用Starlink V3平台技术，采用液体散热器排热。计划2027年初发射两颗原型星，此后量产扩展至年新增1GW轨道算力，远期愿景为100万颗AI卫星。该项目为数据中心算力基础设施扩展提供了地面之外的新路径。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
     },
     {
-      "source": "Bloomberg",
-      "title": "中国AI赛道出现赢家-输家分化对冲：智谱涨139%，MiniMax跌52%",
-      "summary": "投资者正在中国AI模型领域形成明显的多空分化布局。智谱AI在港股自3月底以来累计涨幅达139%，而MiniMax则下跌52%，商业变现能力的差距正驱动市场对中国AI公司进行差异化定价估值。",
-      "sector_ids": [
-        "models"
-      ],
-      "role_ids": [
-        "llm_lab"
-      ]
+      "source": "MLQ News",
+      "title": "NVIDIA上调RTX Pro 6000 Blackwell专业显卡官方售价至13250美元，同比涨幅达55%",
+      "summary": "NVIDIA于6月13日将RTX Pro 6000 Blackwell工作站显卡建议零售价提升至13250美元，较上年同期涨幅55%，创近年专业GPU最大单次年度涨价纪录。此次提价背景为AI需求持续旺盛推动GPU供不应求、HBM内存价格走高，以及NVIDIA在加速计算市场的主导地位进一步强化。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design"]
     },
     {
-      "source": "Google Developers Blog",
-      "title": "谷歌正式停用Gemini CLI，Antigravity CLI全面接管AI开发者工具生态",
-      "summary": "2026年6月18日，谷歌Gemini CLI正式停止服务，开发者须迁移至Antigravity CLI。这是谷歌于Google I/O 2026发布、基于Gemini 3.5 Agentic模型家族的全新开发平台，以Go语言编写，支持异步处理和大规模批量任务。企业版Gemini Code Assist用户暂不受影响。",
-      "sector_ids": [
-        "models",
-        "apps"
-      ],
-      "role_ids": [
-        "llm_lab",
-        "cloud_platform",
-        "enterprise_ai"
-      ]
+      "source": "Tom's Hardware",
+      "title": "中国GPU云市场向百度与华为集中，国产AI芯片规模化加速",
+      "summary": "受美国出口管制持续影响，中国GPU云市场正加速向百度昆仑与华为昇腾平台集中。百度昆仑三代已运营3万颗芯片训练集群，华为昇腾950（目标1PFlops FP8）及Atlas 950 SuperPoD（8192颗昇腾联机，8 ExaFlops FP8）亦在推进中。国产替代路径持续提速，填补西方硬件缺口。",
+      "sector_ids": ["chips", "models"],
+      "role_ids": ["domestic_gpu", "cloud_platform"]
     },
     {
-      "source": "UNIDIR",
-      "title": "联合国裁军研究所在日内瓦召开AI安全与伦理全球峰会AISE26",
-      "summary": "联合国裁军研究所在日内瓦万国宫召开为期两天的AI安全与伦理全球峰会（AISE26），汇聚各国外交官、政策制定者、军方、学术界和科技企业代表，探讨AI技术对国际安全格局的影响及全球治理框架建设。本次会议由微软联合赞助，将于6月19日闭幕。",
-      "sector_ids": [
-        "apps"
-      ],
-      "role_ids": [
-        "ai_compliance"
-      ]
+      "source": "NVIDIA Newsroom / EENews Europe",
+      "title": "NVIDIA与台积电宣布将AI引入晶圆厂，加速芯片制造与缺陷检测",
+      "summary": "NVIDIA与台积电联合宣布，将在晶圆厂生产环节引入AI和加速计算能力，涉及光刻、晶体管仿真、工艺控制及晶圆厂运营优化。台积电将采用NVIDIA CUDA-X库及AI模型加速相关工作流，并部署Metropolis与TAO Toolkit推进自动化缺陷检测，旨在提升制造良率与交付效率。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "wafer_foundry"]
+    },
+    {
+      "source": "Gartner / BusinessWire",
+      "title": "Gartner预测2026年全球半导体营收将超1.3万亿美元，AI为核心增长驱动",
+      "summary": "Gartner预测2026年全球半导体营收将超1.3万亿美元，同比增幅约64%，为逾二十年来最强劲增长。AI半导体约占总营收30%，超算需求拉动存储价格大幅上涨——DRAM预计涨价125%，NAND Flash预计涨价234%。超大规模数据中心AI基础设施投入预计同比增加50%以上。",
+      "sector_ids": ["chips", "infra"],
+      "role_ids": ["chip_design", "wafer_foundry", "dc_operator"]
     }
   ],
   "sectors": [
@@ -99,25 +66,13 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "亚马逊Trainium芯片拟向第三方开放，AI芯片供给多元化趋势确立",
-      "content": "亚马逊宣布洽谈向第三方数据中心销售Trainium AI芯片，标志着英伟达在AI芯片市场面临来自云厂商自研芯片的正面竞争。Trainium此前仅供AWS内部使用，若向外部开放将为数据中心运营商提供更多非英伟达替代选项，有助于缓解当前AI算力供应瓶颈。同日，Midjourney发布基于Butterfly Network芯片模块的超声波医疗设备，显示AI专用芯片在医疗硬件领域应用场景正在拓展。",
+      "summary": "半导体市场规模创历史新高，NVIDIA定价权持续增强，国产替代加速推进",
+      "content": "2026年全球半导体营收有望突破1.3万亿美元，AI驱动增速为近二十年之最。NVIDIA将RTX Pro 6000 Blackwell专业卡售价提升至13250美元，年涨幅达55%，印证其在数据中心算力市场的定价能力。NVIDIA与台积电联合将AI引入晶圆制造环节，涵盖光刻仿真与缺陷检测，有望提升良率与产能。中国市场方面，出口管制持续收紧背景下，百度昆仑与华为昇腾主导国内GPU云市场格局，国产替代路径明确。存储价格预计大幅走高，DRAM与NAND Flash将带动半导体产业链上下游持续受益。",
       "roles": [
-        {
-          "id": "chip_design",
-          "name": "芯片设计"
-        },
-        {
-          "id": "wafer_foundry",
-          "name": "晶圆代工"
-        },
-        {
-          "id": "adv_packaging",
-          "name": "先进封装"
-        },
-        {
-          "id": "domestic_gpu",
-          "name": "国产替代"
-        }
+        { "id": "chip_design",   "name": "芯片设计" },
+        { "id": "wafer_foundry", "name": "晶圆代工" },
+        { "id": "adv_packaging", "name": "先进封装" },
+        { "id": "domestic_gpu",  "name": "国产替代" }
       ]
     },
     {
@@ -126,44 +81,26 @@
       "icon": "🧠",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "AI计费模式加速转向按量计价，中国模型厂商商业化分化加剧",
-      "content": "主要AI平台正集体转向按Token计量计费，GitHub Copilot、OpenAI Codex、Anthropic重度套餐均已或将完成转型，重度用户账单潜在涨幅达数十倍，短期可能抑制企业AI工具采用率。谷歌Gemini CLI于6月18日正式停用，Antigravity CLI整合完成，体现谷歌在AI开发工具层的战略重组。中国市场方面，智谱AI与MiniMax的市值走势呈现139%对-52%的极端分化，显示投资者正对中国模型厂商商业变现能力展开严格分级定价。",
+      "summary": "Anthropic顶级模型遭美政府强制下线，OpenAI持续扩展产品功能边界",
+      "content": "本周AI模型层呈现明显分化态势。Anthropic被迫于6月12日全球下线Fable 5与Mythos 5，起因为美国政府以国家安全为由发出出口管制令，背景涉及SK电信安全顾虑及模型越狱漏洞。相比之下，OpenAI持续扩展产品能力：ChatGPT定时任务功能于6月17日上线，用户可设置周期性自动化操作，向个人助理方向进一步演进。安全研究方面，Cornell WARP攻击揭示AI搜索代理存在系统性内容操控风险，影响ChatGPT深度研究及Gemini等主流平台，监管层面的模型安全议题进一步升温。",
       "roles": [
-        {
-          "id": "llm_lab",
-          "name": "大模型研发"
-        },
-        {
-          "id": "cloud_platform",
-          "name": "云计算平台"
-        },
-        {
-          "id": "enterprise_ai",
-          "name": "企业AI工具"
-        }
+        { "id": "llm_lab",        "name": "大模型研发" },
+        { "id": "cloud_platform", "name": "云计算平台" },
+        { "id": "enterprise_ai",  "name": "企业AI工具" }
       ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "Midjourney跨界医疗硬件，国际AI治理多边对话实质性启动",
-      "content": "Midjourney从图像生成跨入医疗硬件赛道，发布全身超声波扫描仪，目标是以低成本实现分钟级全身扫描，产品目前处于原型阶段，尚无FDA认证，商业化路径仍存不确定性。国际治理层面，UNIDIR在日内瓦举办AI安全与伦理峰会，标志关于AI对国际和平安全影响的多边政策对话正从讨论阶段向规范建构阶段推进，对各国AI技术出口管制和军事AI监管框架的影响值得关注。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "AI个人助理与企业自动化加速落地，应用场景持续拓宽",
+      "content": "应用层面整体呈扩张态势。ChatGPT定时任务功能标志着AI工具向自主型个人助理演进，付费用户获得周期性监控、提醒及任务自动化能力，产品黏性有望进一步提升。企业侧，DXC Technology与Anthropic达成合作，将Claude集成至银行、航空、医院等强监管行业的IT系统，企业AI落地路径持续拓宽。与此同时，WARP搜索投毒研究也警示AI应用层在内容真实性核验方面存在系统性缺口，合规与安全工具需求将随之增加。",
       "roles": [
-        {
-          "id": "enterprise_saas",
-          "name": "企业SaaS"
-        },
-        {
-          "id": "autonomous",
-          "name": "自动驾驶"
-        },
-        {
-          "id": "ai_compliance",
-          "name": "合规监管"
-        }
+        { "id": "enterprise_saas", "name": "企业SaaS" },
+        { "id": "autonomous",      "name": "自动驾驶" },
+        { "id": "ai_compliance",   "name": "合规监管" }
       ]
     },
     {
@@ -172,28 +109,19 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "Meta锁定1.6GW新增算力，科技巨头数据中心扩张势头持续",
-      "content": "Meta与Crusoe签署1.6吉瓦数据中心容量协议，覆盖德克萨斯和密苏里两处选址，是科技巨头在AI基础设施层持续重仓的最新佐证。亚马逊拟向外部数据中心销售Trainium芯片，若成交将进一步激活第三方数据中心建设需求。Token计量计费模式普及将提升AI工作负载的计算密度，对GPU集群和液冷散热需求形成正向支撑。整体而言，数据中心基础设施投资逻辑短期未见明显逆转。",
+      "summary": "SpaceX太空算力路线图落地，地面数据中心功率密度与供电挑战并存",
+      "content": "SpaceX披露AI1轨道数据中心卫星详细规格，翼展70米、150千瓦峰值算力，计划2027年初发射原型星并于年末达到1GW轨道算力规模，为超算基础设施提供全新地外扩展路径。地面侧，全球超大规模数据中心已宣布190GW建设规划，但电网连接周期长达5-7年，正成为制约算力落地的核心瓶颈。800V直流配电与直接液冷方案在2026年加速从试验性配置转为高密度AI机架的行业标准。Gartner预测超算基础设施投入2026年同比增逾50%，整体资本开支持续高位。",
       "roles": [
-        {
-          "id": "dc_operator",
-          "name": "数据中心运营"
-        },
-        {
-          "id": "power_supply",
-          "name": "电力供给"
-        },
-        {
-          "id": "liquid_cooling",
-          "name": "液冷散热"
-        }
+        { "id": "dc_operator",    "name": "数据中心运营" },
+        { "id": "power_supply",   "name": "电力供给" },
+        { "id": "liquid_cooling", "name": "液冷散热" }
       ]
     }
   ],
-  "macro": "UNIDIR AI安全与伦理峰会标志国际社会对AI治理的关注从讨论步入机制化阶段；美国CHIPS法案资金持续落地（SandboxAQ获5亿美元，6月17日）；中国AI企业商业化分化加剧，市场正对其进行差异化估值；全球AI基础设施投资势头未减，但AI服务计费模式向Token计量转型或对短期用户增长形成压制。",
+  "macro": "美国出口管制持续收紧，Anthropic顶级模型遭强制下线凸显AI安全与地缘政治风险。全球半导体营收预计突破1.3万亿美元，AI需求为核心驱动力。中国国产算力替代加速，中美技术脱钩格局进一步固化。欧盟AI法案执行框架持续落地，AI安全合规成为全球科技企业运营核心议题。",
   "tomorrow_focus": [
-    "关注UNIDIR AI安全与伦理峰会（6月19日）第二日议程，跟踪关于AI军事应用治理框架的官方声明及共识文件",
-    "亚马逊Trainium芯片外售谈判进展：潜在客户名单若曝光，将对英伟达数据中心GPU市场份额预期产生重要影响",
-    "AI Token计量计费模式普及后续：关注OpenAI、Anthropic等是否公布更新企业定价体系，以及主要企业客户是否发出反弹或转向竞品的信号"
+    "关注Anthropic Fable 5与Mythos 5恢复访问进展：Anthropic与美国政府谈判结果及模型重新上线时间表",
+    "NVIDIA Rubin架构量产节奏：下半年HBM4+3nm制程新平台出货预期及对台积电先进产能影响",
+    "中国昇腾950与百度昆仑三代大规模集群部署进展：国产GPU算力生态补贴及行业采购动向"
   ]
 }
