@@ -1,62 +1,105 @@
 {
-  "date": "2026-06-22",
-  "generated_at": "2026-06-23 07:05",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-24 07:05",
   "news": [
     {
-      "source": "Bloomberg / CNBC",
-      "title": "谷歌接连痛失两位顶级AI研究员，Alphabet单日市值蒸发逾2500亿美元",
-      "summary": "诺贝尔奖得主、DeepMind研究副总裁John Jumper宣布加入Anthropic；Gemini联合主导人Noam Shazeer此前已宣布转投OpenAI。两位核心人才相继出走引发投资者对谷歌AI研究竞争力的担忧，Alphabet股价盘中跌幅最高达7.2%，创近一年最大单日跌幅，市值蒸发约2500亿美元。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform"]
+      "source": "OpenAI / SiliconAngle",
+      "title": "OpenAI发布GPT-5.5-Cyber模型并启动Patch the Planet开源安全计划",
+      "summary": "OpenAI于6月23日推出专为网络安全设计的GPT-5.5-Cyber模型（CyberGym评分85.6%），并与Trail of Bits合作发起Patch the Planet计划，联合HackerOne等机构为Python、cURL等逾30个开源项目提供自动化漏洞修复，属Daybreak防御性AI安全倡议延伸。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "enterprise_ai",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "TechTimes",
-      "title": "中国拟发布2万亿元AI算力国家网格计划，强制80%采购国产芯片",
-      "summary": "中国国家发改委牵头起草五年期2万亿元（约2950亿美元）AI算力基础设施建设方案，要求至少80%的AI加速芯片来自国内供应商，从结构上将英伟达、AMD排除在外。华为昇腾、阿里巴巴、壁仞科技、摩尔线程等9类国产芯片已通过政府安全审查，预计2028年完工。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["domestic_gpu", "chip_design", "dc_operator"]
+      "source": "CNBC / Dataconomy",
+      "title": "SpaceX与开源AI初创Reflection AI签署最高63亿美元算力协议",
+      "summary": "SpaceX旗下Colossus 2数据中心与Reflection AI签署长期算力协议，后者将从2026年7月起每月支付约1.5亿美元，合同总额最高达63亿美元，可获取NVIDIA GB300芯片算力。此前SpaceX已陆续与Anthropic、Google、Cursor签署算力协议。",
+      "sector_ids": [
+        "infra"
+      ],
+      "role_ids": [
+        "dc_operator"
+      ]
     },
     {
-      "source": "BusinessToday / Wall Street Journal",
-      "title": "微软CEO纳德拉警告AI集中化风险：少数模型无法吃掉整个经济",
-      "summary": "微软CEO萨提亚·纳德拉在《华尔街日报》采访中警告，若AI价值仅由少数模型垄断将无法获得社会政治许可。他呼吁各机构构建自有「学习循环」，依托私有数据减少对第三方前沿模型API的依赖，推动AI民主化。言论被市场解读为隐含对OpenAI、Anthropic及Google的批评，加剧投资者对AI商品化的担忧。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "enterprise_ai", "enterprise_saas"]
+      "source": "CryptoBriefing / JustSecurity",
+      "title": "五眼联盟联合警告：AI驱动网络攻击威胁或在数月内爆发",
+      "summary": "美英加澳新五国情报机构发出联合声明，称先进AI系统进化速度超出业界预期，可能在数月内使政府及大型企业面临AI驱动的大规模网络攻击，呼吁各组织立即实施基础网络卫生及弹性措施。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_ai"
+      ]
     },
     {
-      "source": "Anthropic / gHacks Tech News",
-      "title": "Anthropic Fable 5免费试用窗口正式关闭，转入高价按量计费模式",
-      "summary": "Anthropic于6月9日向付费订阅用户开放的Fable 5两周免费试用窗口于6月22日正式关闭。此后使用须支付按量费用：API输入$10/百万token、输出$50/百万token，为Anthropic现有模型中定价最高，是Opus 4.8定价的两倍。该模型曾因出口管控指令于6月12日暂停服务，并于6月18日附加更严格安全分类器后恢复上线。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "enterprise_ai"]
+      "source": "AIToolsRecap / Anthropic",
+      "title": "Anthropic将Claude Fable 5从标准订阅剥离，改为独立付费层级",
+      "summary": "6月23日起，Anthropic将Claude Fable 5从Pro、Max、Team及企业订阅默认包含选项中移除，改为独立付费层级。背景为6月12日美国商务部以国家安全为由，对Fable 5和Mythos 5发布出口管制指令，禁止外国公民访问。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
     },
     {
-      "source": "AIToolly / Meituan LongCat",
-      "title": "美团LongCat发布General 365推理基准：26个主流模型最高分仅62.8%",
-      "summary": "美团LongCat团队发布General 365推理能力评估基准，对当前26个主流AI模型进行测试，结果显示行业整体推理能力存在明显差距。排名第一的Gemini 3 Pro准确率仅62.8%，大多数模型未达到60%及格线，揭示当前前沿模型在复杂推理任务上的普遍局限性。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab"]
+      "source": "TechTimes / Bloomberg",
+      "title": "中国拟5年投2万亿元建国家AI数据中心网络，强制80%采用国产芯片",
+      "summary": "中国国家发改委正起草总额约2950亿美元（约2万亿元人民币）的五年计划，将数千个数据中心连接为全国算力网格，规定80%以上底层技术须采用国产AI芯片，计划2028年完工，英伟达和AMD在华采购空间进一步受压。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "domestic_gpu",
+        "dc_operator",
+        "chip_design"
+      ]
     },
     {
-      "source": "CNBC / Yahoo Finance",
-      "title": "英伟达承认基本放弃中国AI芯片市场，华为昇腾系列加速填补空缺",
-      "summary": "英伟达CEO黄仁勋表示公司已基本放弃中国AI芯片市场，归因于持续的美国出口管制限制。英伟达中国市场数据中心Hopper芯片出货量在2026财年一季度降至零（上年同期为46亿美元）。华为2025年出货约81.2万颗昇腾芯片，预计2026年AI处理器营收约120亿美元，同比增长约60%，百度、字节跳动等中国超大规模平台已大规模部署昇腾系列。",
-      "sector_ids": ["chips"],
-      "role_ids": ["domestic_gpu", "chip_design"]
+      "source": "MIT Technology Review",
+      "title": "ASML 4亿美元高NA EUV设备：先进制程成本攀升，中国加快自研EUV突破",
+      "summary": "MIT Technology Review于6月23日报道，最先进晶圆厂建设成本已升至约250亿美元，单片先进晶圆价格逼近10万美元，现有ASML/台积电供应体系预计无法满足AI算力爆发需求。中国正大规模投入自研EUV光刻技术，已雇用前ASML工程师参与研发。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "chip_design"
+      ]
     },
     {
-      "source": "Data Center Knowledge / Futurum Research",
-      "title": "超大规模厂商2026年AI基础设施资本支出料达6900亿美元，电力成最大瓶颈",
-      "summary": "亚马逊、微软、谷歌、Meta、甲骨文五大超大规模厂商2026年合计资本支出预计接近7000亿美元，约75%直接用于AI基础设施。新一代AI机架功率密度逼近370千瓦，美国电网分析警告2028年前存在49吉瓦发电缺口，数据中心选址权重已从网络连通性转向300兆瓦以上可用电力容量。",
-      "sector_ids": ["infra"],
-      "role_ids": ["dc_operator", "power_supply", "liquid_cooling"]
+      "source": "Google / LLM-stats",
+      "title": "谷歌Gemini 3.5 Pro进入正式发布窗口，上下文窗口达200万Token",
+      "summary": "分析追踪机构显示，谷歌Gemini 3.5 Pro预计6月23至30日期间正式向公众开放，支持200万Token上下文窗口（生产级模型中最大），含Deep Think深度推理模式，定位为OpenAI GPT-5.5系列直接竞品。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
     },
     {
-      "source": "Holland & Knight / EU Commission",
-      "title": "欧盟AI法案全面合规截止日期（8月2日）进入倒计时，监管沙盒建设加速",
-      "summary": "欧盟AI法案高风险AI条款将于8月2日全面适用，各成员国须同步建立国家级监管沙盒。2026年一季度欧盟已开出共计2.5亿欧元罚款，爱尔兰承接60%案件。部分企业游说推迟至2027年12月的修正案尚未获批，跨大西洋企业合规压力持续上升。",
-      "sector_ids": ["apps"],
-      "role_ids": ["ai_compliance", "enterprise_saas"]
+      "source": "TechRadar / Anthropic",
+      "title": "Anthropic Claude全系模型6月23日出现全球服务故障，约90分钟后恢复",
+      "summary": "6月23日，Anthropic旗下Claude全系模型出现全球范围内错误率升高，影响Pro及API用户，Anthropic于北京时间当日晚间约1时确认故障已解除。此次故障恰发生在Fable 5出口管制事件及订阅结构调整同日。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
     }
   ],
   "sectors": [
@@ -64,43 +107,73 @@
       "id": "chips",
       "name": "AI芯片/算力",
       "icon": "⚡",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "中国2万亿元国产芯片强制替代计划出炉，英伟达承认基本退出中国市场，国内替代厂商受益但全球芯片供应链地缘分化加速。",
-      "content": "6月22日，中国发改委牵头起草规模2万亿元（约2950亿美元）、为期五年的AI算力基础设施国家网格计划，要求80%采购国产芯片，华为昇腾、壁仞、摩尔线程等9类芯片已通过政府安全审查，从结构上将英伟达、AMD排除在外。英伟达CEO黄仁勋同日确认基本放弃中国市场——中国市场Hopper系列数据中心芯片出货量在2026财年一季度已降至零，而上年同期为46亿美元。华为预计2026年AI处理器营收约120亿美元，较上年增长约60%。中国市场的结构性关闭对国产替代厂商形成明显利好，但全球芯片供应链的地缘分割趋势随之加深，美国/台湾芯片厂商中国市场收入窗口实质性收窄。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "中国2万亿元国家算力网格规划加速国产替代，先进制程成本高企凸显全球供应瓶颈。",
+      "content": "中国国家发改委正起草2950亿美元五年算力网格计划，要求80%采用国产AI芯片，华为昇腾、阿里T-Head等已获国家安全认证，英伟达在华数据中心芯片出货量已降至零。MIT Technology Review同日报道ASML高NA EUV设备单台约4亿美元，先进晶圆厂建设成本升至250亿美元，全球先进制程产能长期偏紧，中国加快自研EUV布局，国产AI芯片替代逻辑持续强化。",
       "roles": [
-        { "id": "chip_design",   "name": "芯片设计" },
-        { "id": "wafer_foundry", "name": "晶圆代工" },
-        { "id": "adv_packaging", "name": "先进封装" },
-        { "id": "domestic_gpu",  "name": "国产替代" }
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
       ]
     },
     {
       "id": "models",
       "name": "AI模型/平台",
       "icon": "🧠",
-      "trend": "bearish",
-      "trend_label": "利空",
-      "summary": "谷歌核心AI研究员接连流失引发人才危机警示，Fable 5定价大幅上调、推理基准揭示模型能力短板，前沿模型格局动荡加剧。",
-      "content": "6月22日，Alphabet股价因Noam Shazeer（转投OpenAI）与诺贝尔奖得主John Jumper（转投Anthropic）相继出走而暴跌逾5%，市值蒸发约2500亿美元，创近一年最大单日跌幅。微软CEO纳德拉同日警告AI集中化风险，呼吁企业构建自有学习循环以减少对头部模型API的依赖；该言论进一步加剧市场对大模型商业模式可持续性的担忧。Anthropic Fable 5免费试用窗口关闭，API定价为输入$10/百万token、输出$50/百万token，为业内最高。美团LongCat General 365基准显示，26个主流模型中最高分仅62.8%，推理能力普遍存在显著差距，当前头部模型距通用智能仍有较大距离。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "OpenAI强化安全垂类，Anthropic受出口管制及故障双重压力，谷歌Gemini 3.5 Pro即将GA。",
+      "content": "6月23日，OpenAI推出GPT-5.5-Cyber安全专项模型并发起Patch the Planet开源安全计划，将AI嵌入防御性网络安全场景。Anthropic当日将Fable 5移出标准套餐且遭遇全球服务故障，出口管制压力对其商业化路径构成制约。谷歌Gemini 3.5 Pro预计本周内正式GA，以200万Token上下文及Deep Think模式形成差异竞争。大模型市场格局持续动态演变，监管与安全因素影响模型可及性。",
       "roles": [
-        { "id": "llm_lab",        "name": "大模型研发" },
-        { "id": "cloud_platform", "name": "云计算平台" },
-        { "id": "enterprise_ai",  "name": "企业AI工具" }
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
       ]
     },
     {
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "欧盟AI法案高风险条款8月2日合规截止日进入倒计时，企业合规压力上升；纳德拉「token资本」概念推动企业AI自主化方向。",
-      "content": "欧盟AI法案高风险AI条款将于8月2日全面适用，各成员国须同步建立国家级AI监管沙盒。2026年一季度欧盟已对通用AI（GPAI）不合规行为开出总计2.5亿欧元罚款，爱尔兰承接其中60%案件。部分企业游说推迟实施日期至2027年12月的修正案尚待欧盟议会定案，合规不确定性持续。微软CEO纳德拉提出企业应构建「学习循环」和「token资本」体系，以私有数据驱动自有AI能力，标志企业AI工具市场竞争方向进一步向垂直化、自主化演进。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "五眼联盟AI网络攻击预警与OpenAI安全工具上线，AI安全合规应用需求加速释放。",
+      "content": "五眼情报联盟发布联合警告，称AI驱动的大规模网络攻击可能在数月内爆发，促使企业加速部署AI安全防护工具。OpenAI同日发布GPT-5.5-Cyber并联合30余个开源项目启动自动化漏洞修复，AI在网络安全领域商业化落地加速。企业AI安全合规产品及AI赋能漏洞检测平台需求预计走强，EU AI法案8月2日透明度义务截止临近，AI合规监管应用场景持续扩张。",
       "roles": [
-        { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶" },
-        { "id": "ai_compliance",   "name": "合规监管" }
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
       ]
     },
     {
@@ -109,19 +182,28 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "超大规模厂商2026年AI基础设施资本支出预计接近7000亿美元，中国2万亿元算力国家网格计划叠加，全球数据中心需求持续高速扩张但电力瓶颈凸显。",
-      "content": "全球五大超大规模云厂商2026年合计资本支出预计达6900亿美元，约4500亿美元直接指向AI基础设施（GPU服务器、网络、数据中心建设及电力配套）。电力供给已成为数据中心扩张的首要制约：新一代AI机架功率密度逼近370千瓦，美国电网分析报告警告2028年前存在49吉瓦发电缺口，数据中心选址权重已从网络带宽转向本地可用电力容量（优先布局300兆瓦以上站点）。中国2万亿元AI算力国家网格计划若落地，将进一步拉动液冷散热、电力基础设施及国产算力配套的需求，全球数据中心建设景气度维持高位。",
+      "summary": "SpaceX Colossus商业算力模式持续扩张，中国2万亿国家算力网格规划支撑基础设施长期需求。",
+      "content": "SpaceX与Reflection AI签署最高63亿美元算力协议，继Anthropic、Google、Cursor之后，Colossus 2数据中心商业算力出租模式持续扩张。中国同期推进2万亿元国家算力网格计划，预计带动大规模数据中心建设、电力供给及液冷散热配套需求。2026年全球超大规模数据中心资本支出预估超6000亿美元，基础设施供需偏紧格局未改。",
       "roles": [
-        { "id": "dc_operator",    "name": "数据中心运营" },
-        { "id": "power_supply",   "name": "电力供给" },
-        { "id": "liquid_cooling", "name": "液冷散热" }
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
       ]
     }
   ],
-  "macro": "中美AI产业链分割态势在6月22日进一步明朗化：中国2万亿元AI国产芯片强制替代计划出台，英伟达实质退出中国市场，全球AI供应链地缘重构加速。欧盟AI法案8月合规截止日临近，全球监管框架持续分化。谷歌核心AI人才大规模流失引发行业人才战再度升温；微软CEO公开批评AI集中化，预示下一阶段产业政策博弈提前蓄力。",
+  "macro": "美国商务部出口管制对前沿AI模型扩散形成限制（Anthropic Fable 5/Mythos 5禁止外国公民访问）；五眼联盟联合预警AI网络攻击威胁，推动各国加速防御性AI立法；欧盟AI法案8月2日透明度义务截止临近；中国以国家主导方式推进2万亿元算力网格，国产AI产业链替代逻辑进一步强化。",
   "tomorrow_focus": [
-    "Alphabet管理层是否就AI人才流失发表公开声明，及谷歌DeepMind是否启动人才保留举措",
-    "中国2万亿元AI算力国家网格计划正式文件（国发委发布）进展及相关国产芯片厂商市场反应",
-    "欧盟AI法案延期修正案（推迟至2027年12月）最新投票动向及主要成员国表态"
+    "谷歌Gemini 3.5 Pro是否正式GA及对GPT-5.5系列市场格局的实际冲击",
+    "中国2万亿元AI数据中心规划落地细节，华为昇腾/寒武纪等国产芯片受益程度",
+    "Anthropic Fable 5出口管制解禁进程及全球用户恢复时间表"
   ]
 }
