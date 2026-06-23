@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-24 07:05",
+  "news": [
+    {
+      "source": "OpenAI / SiliconAngle",
+      "title": "OpenAI发布GPT-5.5-Cyber模型并启动Patch the Planet开源安全计划",
+      "summary": "OpenAI于6月23日推出专为网络安全设计的GPT-5.5-Cyber模型（CyberGym评分85.6%），并与Trail of Bits合作发起Patch the Planet计划，联合HackerOne等机构为Python、cURL等逾30个开源项目提供自动化漏洞修复，属Daybreak防御性AI安全倡议延伸。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "enterprise_ai",
+        "ai_compliance"
+      ]
+    },
+    {
+      "source": "CNBC / Dataconomy",
+      "title": "SpaceX与开源AI初创Reflection AI签署最高63亿美元算力协议",
+      "summary": "SpaceX旗下Colossus 2数据中心与Reflection AI签署长期算力协议，后者将从2026年7月起每月支付约1.5亿美元，合同总额最高达63亿美元，可获取NVIDIA GB300芯片算力。此前SpaceX已陆续与Anthropic、Google、Cursor签署算力协议。",
+      "sector_ids": [
+        "infra"
+      ],
+      "role_ids": [
+        "dc_operator"
+      ]
+    },
+    {
+      "source": "CryptoBriefing / JustSecurity",
+      "title": "五眼联盟联合警告：AI驱动网络攻击威胁或在数月内爆发",
+      "summary": "美英加澳新五国情报机构发出联合声明，称先进AI系统进化速度超出业界预期，可能在数月内使政府及大型企业面临AI驱动的大规模网络攻击，呼吁各组织立即实施基础网络卫生及弹性措施。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "AIToolsRecap / Anthropic",
+      "title": "Anthropic将Claude Fable 5从标准订阅剥离，改为独立付费层级",
+      "summary": "6月23日起，Anthropic将Claude Fable 5从Pro、Max、Team及企业订阅默认包含选项中移除，改为独立付费层级。背景为6月12日美国商务部以国家安全为由，对Fable 5和Mythos 5发布出口管制指令，禁止外国公民访问。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    },
+    {
+      "source": "TechTimes / Bloomberg",
+      "title": "中国拟5年投2万亿元建国家AI数据中心网络，强制80%采用国产芯片",
+      "summary": "中国国家发改委正起草总额约2950亿美元（约2万亿元人民币）的五年计划，将数千个数据中心连接为全国算力网格，规定80%以上底层技术须采用国产AI芯片，计划2028年完工，英伟达和AMD在华采购空间进一步受压。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "domestic_gpu",
+        "dc_operator",
+        "chip_design"
+      ]
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "ASML 4亿美元高NA EUV设备：先进制程成本攀升，中国加快自研EUV突破",
+      "summary": "MIT Technology Review于6月23日报道，最先进晶圆厂建设成本已升至约250亿美元，单片先进晶圆价格逼近10万美元，现有ASML/台积电供应体系预计无法满足AI算力爆发需求。中国正大规模投入自研EUV光刻技术，已雇用前ASML工程师参与研发。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "chip_design"
+      ]
+    },
+    {
+      "source": "Google / LLM-stats",
+      "title": "谷歌Gemini 3.5 Pro进入正式发布窗口，上下文窗口达200万Token",
+      "summary": "分析追踪机构显示，谷歌Gemini 3.5 Pro预计6月23至30日期间正式向公众开放，支持200万Token上下文窗口（生产级模型中最大），含Deep Think深度推理模式，定位为OpenAI GPT-5.5系列直接竞品。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    },
+    {
+      "source": "TechRadar / Anthropic",
+      "title": "Anthropic Claude全系模型6月23日出现全球服务故障，约90分钟后恢复",
+      "summary": "6月23日，Anthropic旗下Claude全系模型出现全球范围内错误率升高，影响Pro及API用户，Anthropic于北京时间当日晚间约1时确认故障已解除。此次故障恰发生在Fable 5出口管制事件及订阅结构调整同日。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "AI芯片/算力",
+      "icon": "⚡",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "中国2万亿元国家算力网格规划加速国产替代，先进制程成本高企凸显全球供应瓶颈。",
+      "content": "中国国家发改委正起草2950亿美元五年算力网格计划，要求80%采用国产AI芯片，华为昇腾、阿里T-Head等已获国家安全认证，英伟达在华数据中心芯片出货量已降至零。MIT Technology Review同日报道ASML高NA EUV设备单台约4亿美元，先进晶圆厂建设成本升至250亿美元，全球先进制程产能长期偏紧，中国加快自研EUV布局，国产AI芯片替代逻辑持续强化。",
+      "roles": [
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "AI模型/平台",
+      "icon": "🧠",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "OpenAI强化安全垂类，Anthropic受出口管制及故障双重压力，谷歌Gemini 3.5 Pro即将GA。",
+      "content": "6月23日，OpenAI推出GPT-5.5-Cyber安全专项模型并发起Patch the Planet开源安全计划，将AI嵌入防御性网络安全场景。Anthropic当日将Fable 5移出标准套餐且遭遇全球服务故障，出口管制压力对其商业化路径构成制约。谷歌Gemini 3.5 Pro预计本周内正式GA，以200万Token上下文及Deep Think模式形成差异竞争。大模型市场格局持续动态演变，监管与安全因素影响模型可及性。",
+      "roles": [
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "AI应用层",
+      "icon": "📱",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "五眼联盟AI网络攻击预警与OpenAI安全工具上线，AI安全合规应用需求加速释放。",
+      "content": "五眼情报联盟发布联合警告，称AI驱动的大规模网络攻击可能在数月内爆发，促使企业加速部署AI安全防护工具。OpenAI同日发布GPT-5.5-Cyber并联合30余个开源项目启动自动化漏洞修复，AI在网络安全领域商业化落地加速。企业AI安全合规产品及AI赋能漏洞检测平台需求预计走强，EU AI法案8月2日透明度义务截止临近，AI合规监管应用场景持续扩张。",
+      "roles": [
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "数据中心/基础设施",
+      "icon": "🏗️",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "SpaceX Colossus商业算力模式持续扩张，中国2万亿国家算力网格规划支撑基础设施长期需求。",
+      "content": "SpaceX与Reflection AI签署最高63亿美元算力协议，继Anthropic、Google、Cursor之后，Colossus 2数据中心商业算力出租模式持续扩张。中国同期推进2万亿元国家算力网格计划，预计带动大规模数据中心建设、电力供给及液冷散热配套需求。2026年全球超大规模数据中心资本支出预估超6000亿美元，基础设施供需偏紧格局未改。",
+      "roles": [
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
+      ]
+    }
+  ],
+  "macro": "美国商务部出口管制对前沿AI模型扩散形成限制（Anthropic Fable 5/Mythos 5禁止外国公民访问）；五眼联盟联合预警AI网络攻击威胁，推动各国加速防御性AI立法；欧盟AI法案8月2日透明度义务截止临近；中国以国家主导方式推进2万亿元算力网格，国产AI产业链替代逻辑进一步强化。",
+  "tomorrow_focus": [
+    "谷歌Gemini 3.5 Pro是否正式GA及对GPT-5.5系列市场格局的实际冲击",
+    "中国2万亿元AI数据中心规划落地细节，华为昇腾/寒武纪等国产芯片受益程度",
+    "Anthropic Fable 5出口管制解禁进程及全球用户恢复时间表"
+  ]
+}
