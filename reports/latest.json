@@ -1,69 +1,126 @@
 {
-  "date": "2026-08-03",
-  "generated_at": "2026-08-04 07:14",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-06 07:16",
   "news": [
     {
-      "source": "Bloomberg / CNBC / Forbes",
-      "title": "阿里巴巴发布Qwen3.8-Max：2.4万亿参数模型声称在多项测试中匹敌Anthropic",
-      "summary": "阿里巴巴于8月3日发布其迄今最大AI模型Qwen3.8-Max，拥有2.4万亿参数，在多模态推理、视觉代理与编程等基准测试中声称超越Anthropic Fable 5。阿里股价随即上涨。该模型权重计划于8月10日公开发布。独立榜单显示其文本能力仍落后于Claude系列，但在图像视觉评测中跻身全球第二。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform"]
+      "source": "TechCrunch / The Register",
+      "title": "Anthropic与Volta签署100亿美元算力协议，挪威数据中心采用Nvidia Vera Rubin芯片",
+      "summary": "Anthropic签署为期六年、总额100亿美元的云算力协议，合作方为7个月新创公司Volta。Bitdeer将在挪威Tydal建设133MW水电数据中心，搭载Nvidia Vera Rubin架构芯片，JP摩根提供13亿美元信用背书，分两期于2026年底和2027年一季度交付。",
+      "sector_ids": [
+        "infra",
+        "models"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "llm_lab",
+        "power_supply"
+      ]
     },
     {
-      "source": "Bloomberg / TechTimes",
-      "title": "亚马逊将2026年AI资本支出提至2200亿美元，AWS Q2增速创18季度新高",
-      "summary": "亚马逊将2026年资本支出目标上调至2200亿美元（原为2000亿），原因是AI内存成本上升。AWS Q2营收422亿美元，同比增长37%，为18个季度最快增速。首席执行官安迪·贾西表示，AI推理需求正推动AWS进入新增长阶段，但产能预计将在2027年之前持续紧张。",
-      "sector_ids": ["infra", "models"],
-      "role_ids": ["dc_operator", "cloud_platform"]
+      "source": "StorageNewsletter / PR Newswire",
+      "title": "SK Hynix与SanDisk在FMS 2026发布首个HBF行业标准规范",
+      "summary": "SK Hynix与SanDisk于Flash Memory Summit 2026（8月4-6日，圣克拉拉）通过OCP发布高带宽闪存首个技术规范，覆盖512GB容量（8/16层NAND），带宽分三档从约0.4 TB/s扩展至3.0 TB/s，定位HBM与SSD之间的AI推理存储新层次。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "adv_packaging",
+        "dc_operator"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "韩国边缘AI芯片公司DeepX完成D轮融资，估值升至22亿美元",
-      "summary": "韩国AI芯片设计商DeepX完成D轮首批融资，估值约为3.14万亿韩元（约22亿美元），较此前估值涨约四倍。DeepX专注于机器人与边缘设备（而非数据中心）的AI推理芯片，已与BNW Investment和DS Asset Management完成首笔签约，计划于9月前共募资3000亿韩元，并积极筹备IPO。",
-      "sector_ids": ["chips"],
-      "role_ids": ["chip_design"]
+      "source": "The Register / TechRadar",
+      "title": "微软向工程师设置AI Token预算，要求停止Token最大化行为",
+      "summary": "微软EVP Jay Parikh发内部邮件，宣布各部门设立AI Token预算目标，内部默认模型切换至成本更低的GPT-5.6，强调优化目标是对客户和业务的实质影响而非Token消耗量，旨在控制AI工具使用成本。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "cloud_platform",
+        "enterprise_ai"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "ASML关键供应商蔡司：具备充分产能应对AI零部件需求激增",
-      "summary": "德国蔡司集团（Zeiss）回应投资者对AI半导体供应链瓶颈的担忧，表示其光刻镜头业务已在总部奥博科亨进行扩产，有能力消化来自ASML的持续增量订单。蔡司是ASML EUV光刻机光学系统的核心供应商，其表态被市场解读为AI芯片供应链上游压力暂时可控。",
-      "sector_ids": ["chips"],
-      "role_ids": ["wafer_foundry", "chip_design"]
+      "source": "HPCwire / Anaconda",
+      "title": "Anaconda收购AI安全初创公司Enkrypt AI，扫描显示73%的MCP服务器存在漏洞",
+      "summary": "Anaconda宣布收购Enkrypt AI（金额未披露），将其300+攻击类别红队测试、运行时防护及NIST/EU AI法案合规自动化能力并入平台。收购前两个月Enkrypt扫描2.5万个MCP服务器发现逾14.3万个安全漏洞，影响73%受检服务器。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "enterprise_saas",
+        "ai_compliance"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "花旗集团证券：到2028年AI芯片基础设施融资债务将超5000亿美元",
-      "summary": "花旗集团证券（Citadel Securities）预测，公开和私募市场将在2028年前为AI算力扩张新增5000亿美元以上融资债务，主要用于采购数据中心GPU芯片。债务期限预计集中在3至5年，与芯片使用寿命匹配，部分可能以144A私募形式发行，反映大规模AI基础设施建设对资本市场的吸引力持续攀升。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["dc_operator", "chip_design"]
+      "source": "EU AI Office / Latham & Watkins",
+      "title": "欧盟AI法案透明度条款正式生效，高风险AI条款延期12至16个月",
+      "summary": "2026年8月2日，欧盟AI法案第50条透明度义务正式可执行，要求AI系统向用户明确表明身份。欧洲议会同期以423:57通过数字综合修正案，将高风险AI系统合规期延迟12至16个月，违规最高罚款为1500万欧元或全球营业额3%。",
+      "sector_ids": [
+        "apps",
+        "models"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_ai",
+        "llm_lab"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "苹果Siri AI将随iOS 27秋季推出，或成全球覆盖范围最广AI聊天工具",
-      "summary": "彭博报道，苹果计划于今秋随iOS 27发布全新Siri AI，凭借iPhone庞大装机量，Siri AI一经推出将即刻成为全球覆盖面最广的AI助手。这一动态将苹果正式纳入大模型竞争格局，对现有ChatGPT、Gemini、Claude等产品的终端流量格局构成潜在冲击。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "enterprise_saas"]
+      "source": "gHacks / TechSpot / Forbes",
+      "title": "OpenAI用户突破10亿，同步下调GPT-5.6 Luna定价80%",
+      "summary": "OpenAI宣布月活用户超10亿，同步将GPT-5.6 Luna定价下调80%至每百万输入token 0.2美元，Terra下调20%，降价路径为模型自身推理效率优化。Sol旗舰模型价格不变。此次降价距GPT-5.6发布仅三周，应对中国竞品及云厂商价格竞争压力。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform",
+        "enterprise_ai"
+      ]
     },
     {
-      "source": "Bloomberg",
-      "title": "美国AI主导权争夺加剧美中技术紧张态势",
-      "summary": "彭博社评论称，美国持续通过出口管制等手段遏制中国AI发展，但阿里、华为等中国企业的技术突破显示管制效果受限。中国在AI模型、芯片国产化等领域的持续进展正加剧两国科技博弈，并进一步影响全球半导体供应链布局与地缘政治格局。",
-      "sector_ids": ["chips", "models"],
-      "role_ids": ["chip_design", "domestic_gpu", "llm_lab"]
+      "source": "CNBC / Tom's Hardware",
+      "title": "四大超大规模云厂商2026年AI资本开支合计7250亿美元，同比增77%",
+      "summary": "据最新财报及指引，亚马逊约2000亿、谷歌1750至1850亿、微软1900亿、Meta 1250至1450亿美元，四家合计约7250亿美元资本开支，年增约77%。增量主要流向AI算力、数据中心建设和电力基础设施，带动先进封装及液冷产业链需求持续增长。",
+      "sector_ids": [
+        "infra",
+        "chips"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "power_supply",
+        "liquid_cooling",
+        "chip_design"
+      ]
     },
     {
-      "source": "TechCrunch",
-      "title": "美国国会AI工具使用调查：ChatGPT占美国众议院AI工具支出约90%",
-      "summary": "美国众议院支出记录显示，OpenAI的ChatGPT在国会山AI工具使用中占据主导地位，在截至2026年3月31日的一年内约占众议院AI工具总支出的90%，用于起草备忘录、汇总法案及选民沟通服务。Anthropic的Claude以37笔交易排名第二。这一数据反映出ChatGPT在政府级AI工具采购中的领先地位。",
-      "sector_ids": ["apps", "models"],
-      "role_ids": ["enterprise_saas", "llm_lab", "ai_compliance"]
+      "source": "Reuters / Fortune",
+      "title": "中国监管层就限制先进AI模型境外访问与大模型企业展开会谈",
+      "summary": "据报道，网信办于7月下旬召集阿里巴巴、字节跳动及智谱等企业会谈，就限制境外访问中国先进AI模型（含未发布及开源模型）进行政策讨论。相关措施若落地或纳入出口限制技术目录，目前具体法规尚未颁布。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
     },
     {
-      "source": "TechCrunch",
-      "title": "Salesforce前高管携Marc Benioff支持成立初创公司June，专攻企业AI落地难题",
-      "summary": "前Salesforce高管Efrat Rapoport创立的初创公司June宣布走出隐身模式，专注于帮助大型企业提升AI工具部署的可靠性与稳定性。联合创始人指出，AI反而推动了企业对专业服务的更大需求，而非减少。该公司获得Salesforce创始人Marc Benioff的支持，目标是打通企业AI从采购到实际落地的最后一公里。",
-      "sector_ids": ["apps"],
-      "role_ids": ["enterprise_saas", "enterprise_ai"]
+      "source": "Tom's Hardware / WCCFTech",
+      "title": "台积电A16节点进入试产阶段，目标2026年四季度量产",
+      "summary": "台积电A16（1.6nm级）工艺目前处于试产阶段，计划2026年四季度实现量产。相较N2P，A16性能提升8至10%或功耗降低15至20%，引入背面供电SuperPowerRail技术，OpenAI已为其自定义AI芯片提交该工艺订单，成品芯片预计2027至2028年面世。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "chip_design"
+      ]
     }
   ],
   "sectors": [
@@ -73,27 +130,48 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "多维度利好信号汇聚：边缘AI芯片融资创新高，供应链上游表态产能充裕，资本市场对芯片债务规模的预期持续上调。",
-      "content": "8月3日，韩国DeepX完成D轮融资，估值升至22亿美元（约为前次四倍），证明边缘AI芯片赛道仍获资本高度认可。ASML核心供应商蔡司明确表示产能充足，缓解了市场对EUV光学环节瓶颈的担忧。花旗集团证券预测到2028年AI芯片融资债务将超5000亿美元，折射出各方对AI算力长周期投入的强烈预期。中美技术博弈持续，华为Ascend系列国产替代步伐加快，阿里巴巴旗下Qwen模型在算力需求上亦为国产GPU生态带来内生增量。",
+      "summary": "HBF新标准发布，台积电A16稳步推进，超大规模资本开支驱动芯片产业链需求旺盛",
+      "content": "SK Hynix与SanDisk在FMS 2026发布HBF首个OCP技术规范，为AI推理存储开辟HBM与SSD之间的新层次，最高3.0 TB/s带宽受业界关注。台积电A16节点试产顺利，四季度量产在望，OpenAI等客户已提前布局。四大超大规模云厂商合计7250亿美元资本开支为芯片需求提供强力支撑，先进封装和国产替代赛道同步受益。华为2026年计划生产60万颗昇腾910C，持续扩大在中国AI芯片市场份额。",
       "roles": [
-        { "id": "chip_design",   "name": "芯片设计" },
-        { "id": "wafer_foundry", "name": "晶圆代工" },
-        { "id": "adv_packaging", "name": "先进封装" },
-        { "id": "domestic_gpu",  "name": "国产替代" }
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
       ]
     },
     {
       "id": "models",
       "name": "AI模型/平台",
       "icon": "🧠",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "阿里Qwen3.8-Max发布引发中美模型竞争新一轮激化；苹果入局有望大幅拓展AI模型终端触达覆盖。",
-      "content": "阿里巴巴8月3日发布2.4万亿参数的Qwen3.8-Max，在多模态和视觉测评中声称达到或超越Anthropic Fable 5，中国大模型持续在性能上缩小差距。苹果计划随iOS 27推出全新Siri AI，凭借全球数十亿装机量将成为覆盖面最广的AI助手，对现有模型平台的流量格局带来冲击。美国国会AI采购数据显示OpenAI在政府端具有先发优势，Anthropic居次。OpenAI早前因模型越狱攻击Hugging Face事件引发的安全讨论，也使整体行业对模型边界管控的重视程度上升。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "OpenAI用户破十亿并大幅降价，中国AI模型出口管控讨论增加不确定性",
+      "content": "OpenAI月活突破10亿并将GPT-5.6 Luna定价下调80%，价格竞争态势加剧，Anthropic等同业面临压力。微软内部推行AI Token预算管控，显示企业侧ROI审视趋严。欧盟AI法案透明度义务正式生效，模型提供商需满足合规要求。与此同时，中国监管层就限制先进AI模型境外访问与主要大模型企业展开会谈，若政策落地将影响相关企业的海外商业化进程。",
       "roles": [
-        { "id": "llm_lab",        "name": "大模型研发" },
-        { "id": "cloud_platform", "name": "云计算平台" },
-        { "id": "enterprise_ai",  "name": "企业AI工具" }
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
       ]
     },
     {
@@ -102,12 +180,21 @@
       "icon": "📱",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "企业AI落地仍面临部署复杂性挑战；政府端采购明确向ChatGPT集中；合规压力随EU AI Act正式生效而上升。",
-      "content": "TechCrunch报道显示，Marc Benioff支持的初创公司June专注解决企业AI部署可靠性问题，表明大模型能力与实际落地之间的鸿沟仍是主要产业阻力。美国国会数据显示，政府AI采购高度集中于OpenAI，Anthropic以较大差距居次，其余厂商尚未获得规模政府合同。EU AI Act高风险AI系统合规截止日期为8月2日，将提升合规成本，但同时为AI合规工具与咨询服务提供商带来新机遇。整体来看，应用层处于快速扩张但结构性落地摩擦未消的过渡阶段。",
+      "summary": "AI安全合规赛道受EU AI法案落地催化，企业AI工具ROI压力上升",
+      "content": "Anaconda收购Enkrypt AI标志着AI安全与合规工具迎来整合浪潮，MCP服务器漏洞率73%的调查结果凸显企业AI部署的安全缺口。EU AI法案透明度条款落地推动AI合规服务需求。微软Token预算政策反映企业客户对AI工具成本收益的重新评估。GPT-5.6大幅降价有望降低AI应用开发和部署门槛，为SaaS层提供新增机遇。",
       "roles": [
-        { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶" },
-        { "id": "ai_compliance",   "name": "合规监管" }
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
       ]
     },
     {
@@ -116,19 +203,28 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "亚马逊将2026年AI资本支出提升至2200亿美元；四大超大规模云服务商合计投入预计达7250亿美元，但产能紧张将持续至2027年。",
-      "content": "亚马逊将2026年资本支出目标上调至2200亿美元（原为2000亿），AWS Q2增速37%创18季度新高，AI推理工作负载成为主要增长驱动力。首席执行官贾西表示AI和自研芯片各自年化收入均已超过250亿美元，但产能扩张无法立即跟上需求，预计紧缺将延续至2027年。亚马逊、微软、谷歌和Meta四大超大规模云商合计预期在2026年投入约7250亿美元于AI基础设施，同比增长77%。花旗集团证券预计芯片融资债务将在资本市场持续放量。",
+      "summary": "Anthropic百亿算力大单与四大云厂商资本开支双双推高基础设施需求，电力供给成核心瓶颈",
+      "content": "Anthropic与Volta签署100亿美元算力协议，采用Nvidia Vera Rubin架构在挪威部署133MW水电数据中心，背后JP摩根信用背书揭示算力金融化趋势。四大超大规模厂商2026年合计资本开支约7250亿美元，同比增77%，持续拉动液冷散热、电力设备等产业链。电力接入周期（5至7年）远长于数据中心建设周期（12至18个月）的矛盾日益突出，清洁能源资产直接持有成为大厂新策略。",
       "roles": [
-        { "id": "dc_operator",    "name": "数据中心运营" },
-        { "id": "power_supply",   "name": "电力供给" },
-        { "id": "liquid_cooling", "name": "液冷散热" }
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
       ]
     }
   ],
-  "macro": "EU AI Act高风险AI系统合规截止日于8月2日正式生效，美国营运商面临跨境合规压力。美中AI主导权博弈持续，出口管制与国产替代并行推进。OpenAI与Anthropic联署AI节奏倡议，呼吁国际机制介入管控前沿模型研发速度，政策走向值得持续观察。四大云商2026年AI基础设施合计支出预计高达7250亿美元，AI产业链资本扩张节奏仍居历史高位。",
+  "macro": "欧盟AI法案透明度条款于8月2日正式执行，高风险AI合规期延迟12至16个月；中国就限制先进AI模型出口展开政策讨论，影响中国AI企业国际化进程；美国对华AI芯片出口管控持续收紧，华为昇腾等国产芯片加速填补市场空缺；四大超大规模厂商7250亿美元资本开支构成AI产业链核心增长驱动。",
   "tomorrow_focus": [
-    "阿里巴巴Qwen3.8-Max权重计划8月10日公开发布，届时将触发新一轮开源社区测评与技术分析，关注独立评测结果与中美模型对比数据",
-    "亚马逊AWS产能紧张声明后，各主流云平台GPU算力供需与定价动态值得关注，特别是高性能推理实例排队情况",
-    "NVIDIA Q2 FY2027财报将于8月26日发布，市场对其Blackwell系列订单量及2027财年指引的预期正在形成，前期分析师预测动向可关注"
+    "FMS 2026（Flash Memory Summit）最终日（8月6日）或有更多HBF、HBM及新型存储架构发布",
+    "AI4 2026大会第三日（8月6日）在拉斯维加斯收官，关注AI落地与企业采购动向",
+    "关注欧盟AI法案透明度条款落地后首批合规案例及监管机构初步反馈"
   ]
 }
