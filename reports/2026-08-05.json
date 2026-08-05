@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-06 07:16",
+  "news": [
+    {
+      "source": "TechCrunch / The Register",
+      "title": "Anthropic与Volta签署100亿美元算力协议，挪威数据中心采用Nvidia Vera Rubin芯片",
+      "summary": "Anthropic签署为期六年、总额100亿美元的云算力协议，合作方为7个月新创公司Volta。Bitdeer将在挪威Tydal建设133MW水电数据中心，搭载Nvidia Vera Rubin架构芯片，JP摩根提供13亿美元信用背书，分两期于2026年底和2027年一季度交付。",
+      "sector_ids": [
+        "infra",
+        "models"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "llm_lab",
+        "power_supply"
+      ]
+    },
+    {
+      "source": "StorageNewsletter / PR Newswire",
+      "title": "SK Hynix与SanDisk在FMS 2026发布首个HBF行业标准规范",
+      "summary": "SK Hynix与SanDisk于Flash Memory Summit 2026（8月4-6日，圣克拉拉）通过OCP发布高带宽闪存首个技术规范，覆盖512GB容量（8/16层NAND），带宽分三档从约0.4 TB/s扩展至3.0 TB/s，定位HBM与SSD之间的AI推理存储新层次。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "adv_packaging",
+        "dc_operator"
+      ]
+    },
+    {
+      "source": "The Register / TechRadar",
+      "title": "微软向工程师设置AI Token预算，要求停止Token最大化行为",
+      "summary": "微软EVP Jay Parikh发内部邮件，宣布各部门设立AI Token预算目标，内部默认模型切换至成本更低的GPT-5.6，强调优化目标是对客户和业务的实质影响而非Token消耗量，旨在控制AI工具使用成本。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "cloud_platform",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "HPCwire / Anaconda",
+      "title": "Anaconda收购AI安全初创公司Enkrypt AI，扫描显示73%的MCP服务器存在漏洞",
+      "summary": "Anaconda宣布收购Enkrypt AI（金额未披露），将其300+攻击类别红队测试、运行时防护及NIST/EU AI法案合规自动化能力并入平台。收购前两个月Enkrypt扫描2.5万个MCP服务器发现逾14.3万个安全漏洞，影响73%受检服务器。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "enterprise_saas",
+        "ai_compliance"
+      ]
+    },
+    {
+      "source": "EU AI Office / Latham & Watkins",
+      "title": "欧盟AI法案透明度条款正式生效，高风险AI条款延期12至16个月",
+      "summary": "2026年8月2日，欧盟AI法案第50条透明度义务正式可执行，要求AI系统向用户明确表明身份。欧洲议会同期以423:57通过数字综合修正案，将高风险AI系统合规期延迟12至16个月，违规最高罚款为1500万欧元或全球营业额3%。",
+      "sector_ids": [
+        "apps",
+        "models"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_ai",
+        "llm_lab"
+      ]
+    },
+    {
+      "source": "gHacks / TechSpot / Forbes",
+      "title": "OpenAI用户突破10亿，同步下调GPT-5.6 Luna定价80%",
+      "summary": "OpenAI宣布月活用户超10亿，同步将GPT-5.6 Luna定价下调80%至每百万输入token 0.2美元，Terra下调20%，降价路径为模型自身推理效率优化。Sol旗舰模型价格不变。此次降价距GPT-5.6发布仅三周，应对中国竞品及云厂商价格竞争压力。",
+      "sector_ids": [
+        "models",
+        "apps"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform",
+        "enterprise_ai"
+      ]
+    },
+    {
+      "source": "CNBC / Tom's Hardware",
+      "title": "四大超大规模云厂商2026年AI资本开支合计7250亿美元，同比增77%",
+      "summary": "据最新财报及指引，亚马逊约2000亿、谷歌1750至1850亿、微软1900亿、Meta 1250至1450亿美元，四家合计约7250亿美元资本开支，年增约77%。增量主要流向AI算力、数据中心建设和电力基础设施，带动先进封装及液冷产业链需求持续增长。",
+      "sector_ids": [
+        "infra",
+        "chips"
+      ],
+      "role_ids": [
+        "dc_operator",
+        "power_supply",
+        "liquid_cooling",
+        "chip_design"
+      ]
+    },
+    {
+      "source": "Reuters / Fortune",
+      "title": "中国监管层就限制先进AI模型境外访问与大模型企业展开会谈",
+      "summary": "据报道，网信办于7月下旬召集阿里巴巴、字节跳动及智谱等企业会谈，就限制境外访问中国先进AI模型（含未发布及开源模型）进行政策讨论。相关措施若落地或纳入出口限制技术目录，目前具体法规尚未颁布。",
+      "sector_ids": [
+        "models"
+      ],
+      "role_ids": [
+        "llm_lab",
+        "cloud_platform"
+      ]
+    },
+    {
+      "source": "Tom's Hardware / WCCFTech",
+      "title": "台积电A16节点进入试产阶段，目标2026年四季度量产",
+      "summary": "台积电A16（1.6nm级）工艺目前处于试产阶段，计划2026年四季度实现量产。相较N2P，A16性能提升8至10%或功耗降低15至20%，引入背面供电SuperPowerRail技术，OpenAI已为其自定义AI芯片提交该工艺订单，成品芯片预计2027至2028年面世。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "chip_design"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "AI芯片/算力",
+      "icon": "⚡",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "HBF新标准发布，台积电A16稳步推进，超大规模资本开支驱动芯片产业链需求旺盛",
+      "content": "SK Hynix与SanDisk在FMS 2026发布HBF首个OCP技术规范，为AI推理存储开辟HBM与SSD之间的新层次，最高3.0 TB/s带宽受业界关注。台积电A16节点试产顺利，四季度量产在望，OpenAI等客户已提前布局。四大超大规模云厂商合计7250亿美元资本开支为芯片需求提供强力支撑，先进封装和国产替代赛道同步受益。华为2026年计划生产60万颗昇腾910C，持续扩大在中国AI芯片市场份额。",
+      "roles": [
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "AI模型/平台",
+      "icon": "🧠",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "OpenAI用户破十亿并大幅降价，中国AI模型出口管控讨论增加不确定性",
+      "content": "OpenAI月活突破10亿并将GPT-5.6 Luna定价下调80%，价格竞争态势加剧，Anthropic等同业面临压力。微软内部推行AI Token预算管控，显示企业侧ROI审视趋严。欧盟AI法案透明度义务正式生效，模型提供商需满足合规要求。与此同时，中国监管层就限制先进AI模型境外访问与主要大模型企业展开会谈，若政策落地将影响相关企业的海外商业化进程。",
+      "roles": [
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "AI应用层",
+      "icon": "📱",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "AI安全合规赛道受EU AI法案落地催化，企业AI工具ROI压力上升",
+      "content": "Anaconda收购Enkrypt AI标志着AI安全与合规工具迎来整合浪潮，MCP服务器漏洞率73%的调查结果凸显企业AI部署的安全缺口。EU AI法案透明度条款落地推动AI合规服务需求。微软Token预算政策反映企业客户对AI工具成本收益的重新评估。GPT-5.6大幅降价有望降低AI应用开发和部署门槛，为SaaS层提供新增机遇。",
+      "roles": [
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "数据中心/基础设施",
+      "icon": "🏗️",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "Anthropic百亿算力大单与四大云厂商资本开支双双推高基础设施需求，电力供给成核心瓶颈",
+      "content": "Anthropic与Volta签署100亿美元算力协议，采用Nvidia Vera Rubin架构在挪威部署133MW水电数据中心，背后JP摩根信用背书揭示算力金融化趋势。四大超大规模厂商2026年合计资本开支约7250亿美元，同比增77%，持续拉动液冷散热、电力设备等产业链。电力接入周期（5至7年）远长于数据中心建设周期（12至18个月）的矛盾日益突出，清洁能源资产直接持有成为大厂新策略。",
+      "roles": [
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
+      ]
+    }
+  ],
+  "macro": "欧盟AI法案透明度条款于8月2日正式执行，高风险AI合规期延迟12至16个月；中国就限制先进AI模型出口展开政策讨论，影响中国AI企业国际化进程；美国对华AI芯片出口管控持续收紧，华为昇腾等国产芯片加速填补市场空缺；四大超大规模厂商7250亿美元资本开支构成AI产业链核心增长驱动。",
+  "tomorrow_focus": [
+    "FMS 2026（Flash Memory Summit）最终日（8月6日）或有更多HBF、HBM及新型存储架构发布",
+    "AI4 2026大会第三日（8月6日）在拉斯维加斯收官，关注AI落地与企业采购动向",
+    "关注欧盟AI法案透明度条款落地后首批合规案例及监管机构初步反馈"
+  ]
+}
