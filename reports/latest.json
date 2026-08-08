@@ -1,62 +1,101 @@
 {
-  "date": "2026-08-07",
-  "generated_at": "2026-08-08 07:16",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-09 07:16",
   "news": [
     {
-      "source": "AMD IR / CNBC",
-      "title": "AMD Q2 2026创纪录业绩：数据中心营收同比翻番，AI芯片挑战英伟达",
-      "summary": "AMD发布Q2 2026财报，总营收111.5亿美元，同比增长50%；数据中心营收67亿美元，同比增长107%，占总营收58%。CEO Lisa Su表示将于本季度开始向Meta、OpenAI、Oracle发货Helios AI机架系统，Q3营收指引127亿至133亿美元区间。",
-      "sector_ids": ["chips"],
-      "role_ids": ["chip_design"]
+      "source": "Reuters / TechCrunch",
+      "title": "Tesla与SpaceX联合宣布在德克萨斯州投资168亿美元建设Terafab芯片工厂",
+      "summary": "Tesla和SpaceX确认将在德克萨斯州格莱姆斯县建设名为Terafab的芯片制造综合体，首期投资168亿美元，规划面积超过1亿平方英尺，将成为全球最大建筑。该设施将整合逻辑、存储、封装和测试工艺，生产供Optimus机器人、Cybercab及太空数据中心使用的芯片，计划雇员不低于3000人。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry",
+        "adv_packaging",
+        "dc_operator"
+      ]
     },
     {
-      "source": "Samsung Semiconductor Global / HPCwire",
-      "title": "三星在FMS 2026发布zHBM技术：HBM直接叠放于GPU之上，性能达HBM5的8倍",
-      "summary": "三星电子在FMS 2026（加州圣克拉拉，8月5-7日）发布zHBM新一代3D内存架构，将HBM垂直堆叠于AI加速芯片之上，消除传统Side-by-Side布局的数据传输延迟，带宽达HBM5的约8倍，功耗降低。SK海力士同期跟进分层内存系统，HBM赛道迎来架构性升级竞争。",
-      "sector_ids": ["chips"],
-      "role_ids": ["chip_design", "adv_packaging"]
+      "source": "BusinessWire / Fibre Systems",
+      "title": "光互连初创公司Lumilens从隐身状态出现，融资逾9亿美元，估值55.1亿美元",
+      "summary": "Lumilens于8月6日宣告出现，完成超7亿美元C轮融资，总募资超9亿美元，估值55.1亿美元。公司研发AI数据中心内规模扩展和规模延伸两类光互连芯片，包括共封装光学（CPO）和近封装光学（NPO）产品，已与某超大规模云服务商签署数十亿美元量级供货协议。",
+      "sector_ids": [
+        "chips",
+        "infra"
+      ],
+      "role_ids": [
+        "chip_design",
+        "adv_packaging",
+        "dc_operator",
+        "liquid_cooling"
+      ]
     },
     {
-      "source": "Astera Labs Q2 2026",
-      "title": "Astera Labs Q2营收3.924亿美元同比增长104%，AI互联需求持续爆发",
-      "summary": "Astera Labs发布Q2 2026财报，营收3.924亿美元，同比增长104%，创历史新高。其Scorpio系列AI数据中心交换芯片及PCIe连接方案需求旺盛，下游AI基础设施投资加速是主要驱动力。公司表示大型AI训练集群互联组网正成为核心需求方向。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["chip_design", "dc_operator"]
+      "source": "AMD Investor Relations",
+      "title": "AMD发布2026年Q2财报：营收115亿美元，数据中心业务同比增长107%",
+      "summary": "AMD于8月4日发布第二季度财报，总营收115亿美元，同比增长50%，超出市场预期。数据中心营收翻倍至67亿美元，占总营收58%，主要受EPYC处理器和Instinct GPU需求驱动。同期宣布与Anthropic达成战略合作，将部署最高2GW的MI450系列GPU用于Helios项目，首批1GW部署计划2027年上半年启动。盘后股价下跌逾8%。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "adv_packaging"
+      ]
     },
     {
-      "source": "OpenAI官网",
-      "title": "OpenAI与Broadcom联合推出Jalapeño LLM推理专用芯片，工程样片已通过验证",
-      "summary": "OpenAI与博通联合发布Jalapeño推理专用芯片，工程样片已在实验室以目标频率和功耗完成ML工作负载验证。该芯片针对大语言模型推理场景优化，由TSMC 3nm工艺制造，计划用于OpenAI内部算力集群，不对外出售，是OpenAI自研算力布局的关键里程碑。",
-      "sector_ids": ["chips", "models"],
-      "role_ids": ["chip_design", "llm_lab"]
+      "source": "Samsung Newsroom / TrendForce",
+      "title": "三星在FMS 2026发布zHBM概念，性能声称达到HBM5的8倍",
+      "summary": "三星电子于8月5日在圣克拉拉举办的FMS 2026展会上发布次世代zHBM内存架构概念。zHBM将高带宽内存直接垂直叠加在AI加速芯片上方，理论带宽为HBM5的8倍，内存密度超过HBM5的10倍，能效提升3倍，热阻降低50%以上。目前仍属概念阶段，尚无量产时间表或主流GPU兼容计划。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "chip_design",
+        "adv_packaging"
+      ]
     },
     {
-      "source": "EU AI Office / Wilson Sonsini",
-      "title": "欧盟AI法案GPAI条款执法正式启动，欧委会可对通用AI模型提供商罚款",
-      "summary": "自8月2日起，欧盟《人工智能法案》通用AI模型（GPAI）相关条款执法权力正式生效，欧洲AI办公室可对违规模型提供商展开调查，罚款上限为全球年营业额3%或1500万欧元（取高值）。美国OpenAI、Google、Anthropic等在欧运营的公司均受影响，欧盟成为全球AI监管最具强制力的司法管辖区。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["llm_lab", "ai_compliance"]
+      "source": "TechCrunch / The Information",
+      "title": "Anthropic组建内部芯片设计团队，与三星洽谈定制AI芯片代工合作",
+      "summary": "Anthropic于8月5日证实正在招募芯片架构、设计及验证工程师，薪资最高达48.5万美元，旨在构建用于Claude模型的专用定制芯片。据The Information报道，Anthropic已与三星就芯片代工合作展开谈判，通过硬件软件协同设计提升Claude运行速度并降低成本，但芯片规格及具体角色尚未确定。",
+      "sector_ids": [
+        "chips",
+        "models"
+      ],
+      "role_ids": [
+        "chip_design",
+        "wafer_foundry",
+        "llm_lab",
+        "cloud_platform"
+      ]
     },
     {
-      "source": "CloudComputing News / TechTimes",
-      "title": "AMD与Core Scientific签署140亿美元15年数据中心协议，最高锁定2.5GW算力容量",
-      "summary": "AMD与Core Scientific（7月28日）宣布战略合作，AMD直接租赁德克萨斯、俄克拉荷马等五地合计530MW数据中心容量，并保留至2028年底额外1,925MW的优先预留权，总容量最高达2.5GW，合同基础价值超140亿美元。合作将部署AMD Instinct GPU及EPYC处理器。",
-      "sector_ids": ["chips", "infra"],
-      "role_ids": ["chip_design", "dc_operator"]
+      "source": "EU Official / IAPP",
+      "title": "欧盟AI法案透明度义务于8月2日正式生效，违规最高罚款全球营收3%",
+      "summary": "欧盟AI法案第50条透明度义务已于8月2日正式进入执法阶段，要求AI系统须向用户进行身份告知、合成内容须加注标记、深度伪造须进行标签。第5条同时禁止生成非同意亲密图像类AI系统。违规企业面临最高全球年营收3%或1500万欧元罚款。美国联邦AI立法因国会分歧仍处停滞状态。",
+      "sector_ids": [
+        "apps"
+      ],
+      "role_ids": [
+        "ai_compliance",
+        "enterprise_ai",
+        "llm_lab"
+      ]
     },
     {
-      "source": "Bloomberg / TechNode",
-      "title": "中国Z.AI建成1GW全国产芯片AI数据中心，多个万卡集群零英伟达依赖",
-      "summary": "北京Z.AI（原清华系智谱AI旗下）完成1GW级AI数据中心建设，全部采用国产芯片（华为昇腾等），内含多个超过万卡规模的计算集群，完全绕开英伟达。该设施电力容量相当于75万户家庭用电，Z.AI表示已于7月提前完成2026年销售目标，年经常性收入目标10亿美元。",
-      "sector_ids": ["infra", "chips"],
-      "role_ids": ["domestic_gpu", "dc_operator"]
-    },
-    {
-      "source": "TechTimes / WindowsNews",
-      "title": "微软加速统一Copilot应用生态，整合消费端与企业端并推出AutoPilot智能体层",
-      "summary": "微软计划于2026年8月前完成消费版Copilot、GitHub Copilot、M365 Copilot及Copilot Cowork的统一整合，形成单一「超级应用」，并在其中引入付费AutoPilot智能体工作流。背景是M365商业用户中仅4.5%付费使用Copilot，且活跃率偏低，整合旨在提升用户留存。",
-      "sector_ids": ["models", "apps"],
-      "role_ids": ["enterprise_ai", "cloud_platform", "enterprise_saas"]
+      "source": "Digitimes / Silicon Report",
+      "title": "AI芯片需求持续爆发，台积电先进封装产能严重吃紧，计划在嘉义新建三座封装厂",
+      "summary": "AI芯片需求推动台积电CoWoS先进封装产能接近满载，成熟制程及封装产能紧张延续。台积电已宣布在台湾嘉义科学园区新建3座先进封装设施以缓解瓶颈。2026年先进封装业务预计占台积电总营收10%以上，封装相关资本支出占年度资本开支约20%，涵盖520至560亿美元规模。",
+      "sector_ids": [
+        "chips"
+      ],
+      "role_ids": [
+        "wafer_foundry",
+        "adv_packaging",
+        "chip_design"
+      ]
     }
   ],
   "sectors": [
@@ -66,13 +105,25 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "AMD数据中心营收翻番、三星zHBM架构突破、OpenAI自研推理芯片验证，AI算力产业链景气度持续走强。",
-      "content": "AMD Q2数据中心营收67亿美元、同比翻番，确认AI加速芯片需求仍处爆发期；Astera Labs AI互联营收同增104%，印证基础设施层全面受益。三星在FMS 2026发布zHBM，将HBM直接叠于GPU上，性能8倍于HBM5，内存架构出现代际变革趋势，SK海力士同步跟进，先进封装量价空间打开。OpenAI与Broadcom联合推出Jalapeño推理专用芯片并完成工程验证，AI大厂自建算力链条提速，TSMC 3nm代工受益。AMD与Core Scientific锁定逾2.5GW数据中心容量，下游扩产信号明确，整体板块基本面利好。",
+      "summary": "多重利好催化：AMD数据中心营收翻倍、Terafab巨型芯片厂宣布、Anthropic加入自研芯片阵营，先进封装产能持续供不应求。",
+      "content": "本周AI芯片板块消息密集：AMD Q2数据中心营收同比增长107%，确认AI算力需求持续高增长；Tesla与SpaceX联手在德克萨斯州规划168亿美元级别的Terafab芯片制造基地，将整合逻辑、存储、封装产业链；Anthropic组建内部芯片设计团队并与三星接触，意味着大模型研发商对定制算力的需求已进入实质阶段；三星zHBM概念亮相FMS展会，若未来实现量产将大幅改变AI加速器内存配置格局。台积电CoWoS先进封装产能持续满载，新建产能落地前供需矛盾预计延续。",
       "roles": [
-        { "id": "chip_design",   "name": "芯片设计" },
-        { "id": "wafer_foundry", "name": "晶圆代工" },
-        { "id": "adv_packaging", "name": "先进封装" },
-        { "id": "domestic_gpu",  "name": "国产替代" }
+        {
+          "id": "chip_design",
+          "name": "芯片设计"
+        },
+        {
+          "id": "wafer_foundry",
+          "name": "晶圆代工"
+        },
+        {
+          "id": "adv_packaging",
+          "name": "先进封装"
+        },
+        {
+          "id": "domestic_gpu",
+          "name": "国产替代"
+        }
       ]
     },
     {
@@ -81,12 +132,21 @@
       "icon": "🧠",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "微软Copilot加速整合应对低活跃率挑战，欧盟GPAI执法启动增添合规成本，模型层机遇与压力并存。",
-      "content": "微软统一Copilot应用生态并引入AutoPilot智能体层，但背后反映出M365商业用户Copilot采用率仅4.5%、活跃度偏低的现实压力，产品整合能否带动收入兑现仍待观察。欧盟AI法案GPAI执法正式启动，OpenAI、Google、Anthropic等全球主流模型提供商在欧合规压力上升，潜在罚款与技术披露要求将增加运营成本。OpenAI自研推理芯片进入工程验证阶段，若后续量产成功将部分减少对英伟达硬件的依赖，模型平台向算力纵向整合趋势延续。整体板块处于机遇与合规压力共存的中性格局。",
+      "summary": "Anthropic向硬件层延伸显示大模型公司向全栈布局演进，AI模型竞争重心逐步从参数规模转向算力效率与成本控制。",
+      "content": "Anthropic宣布组建内部芯片设计团队，标志着大模型头部公司正在从依赖外部算力转向软硬件协同设计，意在通过专用芯片提升Claude模型运行效率并降低边际成本。AMD与Anthropic签署2GW MI450 GPU部署协议，显示云计算与大模型公司在算力层的绑定正在加深。欧盟AI法案透明度义务生效，模型平台公司须在产品层面落实合成内容标注等合规要求，增加短期运营成本。",
       "roles": [
-        { "id": "llm_lab",        "name": "大模型研发" },
-        { "id": "cloud_platform", "name": "云计算平台" },
-        { "id": "enterprise_ai",  "name": "企业AI工具" }
+        {
+          "id": "llm_lab",
+          "name": "大模型研发"
+        },
+        {
+          "id": "cloud_platform",
+          "name": "云计算平台"
+        },
+        {
+          "id": "enterprise_ai",
+          "name": "企业AI工具"
+        }
       ]
     },
     {
@@ -95,12 +155,21 @@
       "icon": "📱",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "欧盟GPAI执法启动增加合规门槛，企业Copilot整合面临采用率挑战，应用层落地节奏分化。",
-      "content": "欧盟《人工智能法案》GPAI条款执法权生效，规定AI系统须向用户明示AI身份、合成内容须加机器可读水印，违规罚款最高达年营收3%或1500万欧元。在欧部署AI应用的企业面临额外合规工作，尤其涉及高风险AI应用的企业须按规定完成注册和透明度要求。微软Copilot在企业用户侧活跃率偏低，折射出通用型AI助手在企业流程中深度融合仍有差距。整体来看，应用层在欧洲市场的扩张节奏受监管因素制约，而在中美市场拓展相对畅通，板块走势分化。",
+      "summary": "欧盟AI法案执法阶段开启，全球AI合规成本上升；美国联邦监管立法停滞，各州监管分歧持续。",
+      "content": "欧盟AI法案透明度义务于8月2日正式进入执法期，高风险AI系统需建立详细系统日志、上市后监控机制，并在15天内向当局报告严重事件；禁止生成非同意亲密图像的AI系统，违规最高罚款达全球营收3%。这对面向欧盟市场的AI应用公司形成实质合规压力。相较之下，美国联邦层面AI立法因国会政治分歧仍处停滞，各州自行推进立法的状况令企业面临碎片化合规挑战。",
       "roles": [
-        { "id": "enterprise_saas", "name": "企业SaaS" },
-        { "id": "autonomous",      "name": "自动驾驶" },
-        { "id": "ai_compliance",   "name": "合规监管" }
+        {
+          "id": "enterprise_saas",
+          "name": "企业SaaS"
+        },
+        {
+          "id": "autonomous",
+          "name": "自动驾驶"
+        },
+        {
+          "id": "ai_compliance",
+          "name": "合规监管"
+        }
       ]
     },
     {
@@ -109,19 +178,28 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "AMD-Core Scientific 140亿美元锁定2.5GW容量，中国Z.AI建成1GW全国产算力中心，全球算力基础设施扩张提速。",
-      "content": "AMD以140亿美元长期协议锁定Core Scientific逾530MW、并保留2.5GW扩容权，创单一厂商锁定数据中心容量历史记录，彰显算力供给紧俏；中国Z.AI完成1GW纯国产芯片数据中心，验证国产算力规模化部署可行性，对全球数据中心格局具有战略意义。微软、Alphabet、Meta在Q2财报中均将关注点从资本开支总量转向「投产速度」与「能源落地效率」，反映基础设施建设已从粗放扩张进入精细化运营阶段。电力获取持续是主要瓶颈，美国数据中心电力负荷2030年前或增加125GW，液冷等散热技术需求随之上升。",
+      "summary": "Terafab和Lumilens两大重磅投资公告显示，AI基础设施建设进入更大规模和更精细化的新阶段。",
+      "content": "AI基础设施投资本周出现两项重大进展：Tesla与SpaceX联合投资168亿美元的Terafab芯片工厂落定德克萨斯州，将整合存储、逻辑、封装和测试于一体，显示科技企业正加速推进算力自主可控；光互连初创公司Lumilens融资超9亿美元，聚焦AI数据中心内GPU间互联瓶颈，已获超大规模云厂商数十亿美元级别采购协议。全球AI数据中心电力需求已超过1000 TWh，电力基础设施成为AI规模扩张的最大约束因素之一。",
       "roles": [
-        { "id": "dc_operator",    "name": "数据中心运营" },
-        { "id": "power_supply",   "name": "电力供给" },
-        { "id": "liquid_cooling", "name": "液冷散热" }
+        {
+          "id": "dc_operator",
+          "name": "数据中心运营"
+        },
+        {
+          "id": "power_supply",
+          "name": "电力供给"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "液冷散热"
+        }
       ]
     }
   ],
-  "macro": "欧盟AI法案GPAI执法权自8月2日正式生效，全球AI监管分水岭确立；美国《大美国AI法案》已在参议院通过联邦抢先条款，中美监管路径分化加剧。AI芯片出口管制持续，中国加速国产替代。全球AI基础设施资本开支预计2026-2030年累计达3万亿美元，算力竞争进入国家战略层面。",
+  "macro": "欧盟AI法案透明度义务8月2日正式进入执法阶段，全球AI监管进入新纪元；美国联邦AI立法因国会分歧停滞，各州监管碎片化加剧。美国本土芯片制造战略提速，Tesla/SpaceX Terafab项目进一步强化美国半导体供应链韧性目标。全球AI算力需求持续高增长，Q2半导体销售额达4033亿美元，同比增长35%。",
   "tomorrow_focus": [
-    "三星zHBM量产时间表与客户谈判进展：FMS 2026后各大云厂商及GPU厂商对zHBM的采购意向值得追踪，可能影响先进封装产业链排期",
-    "AMD Helios AI机架系统首批出货至Meta、OpenAI、Oracle的时间确认及实际部署规模，将验证AMD数据中心业务高速增长的可持续性",
-    "EU AI Office与主要GPAI模型提供商（OpenAI、Google、Anthropic、Meta）的首批「技术合规对话」启动情况，合规进展或触发罚款决定"
+    "关注台积电2026年Q2财报细节及先进封装产能扩张指引，判断封装供应缺口改善时间节点",
+    "关注Anthropic定制芯片与三星合作谈判进展，以及其他大模型公司是否跟进自研芯片布局",
+    "欧盟AI法案高风险系统合规落地情况，企业公告是否涉及产品调整或欧盟业务策略变化"
   ]
 }
