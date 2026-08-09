@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-10 07:19",
+  "news": [
+    {
+      "source": "The Information / BusinessToday",
+      "title": "NVIDIA拟向Stargate开发商Lancium投资最高30亿美元",
+      "summary": "NVIDIA计划向德克萨斯州电力基础设施公司Lancium投资最高30亿美元，初期注资20亿美元获约20%股权，另设10亿美元里程碑条款。Lancium企业估值约100亿美元，是Stargate AI数据中心园区的关键合作方，SoftBank、OpenAI和Oracle联合推进Stargate计划，预计总投入5000亿美元。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
+    },
+    {
+      "source": "Bloomberg",
+      "title": "美国BIS审查中国AI企业通过离岸渠道访问NVIDIA芯片",
+      "summary": "美国商务部工业和安全局（BIS）正在审查中国AI公司如何在海外租用算力以间接获取NVIDIA芯片，并建立两份清单：一份追踪实体走私芯片进入中国的国家，另一份追踪允许中国企业远程访问受限芯片的国家。这一审查建立在今年5-6月出口管制执法行动的基础上。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "domestic_gpu"]
+    },
+    {
+      "source": "Bloomberg / TechStartups",
+      "title": "NVIDIA领投澳大利亚AI数据中心公司Firmus 20亿美元融资",
+      "summary": "澳大利亚AI基础设施公司Firmus完成20亿美元股权融资，由Coatue Management、NVIDIA、Blackstone及Jane Street参投，估值超105亿美元，较四个月前的55亿美元翻近一倍。资金将推进其在澳大利亚的Project Southgate AI工厂建设并向亚太地区扩张。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
+    },
+    {
+      "source": "AMD Investor Relations / CNBC",
+      "title": "AMD发布2026年Q2财报：营收115亿美元，数据中心收入同比翻番",
+      "summary": "AMD公布2026年第二季度营收115亿美元，同比增长50%，超出预期。数据中心业务收入达67亿美元，同比增107%，占总收入58%。公司将于本季度开始向Meta、OpenAI和Oracle发货首款机架级AI系统Helios，直接对标NVIDIA完整系统方案。Q3营收指引约130亿美元。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "adv_packaging"]
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI向免费用户开放GPT-5.6 Luna，无限文字对话",
+      "summary": "OpenAI宣布GPT-5.6 Luna成为ChatGPT免费版和Go版的默认模型，用户可享受无限制文字对话。Luna是GPT-5.6系列中成本效率最高的版本，7月底已降价80%。GPT-5.6系列包含旗舰Sol、均衡型Terra和轻量型Luna三款，Luna在事实准确性上比前代减少约62%错误率。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "cloud_platform"]
+    },
+    {
+      "source": "CNBC / Reuters",
+      "title": "全球半导体Q2销售额达4033亿美元，同比增长35%",
+      "summary": "2026年第二季度全球半导体销售额达4033亿美元，较Q1增长35.1%；6月单月同比增长123.6%。AI驱动的算力需求持续推动芯片市场景气，三星、SK海力士发布HBM架构新进展，包括垂直堆叠技术zHBM和高带宽闪存（HBF）标准以应对AI内存瓶颈。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "wafer_foundry", "adv_packaging"]
+    },
+    {
+      "source": "EU / European Commission",
+      "title": "欧盟AI法案高风险AI义务正式生效，违规最高罚款3500万欧元",
+      "summary": "欧盟《人工智能法案》（AI Act）核心条款自8月2日起正式适用，对高风险AI系统的合规义务（含一致性评估、CE标识）以及通用AI模型透明度要求开始执行，欧盟AI办公室获得正式执法权。违规处罚最高可达3500万欧元或全球年营业额7%。78%的企业尚未采取实质性合规措施。",
+      "sector_ids": ["apps", "models"],
+      "role_ids": ["enterprise_ai", "enterprise_saas", "ai_compliance"]
+    },
+    {
+      "source": "OpenAI / SiliconANGLE",
+      "title": "OpenAI发布Astra模型预告：攻克10道长期未解数学难题",
+      "summary": "OpenAI宣布内部版本下一代旗舰模型Astra解决了数学与理论计算机科学领域10道开放逾十年的难题，包括首次构造出非sofic群（群论百年问题）。公司在GitHub发布249页论文及Lean 4形式化证明，全部计算成本约2000美元。Astra定位为可长时间协调多智能体执行复杂任务的系列模型，尚未正式发布。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab"]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "AI芯片/算力",
+      "icon": "⚡",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "AMD Q2数据中心收入翻番，全球半导体销售持续创历史高位，但中美芯片管控博弈加剧。",
+      "content": "AMD Q2 2026数据中心收入同比增107%至67亿美元，季度总营收达115亿美元，创历史新高，首款机架级AI系统Helios即将出货。全球半导体Q2销售额4033亿美元，AI算力需求持续旺盛。三星、SK海力士推进新一代HBM架构以应对内存瓶颈。与此同时，美国BIS加强对中国企业通过离岸路由获取NVIDIA芯片的审查，中美半导体博弈从实体禁令延伸至算力租用领域，监管边界仍存不确定性。华为Ascend 910C 2026年产能目标60万颗，国产替代进程持续推进。",
+      "roles": [
+        { "id": "chip_design",   "name": "芯片设计" },
+        { "id": "wafer_foundry", "name": "晶圆代工" },
+        { "id": "adv_packaging", "name": "先进封装" },
+        { "id": "domestic_gpu",  "name": "国产替代" }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "AI模型/平台",
+      "icon": "🧠",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "OpenAI大幅降价并扩大开放，Astra下一代旗舰模型展现出突破性科研能力。",
+      "content": "OpenAI将GPT-5.6 Luna（较7月底已降价80%）开放给所有免费用户并取消文字对话限额，加速大模型的普及渗透。OpenAI下一代旗舰Astra内部版本已在数学领域达成人类尚未解决的里程碑成果，计算成本仅约2000美元，显示前沿模型在科学研究领域的实用价值。模型发布节奏加快，GPT-5.6家族（Sol/Terra/Luna）持续优化，OpenAI同时向10万名学术研究者免费开放前沿模型访问权直至2027年。",
+      "roles": [
+        { "id": "llm_lab",        "name": "大模型研发" },
+        { "id": "cloud_platform", "name": "云计算平台" },
+        { "id": "enterprise_ai",  "name": "企业AI工具" }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "AI应用层",
+      "icon": "📱",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "欧盟AI法案高风险义务生效带来合规压力，AI代理安全成五眼联盟关注焦点。",
+      "content": "欧盟AI法案高风险AI系统合规义务自8月2日正式生效，波及在欧盟市场运营的全球企业，违规罚款最高3500万欧元或年营收7%，但调查显示仍有78%企业未采取实质性合规行动。五眼联盟发布《AI代理服务的谨慎采用》指引，列出特权越界、行为不可预测、供应链风险等五大风险类别及逾100项最佳实践，重点关注关键基础设施和国防领域的AI代理部署安全。整体来看，监管框架加速落地是本周应用层的主要基调。",
+      "roles": [
+        { "id": "enterprise_saas", "name": "企业SaaS" },
+        { "id": "autonomous",      "name": "自动驾驶" },
+        { "id": "ai_compliance",   "name": "合规监管" }
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "数据中心/基础设施",
+      "icon": "🏗️",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "NVIDIA双线出击：投资30亿美元入股Lancium电力资产，同时领投澳大利亚AI工厂Firmus 20亿美元。",
+      "content": "NVIDIA本周密集布局数据中心基础设施：一方面以最高30亿美元入股德克萨斯州Lancium（Stargate首个运营站点），获约20%股权，强化对Stargate AI基础设施项目的上游电力资产掌控；另一方面领投澳大利亚Firmus 20亿美元，推动AI工厂扩张至亚太市场。全球AI数据中心建设热度持续高涨，190 GW超大规模容量已被宣布，电力供给已成为AI基础设施扩张的首要瓶颈。TSMC将美国投资总额提升至2650亿美元，进一步锁定先进封装与晶圆制造产能。",
+      "roles": [
+        { "id": "dc_operator",    "name": "数据中心运营" },
+        { "id": "power_supply",   "name": "电力供给" },
+        { "id": "liquid_cooling", "name": "液冷散热" }
+      ]
+    }
+  ],
+  "macro": "欧盟AI法案高风险义务8月2日正式生效，标志着全球AI监管进入实质执法阶段；美国一方面收紧对华芯片出口管制（审查离岸算力租用路径），另一方面通过TSMC、Stargate等巨额投资加固本土AI产业链；中美AI竞争在算力、模型、监管三条战线同步展开。",
+  "tomorrow_focus": [
+    "AMD Helios机架级AI系统首批出货进展及客户（Meta、OpenAI、Oracle）验收反馈",
+    "美国BIS对中国企业离岸访问NVIDIA芯片审查的后续监管动作与潜在新规",
+    "欧盟AI法案第一批执法行动的启动情况及企业合规应对进展"
+  ]
+}
