@@ -1,101 +1,62 @@
 {
-  "date": "2026-08-08",
-  "generated_at": "2026-08-09 07:16",
+  "date": "2026-08-09",
+  "generated_at": "2026-08-10 07:19",
   "news": [
     {
-      "source": "Reuters / TechCrunch",
-      "title": "Tesla与SpaceX联合宣布在德克萨斯州投资168亿美元建设Terafab芯片工厂",
-      "summary": "Tesla和SpaceX确认将在德克萨斯州格莱姆斯县建设名为Terafab的芯片制造综合体，首期投资168亿美元，规划面积超过1亿平方英尺，将成为全球最大建筑。该设施将整合逻辑、存储、封装和测试工艺，生产供Optimus机器人、Cybercab及太空数据中心使用的芯片，计划雇员不低于3000人。",
-      "sector_ids": [
-        "chips",
-        "infra"
-      ],
-      "role_ids": [
-        "chip_design",
-        "wafer_foundry",
-        "adv_packaging",
-        "dc_operator"
-      ]
+      "source": "The Information / BusinessToday",
+      "title": "NVIDIA拟向Stargate开发商Lancium投资最高30亿美元",
+      "summary": "NVIDIA计划向德克萨斯州电力基础设施公司Lancium投资最高30亿美元，初期注资20亿美元获约20%股权，另设10亿美元里程碑条款。Lancium企业估值约100亿美元，是Stargate AI数据中心园区的关键合作方，SoftBank、OpenAI和Oracle联合推进Stargate计划，预计总投入5000亿美元。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
     },
     {
-      "source": "BusinessWire / Fibre Systems",
-      "title": "光互连初创公司Lumilens从隐身状态出现，融资逾9亿美元，估值55.1亿美元",
-      "summary": "Lumilens于8月6日宣告出现，完成超7亿美元C轮融资，总募资超9亿美元，估值55.1亿美元。公司研发AI数据中心内规模扩展和规模延伸两类光互连芯片，包括共封装光学（CPO）和近封装光学（NPO）产品，已与某超大规模云服务商签署数十亿美元量级供货协议。",
-      "sector_ids": [
-        "chips",
-        "infra"
-      ],
-      "role_ids": [
-        "chip_design",
-        "adv_packaging",
-        "dc_operator",
-        "liquid_cooling"
-      ]
+      "source": "Bloomberg",
+      "title": "美国BIS审查中国AI企业通过离岸渠道访问NVIDIA芯片",
+      "summary": "美国商务部工业和安全局（BIS）正在审查中国AI公司如何在海外租用算力以间接获取NVIDIA芯片，并建立两份清单：一份追踪实体走私芯片进入中国的国家，另一份追踪允许中国企业远程访问受限芯片的国家。这一审查建立在今年5-6月出口管制执法行动的基础上。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "domestic_gpu"]
     },
     {
-      "source": "AMD Investor Relations",
-      "title": "AMD发布2026年Q2财报：营收115亿美元，数据中心业务同比增长107%",
-      "summary": "AMD于8月4日发布第二季度财报，总营收115亿美元，同比增长50%，超出市场预期。数据中心营收翻倍至67亿美元，占总营收58%，主要受EPYC处理器和Instinct GPU需求驱动。同期宣布与Anthropic达成战略合作，将部署最高2GW的MI450系列GPU用于Helios项目，首批1GW部署计划2027年上半年启动。盘后股价下跌逾8%。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "chip_design",
-        "adv_packaging"
-      ]
+      "source": "Bloomberg / TechStartups",
+      "title": "NVIDIA领投澳大利亚AI数据中心公司Firmus 20亿美元融资",
+      "summary": "澳大利亚AI基础设施公司Firmus完成20亿美元股权融资，由Coatue Management、NVIDIA、Blackstone及Jane Street参投，估值超105亿美元，较四个月前的55亿美元翻近一倍。资金将推进其在澳大利亚的Project Southgate AI工厂建设并向亚太地区扩张。",
+      "sector_ids": ["infra"],
+      "role_ids": ["dc_operator", "power_supply"]
     },
     {
-      "source": "Samsung Newsroom / TrendForce",
-      "title": "三星在FMS 2026发布zHBM概念，性能声称达到HBM5的8倍",
-      "summary": "三星电子于8月5日在圣克拉拉举办的FMS 2026展会上发布次世代zHBM内存架构概念。zHBM将高带宽内存直接垂直叠加在AI加速芯片上方，理论带宽为HBM5的8倍，内存密度超过HBM5的10倍，能效提升3倍，热阻降低50%以上。目前仍属概念阶段，尚无量产时间表或主流GPU兼容计划。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "chip_design",
-        "adv_packaging"
-      ]
+      "source": "AMD Investor Relations / CNBC",
+      "title": "AMD发布2026年Q2财报：营收115亿美元，数据中心收入同比翻番",
+      "summary": "AMD公布2026年第二季度营收115亿美元，同比增长50%，超出预期。数据中心业务收入达67亿美元，同比增107%，占总收入58%。公司将于本季度开始向Meta、OpenAI和Oracle发货首款机架级AI系统Helios，直接对标NVIDIA完整系统方案。Q3营收指引约130亿美元。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "adv_packaging"]
     },
     {
-      "source": "TechCrunch / The Information",
-      "title": "Anthropic组建内部芯片设计团队，与三星洽谈定制AI芯片代工合作",
-      "summary": "Anthropic于8月5日证实正在招募芯片架构、设计及验证工程师，薪资最高达48.5万美元，旨在构建用于Claude模型的专用定制芯片。据The Information报道，Anthropic已与三星就芯片代工合作展开谈判，通过硬件软件协同设计提升Claude运行速度并降低成本，但芯片规格及具体角色尚未确定。",
-      "sector_ids": [
-        "chips",
-        "models"
-      ],
-      "role_ids": [
-        "chip_design",
-        "wafer_foundry",
-        "llm_lab",
-        "cloud_platform"
-      ]
+      "source": "OpenAI",
+      "title": "OpenAI向免费用户开放GPT-5.6 Luna，无限文字对话",
+      "summary": "OpenAI宣布GPT-5.6 Luna成为ChatGPT免费版和Go版的默认模型，用户可享受无限制文字对话。Luna是GPT-5.6系列中成本效率最高的版本，7月底已降价80%。GPT-5.6系列包含旗舰Sol、均衡型Terra和轻量型Luna三款，Luna在事实准确性上比前代减少约62%错误率。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab", "cloud_platform"]
     },
     {
-      "source": "EU Official / IAPP",
-      "title": "欧盟AI法案透明度义务于8月2日正式生效，违规最高罚款全球营收3%",
-      "summary": "欧盟AI法案第50条透明度义务已于8月2日正式进入执法阶段，要求AI系统须向用户进行身份告知、合成内容须加注标记、深度伪造须进行标签。第5条同时禁止生成非同意亲密图像类AI系统。违规企业面临最高全球年营收3%或1500万欧元罚款。美国联邦AI立法因国会分歧仍处停滞状态。",
-      "sector_ids": [
-        "apps"
-      ],
-      "role_ids": [
-        "ai_compliance",
-        "enterprise_ai",
-        "llm_lab"
-      ]
+      "source": "CNBC / Reuters",
+      "title": "全球半导体Q2销售额达4033亿美元，同比增长35%",
+      "summary": "2026年第二季度全球半导体销售额达4033亿美元，较Q1增长35.1%；6月单月同比增长123.6%。AI驱动的算力需求持续推动芯片市场景气，三星、SK海力士发布HBM架构新进展，包括垂直堆叠技术zHBM和高带宽闪存（HBF）标准以应对AI内存瓶颈。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "wafer_foundry", "adv_packaging"]
     },
     {
-      "source": "Digitimes / Silicon Report",
-      "title": "AI芯片需求持续爆发，台积电先进封装产能严重吃紧，计划在嘉义新建三座封装厂",
-      "summary": "AI芯片需求推动台积电CoWoS先进封装产能接近满载，成熟制程及封装产能紧张延续。台积电已宣布在台湾嘉义科学园区新建3座先进封装设施以缓解瓶颈。2026年先进封装业务预计占台积电总营收10%以上，封装相关资本支出占年度资本开支约20%，涵盖520至560亿美元规模。",
-      "sector_ids": [
-        "chips"
-      ],
-      "role_ids": [
-        "wafer_foundry",
-        "adv_packaging",
-        "chip_design"
-      ]
+      "source": "EU / European Commission",
+      "title": "欧盟AI法案高风险AI义务正式生效，违规最高罚款3500万欧元",
+      "summary": "欧盟《人工智能法案》（AI Act）核心条款自8月2日起正式适用，对高风险AI系统的合规义务（含一致性评估、CE标识）以及通用AI模型透明度要求开始执行，欧盟AI办公室获得正式执法权。违规处罚最高可达3500万欧元或全球年营业额7%。78%的企业尚未采取实质性合规措施。",
+      "sector_ids": ["apps", "models"],
+      "role_ids": ["enterprise_ai", "enterprise_saas", "ai_compliance"]
+    },
+    {
+      "source": "OpenAI / SiliconANGLE",
+      "title": "OpenAI发布Astra模型预告：攻克10道长期未解数学难题",
+      "summary": "OpenAI宣布内部版本下一代旗舰模型Astra解决了数学与理论计算机科学领域10道开放逾十年的难题，包括首次构造出非sofic群（群论百年问题）。公司在GitHub发布249页论文及Lean 4形式化证明，全部计算成本约2000美元。Astra定位为可长时间协调多智能体执行复杂任务的系列模型，尚未正式发布。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab"]
     }
   ],
   "sectors": [
@@ -105,48 +66,27 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "多重利好催化：AMD数据中心营收翻倍、Terafab巨型芯片厂宣布、Anthropic加入自研芯片阵营，先进封装产能持续供不应求。",
-      "content": "本周AI芯片板块消息密集：AMD Q2数据中心营收同比增长107%，确认AI算力需求持续高增长；Tesla与SpaceX联手在德克萨斯州规划168亿美元级别的Terafab芯片制造基地，将整合逻辑、存储、封装产业链；Anthropic组建内部芯片设计团队并与三星接触，意味着大模型研发商对定制算力的需求已进入实质阶段；三星zHBM概念亮相FMS展会，若未来实现量产将大幅改变AI加速器内存配置格局。台积电CoWoS先进封装产能持续满载，新建产能落地前供需矛盾预计延续。",
+      "summary": "AMD Q2数据中心收入翻番，全球半导体销售持续创历史高位，但中美芯片管控博弈加剧。",
+      "content": "AMD Q2 2026数据中心收入同比增107%至67亿美元，季度总营收达115亿美元，创历史新高，首款机架级AI系统Helios即将出货。全球半导体Q2销售额4033亿美元，AI算力需求持续旺盛。三星、SK海力士推进新一代HBM架构以应对内存瓶颈。与此同时，美国BIS加强对中国企业通过离岸路由获取NVIDIA芯片的审查，中美半导体博弈从实体禁令延伸至算力租用领域，监管边界仍存不确定性。华为Ascend 910C 2026年产能目标60万颗，国产替代进程持续推进。",
       "roles": [
-        {
-          "id": "chip_design",
-          "name": "芯片设计"
-        },
-        {
-          "id": "wafer_foundry",
-          "name": "晶圆代工"
-        },
-        {
-          "id": "adv_packaging",
-          "name": "先进封装"
-        },
-        {
-          "id": "domestic_gpu",
-          "name": "国产替代"
-        }
+        { "id": "chip_design",   "name": "芯片设计" },
+        { "id": "wafer_foundry", "name": "晶圆代工" },
+        { "id": "adv_packaging", "name": "先进封装" },
+        { "id": "domestic_gpu",  "name": "国产替代" }
       ]
     },
     {
       "id": "models",
       "name": "AI模型/平台",
       "icon": "🧠",
-      "trend": "neutral",
-      "trend_label": "中性",
-      "summary": "Anthropic向硬件层延伸显示大模型公司向全栈布局演进，AI模型竞争重心逐步从参数规模转向算力效率与成本控制。",
-      "content": "Anthropic宣布组建内部芯片设计团队，标志着大模型头部公司正在从依赖外部算力转向软硬件协同设计，意在通过专用芯片提升Claude模型运行效率并降低边际成本。AMD与Anthropic签署2GW MI450 GPU部署协议，显示云计算与大模型公司在算力层的绑定正在加深。欧盟AI法案透明度义务生效，模型平台公司须在产品层面落实合成内容标注等合规要求，增加短期运营成本。",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "OpenAI大幅降价并扩大开放，Astra下一代旗舰模型展现出突破性科研能力。",
+      "content": "OpenAI将GPT-5.6 Luna（较7月底已降价80%）开放给所有免费用户并取消文字对话限额，加速大模型的普及渗透。OpenAI下一代旗舰Astra内部版本已在数学领域达成人类尚未解决的里程碑成果，计算成本仅约2000美元，显示前沿模型在科学研究领域的实用价值。模型发布节奏加快，GPT-5.6家族（Sol/Terra/Luna）持续优化，OpenAI同时向10万名学术研究者免费开放前沿模型访问权直至2027年。",
       "roles": [
-        {
-          "id": "llm_lab",
-          "name": "大模型研发"
-        },
-        {
-          "id": "cloud_platform",
-          "name": "云计算平台"
-        },
-        {
-          "id": "enterprise_ai",
-          "name": "企业AI工具"
-        }
+        { "id": "llm_lab",        "name": "大模型研发" },
+        { "id": "cloud_platform", "name": "云计算平台" },
+        { "id": "enterprise_ai",  "name": "企业AI工具" }
       ]
     },
     {
@@ -155,21 +95,12 @@
       "icon": "📱",
       "trend": "neutral",
       "trend_label": "中性",
-      "summary": "欧盟AI法案执法阶段开启，全球AI合规成本上升；美国联邦监管立法停滞，各州监管分歧持续。",
-      "content": "欧盟AI法案透明度义务于8月2日正式进入执法期，高风险AI系统需建立详细系统日志、上市后监控机制，并在15天内向当局报告严重事件；禁止生成非同意亲密图像的AI系统，违规最高罚款达全球营收3%。这对面向欧盟市场的AI应用公司形成实质合规压力。相较之下，美国联邦层面AI立法因国会政治分歧仍处停滞，各州自行推进立法的状况令企业面临碎片化合规挑战。",
+      "summary": "欧盟AI法案高风险义务生效带来合规压力，AI代理安全成五眼联盟关注焦点。",
+      "content": "欧盟AI法案高风险AI系统合规义务自8月2日正式生效，波及在欧盟市场运营的全球企业，违规罚款最高3500万欧元或年营收7%，但调查显示仍有78%企业未采取实质性合规行动。五眼联盟发布《AI代理服务的谨慎采用》指引，列出特权越界、行为不可预测、供应链风险等五大风险类别及逾100项最佳实践，重点关注关键基础设施和国防领域的AI代理部署安全。整体来看，监管框架加速落地是本周应用层的主要基调。",
       "roles": [
-        {
-          "id": "enterprise_saas",
-          "name": "企业SaaS"
-        },
-        {
-          "id": "autonomous",
-          "name": "自动驾驶"
-        },
-        {
-          "id": "ai_compliance",
-          "name": "合规监管"
-        }
+        { "id": "enterprise_saas", "name": "企业SaaS" },
+        { "id": "autonomous",      "name": "自动驾驶" },
+        { "id": "ai_compliance",   "name": "合规监管" }
       ]
     },
     {
@@ -178,28 +109,19 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "Terafab和Lumilens两大重磅投资公告显示，AI基础设施建设进入更大规模和更精细化的新阶段。",
-      "content": "AI基础设施投资本周出现两项重大进展：Tesla与SpaceX联合投资168亿美元的Terafab芯片工厂落定德克萨斯州，将整合存储、逻辑、封装和测试于一体，显示科技企业正加速推进算力自主可控；光互连初创公司Lumilens融资超9亿美元，聚焦AI数据中心内GPU间互联瓶颈，已获超大规模云厂商数十亿美元级别采购协议。全球AI数据中心电力需求已超过1000 TWh，电力基础设施成为AI规模扩张的最大约束因素之一。",
+      "summary": "NVIDIA双线出击：投资30亿美元入股Lancium电力资产，同时领投澳大利亚AI工厂Firmus 20亿美元。",
+      "content": "NVIDIA本周密集布局数据中心基础设施：一方面以最高30亿美元入股德克萨斯州Lancium（Stargate首个运营站点），获约20%股权，强化对Stargate AI基础设施项目的上游电力资产掌控；另一方面领投澳大利亚Firmus 20亿美元，推动AI工厂扩张至亚太市场。全球AI数据中心建设热度持续高涨，190 GW超大规模容量已被宣布，电力供给已成为AI基础设施扩张的首要瓶颈。TSMC将美国投资总额提升至2650亿美元，进一步锁定先进封装与晶圆制造产能。",
       "roles": [
-        {
-          "id": "dc_operator",
-          "name": "数据中心运营"
-        },
-        {
-          "id": "power_supply",
-          "name": "电力供给"
-        },
-        {
-          "id": "liquid_cooling",
-          "name": "液冷散热"
-        }
+        { "id": "dc_operator",    "name": "数据中心运营" },
+        { "id": "power_supply",   "name": "电力供给" },
+        { "id": "liquid_cooling", "name": "液冷散热" }
       ]
     }
   ],
-  "macro": "欧盟AI法案透明度义务8月2日正式进入执法阶段，全球AI监管进入新纪元；美国联邦AI立法因国会分歧停滞，各州监管碎片化加剧。美国本土芯片制造战略提速，Tesla/SpaceX Terafab项目进一步强化美国半导体供应链韧性目标。全球AI算力需求持续高增长，Q2半导体销售额达4033亿美元，同比增长35%。",
+  "macro": "欧盟AI法案高风险义务8月2日正式生效，标志着全球AI监管进入实质执法阶段；美国一方面收紧对华芯片出口管制（审查离岸算力租用路径），另一方面通过TSMC、Stargate等巨额投资加固本土AI产业链；中美AI竞争在算力、模型、监管三条战线同步展开。",
   "tomorrow_focus": [
-    "关注台积电2026年Q2财报细节及先进封装产能扩张指引，判断封装供应缺口改善时间节点",
-    "关注Anthropic定制芯片与三星合作谈判进展，以及其他大模型公司是否跟进自研芯片布局",
-    "欧盟AI法案高风险系统合规落地情况，企业公告是否涉及产品调整或欧盟业务策略变化"
+    "AMD Helios机架级AI系统首批出货进展及客户（Meta、OpenAI、Oracle）验收反馈",
+    "美国BIS对中国企业离岸访问NVIDIA芯片审查的后续监管动作与潜在新规",
+    "欧盟AI法案第一批执法行动的启动情况及企业合规应对进展"
   ]
 }
