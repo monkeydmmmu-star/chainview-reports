@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-19 07:15",
+  "news": [
+    {
+      "source": "TechCrunch / Axios",
+      "title": "OpenAI发布青少年版ChatGPT，强化内容安全防护",
+      "pub_date": "2026-08-18",
+      "summary": "OpenAI于8月18日正式推出ChatGPT青少年模式（13-17岁），自动屏蔽自残、暴力、饮食失调等高风险话题及浪漫性语言，内置学习辅助功能，并通过年龄预测自动路由用户进入该模式。",
+      "sector_ids": ["apps", "models"],
+      "role_ids": ["llm_lab", "enterprise_saas", "ai_compliance"]
+    },
+    {
+      "source": "TechCrunch / GlobeNewswire",
+      "title": "AI推理芯片初创公司Etched完成7亿美元融资，估值飙升至210亿美元",
+      "pub_date": "2026-08-18",
+      "summary": "AI推理芯片初创公司Etched宣布完成7亿美元融资，估值达210亿美元，较一个月前的103亿美元翻倍，由量化交易机构Jane Street领投。公司已向Jane Street完成首批芯片机架交付，专注构建高吞吐量低延迟的推理集群。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design"]
+    },
+    {
+      "source": "CNBC",
+      "title": "分析师：长江存储NAND市场份额有望在2028年达到18%",
+      "pub_date": "2026-08-18",
+      "summary": "Counterpoint Research分析师在CNBC节目中表示，长江存储（YMTC）的NAND市场份额增长具有可持续性，预计从当前全球第三、14%份额进一步提升至2028年的18%，AI服务器存储需求是主要驱动力。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "domestic_gpu"]
+    },
+    {
+      "source": "Bloomberg / Fortune",
+      "title": "Anthropic年化收入突破650亿美元，加速推进IPO计划",
+      "pub_date": "2026-08-18",
+      "summary": "Anthropic年化收入运行率突破650亿美元，较5月的470亿美元大幅增长，年初仅为90亿美元，增速超7倍。公司预计2026年全年收入达1000-1200亿美元。报道称Anthropic最快将于今秋上市，有望早于OpenAI。",
+      "sector_ids": ["models"],
+      "role_ids": ["llm_lab"]
+    },
+    {
+      "source": "Bloomberg / CNBC",
+      "title": "英伟达为OpenAI俄亥俄州超大规模数据中心提供最高1050亿美元融资担保",
+      "pub_date": "2026-08-18",
+      "summary": "英伟达将为SB Energy在俄亥俄州建设的PORTS-Pike科技园区提供最高1050亿美元融资，OpenAI为主要租户签署20年租约。园区初期算力4.25GW，可扩展至8GW，部署约150万块英伟达GPU，预计2028年首批800MW上线。",
+      "sector_ids": ["infra", "chips"],
+      "role_ids": ["dc_operator", "power_supply", "chip_design"]
+    },
+    {
+      "source": "NBC News / Yahoo Finance",
+      "title": "Meta面临美国29州联合诉讼，指控平台危害青少年心理健康",
+      "pub_date": "2026-08-18",
+      "summary": "美国29州联盟于8月18日在加州联邦法院正式开庭，指控Meta设计Facebook和Instagram使青少年成瘾并误导公众，预计潜在罚款接近2000亿美元。Meta CEO扎克伯格及Instagram负责人预计将出庭作证。",
+      "sector_ids": ["apps"],
+      "role_ids": ["ai_compliance"]
+    },
+    {
+      "source": "BNN Bloomberg / QZ.com",
+      "title": "谷歌联合英国政府启动AI航迹云预测计划，减少航空气候影响",
+      "pub_date": "2026-08-18",
+      "summary": "谷歌与英国政府、NATS空管机构、气象局等联合启动\"蓝天行动\"，为期30个月，是首个国家支持的大西洋航迹云规避项目。谷歌AI将预测航迹云生成区域，帮助空管人员调整飞行高度约2000英尺以减少气候影响。",
+      "sector_ids": ["apps"],
+      "role_ids": ["enterprise_saas"]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "AI芯片/算力",
+      "icon": "⚡",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "AI推理芯片创企Etched估值翻倍至210亿美元，中国YMTC存储芯片份额持续扩张",
+      "content": "8月18日AI芯片领域利好消息集中释放。推理芯片初创公司Etched完成7亿美元融资，估值在一个月内从103亿美元翻倍至210亿美元，量化机构Jane Street首批采购落地，显示专用推理芯片市场需求强劲。存储芯片方面，Counterpoint Research预测中国长江存储NAND市场份额有望从当前14%增至2028年18%，AI服务器存储需求拉动国产化进程加快。英伟达方面则通过与OpenAI的俄亥俄州超大规模数据中心项目持续巩固GPU在训练与推理领域的主导地位，单一项目GPU部署规模预计达150万块。",
+      "roles": [
+        { "id": "chip_design",   "name": "芯片设计" },
+        { "id": "wafer_foundry", "name": "晶圆代工" },
+        { "id": "adv_packaging", "name": "先进封装" },
+        { "id": "domestic_gpu",  "name": "国产替代" }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "AI模型/平台",
+      "icon": "🧠",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "Anthropic年化收入突破650亿美元加速IPO，OpenAI推出青少年安全模式拓展合规场景",
+      "content": "AI模型层商业化加速显著。Anthropic年化收入运行率突破650亿美元，较年初增长逾7倍，IPO进程明显提速，预计最快今秋上市，有望早于OpenAI。OpenAI则于8月18日推出ChatGPT青少年模式，针对13-17岁用户强化内容过滤与安全防护，布局教育与安全合规场景。两大头部AI实验室的动作均显示模型商业化已进入快速变现阶段，平台竞争从技术能力拓展至用户分层运营与合规差异化。",
+      "roles": [
+        { "id": "llm_lab",        "name": "大模型研发" },
+        { "id": "cloud_platform", "name": "云计算平台" },
+        { "id": "enterprise_ai",  "name": "企业AI工具" }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "AI应用层",
+      "icon": "📱",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "AI应用向垂直场景深化，Meta大型诉讼开庭令监管压力进一步显现",
+      "content": "AI应用层呈现机遇与监管双线并行格局。谷歌联合英国政府将AI用于跨大西洋航迹云预测，代表AI气候科学应用落地；OpenAI推出青少年专属ChatGPT，拓展安全合规类应用场景。另一方面，Meta于8月18日迎来美国29州联合诉讼正式开庭，被指控社交媒体设计危害青少年心理健康，潜在罚款高达2000亿美元，CEO扎克伯格将出庭作证。该案判决将对整个AI社交与推荐算法行业的监管走向产生深远影响。",
+      "roles": [
+        { "id": "enterprise_saas", "name": "企业SaaS" },
+        { "id": "autonomous",      "name": "自动驾驶" },
+        { "id": "ai_compliance",   "name": "合规监管" }
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "数据中心/基础设施",
+      "icon": "🏗️",
+      "trend": "bullish",
+      "trend_label": "利好",
+      "summary": "英伟达为俄亥俄州OpenAI超大规模数据中心提供1050亿美元融资担保，算力建设跃升新量级",
+      "content": "AI基础设施投资规模再创新高。英伟达宣布将为俄亥俄州PORTS-Pike科技园区提供最高1050亿美元融资担保，OpenAI签署20年租约，初期部署4.25GW算力，可扩展至8GW，成为迄今规模最大的单一AI数据中心项目。该项目部署约150万块英伟达GPU，首批800MW预计2028年上线。超大规模算力建设从百亿美元量级跃升至千亿美元量级，对电力供给、液冷散热等基础设施环节形成强劲的同步需求拉动。",
+      "roles": [
+        { "id": "dc_operator",    "name": "数据中心运营" },
+        { "id": "power_supply",   "name": "电力供给" },
+        { "id": "liquid_cooling", "name": "液冷散热" }
+      ]
+    }
+  ],
+  "macro": "欧盟《人工智能法案》（AI Act）自8月2日起正式执法，聊天机器人须告知用户其AI身份，深度伪造须标注，违规最高罚款全球营收7%。美国方面，Meta面临29州联合诉讼，AI与社交平台的监管合规风险扩大。全球AI基础设施投资持续高涨，英伟达-OpenAI俄亥俄数据中心项目标志算力军备竞赛进入新量级，中国AI芯片国产替代进程加快。",
+  "tomorrow_focus": [
+    "Meta 29州诉讼庭审推进，开庭陈述或揭示平台算法设计的关键证据",
+    "Anthropic IPO时间表及估值区间细节，机构对AI模型公司的定价逻辑",
+    "Etched推理芯片规模化交付进展，及专用推理芯片对英伟达GPU市场份额的潜在冲击"
+  ]
+}
