@@ -1,62 +1,62 @@
 {
-  "date": "2026-08-17",
-  "generated_at": "2026-08-18 07:16",
+  "date": "2026-08-18",
+  "generated_at": "2026-08-19 07:15",
   "news": [
     {
-      "source": "Bloomberg",
-      "title": "英伟达为OpenAI俄亥俄州数据中心园区提供高达1050亿美元融资担保",
-      "summary": "英伟达将为OpenAI位于俄亥俄州派克县的PORTS-Pike科技园区提供高达1050亿美元的融资担保，园区总规划容量8吉瓦，初期部署4.25吉瓦，预计安装约150万块GPU。OpenAI将签署20年租约，SB Energy负责建设与所有权，首批800兆瓦容量预计2028年上线。",
-      "sector_ids": ["infra", "chips"],
-      "role_ids": ["dc_operator", "chip_design", "power_supply"]
-    },
-    {
-      "source": "Bloomberg",
-      "title": "中国芯片产业迎来突破时刻，华为与CXMT成最大驱动力",
-      "summary": "Bloomberg报道，中国本土半导体产业在政府长期支持下迎来突破性时刻。华为Ascend 910C今年产量预计翻倍至约60万枚，整体Ascend产线年产能达160万枚；CXMT在存储芯片领域也加速追赶。国内AI芯片市场本土份额已接近90%，英伟达、AMD等海外厂商份额降至约10%。",
-      "sector_ids": ["chips"],
-      "role_ids": ["chip_design", "domestic_gpu", "wafer_foundry"]
-    },
-    {
-      "source": "CNBC / Forbes",
-      "title": "Anthropic公布Q2 2026初步业绩：营收超115亿美元，首次实现季度盈利",
-      "summary": "Anthropic公布第二季度初步营收超115亿美元，同比增长超14倍，环比Q1（47.3亿美元）增长约143%，并首次实现正向调整后经营利润。Claude Code等企业工具的大规模采用是主要增长引擎。摩根士丹利、高盛等机构正筹备其IPO事宜。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "enterprise_ai"]
-    },
-    {
-      "source": "Dataconomy / TechCrunch",
-      "title": "Stripe以超70亿美元完成对AI模型路由平台OpenRouter的收购",
-      "summary": "支付科技公司Stripe宣布完成对OpenRouter的收购，交易金额超70亿美元，较OpenRouter三个月前13亿美元B轮估值溢价逾5倍。OpenRouter为约800万开发者提供400余款AI模型的统一接入与智能路由服务。此次收购将使Stripe在AI支付与模型计量计费领域形成闭环。",
+      "source": "TechCrunch / Axios",
+      "title": "OpenAI发布青少年版ChatGPT，强化内容安全防护",
+      "pub_date": "2026-08-18",
+      "summary": "OpenAI于8月18日正式推出ChatGPT青少年模式（13-17岁），自动屏蔽自残、暴力、饮食失调等高风险话题及浪漫性语言，内置学习辅助功能，并通过年龄预测自动路由用户进入该模式。",
       "sector_ids": ["apps", "models"],
-      "role_ids": ["enterprise_ai", "enterprise_saas", "cloud_platform"]
+      "role_ids": ["llm_lab", "enterprise_saas", "ai_compliance"]
     },
     {
-      "source": "Google / Vertex AI Docs",
-      "title": "谷歌正式下线三款Imagen 4图像生成API，全线向Gemini品牌迁移",
-      "summary": "谷歌于8月17日正式下线imagen-4.0-generate-001、imagen-4.0-ultra-generate-001和imagen-4.0-fast-generate-001三个API端点，引导开发者迁移至gemini-3.1-flash-image。此举是谷歌将旗下AI产品线统一整合至Gemini品牌战略的一部分，反映大模型平台加速产品迭代整合趋势。",
+      "source": "TechCrunch / GlobeNewswire",
+      "title": "AI推理芯片初创公司Etched完成7亿美元融资，估值飙升至210亿美元",
+      "pub_date": "2026-08-18",
+      "summary": "AI推理芯片初创公司Etched宣布完成7亿美元融资，估值达210亿美元，较一个月前的103亿美元翻倍，由量化交易机构Jane Street领投。公司已向Jane Street完成首批芯片机架交付，专注构建高吞吐量低延迟的推理集群。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design"]
+    },
+    {
+      "source": "CNBC",
+      "title": "分析师：长江存储NAND市场份额有望在2028年达到18%",
+      "pub_date": "2026-08-18",
+      "summary": "Counterpoint Research分析师在CNBC节目中表示，长江存储（YMTC）的NAND市场份额增长具有可持续性，预计从当前全球第三、14%份额进一步提升至2028年的18%，AI服务器存储需求是主要驱动力。",
+      "sector_ids": ["chips"],
+      "role_ids": ["chip_design", "domestic_gpu"]
+    },
+    {
+      "source": "Bloomberg / Fortune",
+      "title": "Anthropic年化收入突破650亿美元，加速推进IPO计划",
+      "pub_date": "2026-08-18",
+      "summary": "Anthropic年化收入运行率突破650亿美元，较5月的470亿美元大幅增长，年初仅为90亿美元，增速超7倍。公司预计2026年全年收入达1000-1200亿美元。报道称Anthropic最快将于今秋上市，有望早于OpenAI。",
       "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform"]
+      "role_ids": ["llm_lab"]
     },
     {
-      "source": "Qz / Domain-b.com",
-      "title": "宇树科技人形机器人IPO超额认购逾8000倍，预计8月19日登陆科创板",
-      "summary": "中国最大人形机器人制造商宇树科技预计8月19日在上海证券交易所科创板正式挂牌交易，定价150.8元/股，估值约90亿美元。此次IPO创下科创板零售认购超8000倍的历史记录，监管机构104天审核也创下纪录。2025年宇树营收约17亿元，年均增速超300%。",
+      "source": "Bloomberg / CNBC",
+      "title": "英伟达为OpenAI俄亥俄州超大规模数据中心提供最高1050亿美元融资担保",
+      "pub_date": "2026-08-18",
+      "summary": "英伟达将为SB Energy在俄亥俄州建设的PORTS-Pike科技园区提供最高1050亿美元融资，OpenAI为主要租户签署20年租约。园区初期算力4.25GW，可扩展至8GW，部署约150万块英伟达GPU，预计2028年首批800MW上线。",
+      "sector_ids": ["infra", "chips"],
+      "role_ids": ["dc_operator", "power_supply", "chip_design"]
+    },
+    {
+      "source": "NBC News / Yahoo Finance",
+      "title": "Meta面临美国29州联合诉讼，指控平台危害青少年心理健康",
+      "pub_date": "2026-08-18",
+      "summary": "美国29州联盟于8月18日在加州联邦法院正式开庭，指控Meta设计Facebook和Instagram使青少年成瘾并误导公众，预计潜在罚款接近2000亿美元。Meta CEO扎克伯格及Instagram负责人预计将出庭作证。",
       "sector_ids": ["apps"],
-      "role_ids": ["enterprise_saas", "autonomous"]
+      "role_ids": ["ai_compliance"]
     },
     {
-      "source": "OpenAI / Cerebras / HPCwire",
-      "title": "OpenAI联合Cerebras推出GPT-5.6 Sol超快模式：推理速度高达每秒750 tokens",
-      "summary": "OpenAI开放GPT-5.6 Sol Ultrafast模式的限量API预览，该模式由Cerebras晶圆级AI芯片提供算力支持，输出速度高达每秒约750 tokens，为标准模式的14倍。模型智能水平与标准版持平，主要面向高吞吐量需求的企业客户，价格暂未公布。",
-      "sector_ids": ["models", "chips"],
-      "role_ids": ["llm_lab", "cloud_platform", "chip_design"]
-    },
-    {
-      "source": "llm-stats.com / AI Weekly",
-      "title": "谷歌发布Gemini 3.7 Flash，编程与自动化基准大幅提升",
-      "summary": "谷歌推出Gemini 3.7 Flash模型，FrontierCode基准得分从34.4%提升至43.6%，AutomationBench从17%提升至30.4%，DeepSWE v1.1从49%提升至65.3%。API定价为每百万输入tokens 0.75美元，输出3.75美元，并提供至2026年12月底的优惠定价。",
-      "sector_ids": ["models"],
-      "role_ids": ["llm_lab", "cloud_platform", "enterprise_ai"]
+      "source": "BNN Bloomberg / QZ.com",
+      "title": "谷歌联合英国政府启动AI航迹云预测计划，减少航空气候影响",
+      "pub_date": "2026-08-18",
+      "summary": "谷歌与英国政府、NATS空管机构、气象局等联合启动\"蓝天行动\"，为期30个月，是首个国家支持的大西洋航迹云规避项目。谷歌AI将预测航迹云生成区域，帮助空管人员调整飞行高度约2000英尺以减少气候影响。",
+      "sector_ids": ["apps"],
+      "role_ids": ["enterprise_saas"]
     }
   ],
   "sectors": [
@@ -66,8 +66,8 @@
       "icon": "⚡",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "中国本土芯片产业实现突破，国内市场份额逼近90%；英伟达为OpenAI史上最大算力项目提供1050亿美元担保。",
-      "content": "中美两国在AI算力基础设施领域均出现重大进展。美国方面，英伟达8月17日宣布为OpenAI俄亥俄州8吉瓦数据中心园区提供高达1050亿美元的融资担保，规模空前，预计安装约150万块GPU，彰显算力基础设施投资持续加码。中国方面，Bloomberg同日报道，华为、CXMT等本土厂商驱动中国半导体产业迎来突破时刻，华为Ascend产线年产能高达160万枚，国内AI芯片本土化率接近90%，英伟达等外资厂商市场份额被持续压缩。此外，Cerebras为OpenAI GPT-5.6提供超快推理硬件支持，晶圆级AI芯片算力价值进一步凸显。",
+      "summary": "AI推理芯片创企Etched估值翻倍至210亿美元，中国YMTC存储芯片份额持续扩张",
+      "content": "8月18日AI芯片领域利好消息集中释放。推理芯片初创公司Etched完成7亿美元融资，估值在一个月内从103亿美元翻倍至210亿美元，量化机构Jane Street首批采购落地，显示专用推理芯片市场需求强劲。存储芯片方面，Counterpoint Research预测中国长江存储NAND市场份额有望从当前14%增至2028年18%，AI服务器存储需求拉动国产化进程加快。英伟达方面则通过与OpenAI的俄亥俄州超大规模数据中心项目持续巩固GPU在训练与推理领域的主导地位，单一项目GPU部署规模预计达150万块。",
       "roles": [
         { "id": "chip_design",   "name": "芯片设计" },
         { "id": "wafer_foundry", "name": "晶圆代工" },
@@ -81,8 +81,8 @@
       "icon": "🧠",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "Anthropic Q2营收超115亿美元首次盈利，谷歌Gemini 3.7 Flash与GPT-5.6 Ultrafast同期发布，模型层竞争提速。",
-      "content": "AI模型/平台层8月17日多线并进：Anthropic披露Q2初步营收超115亿美元，同比增长逾14倍，并首次实现调整后经营利润，Claude Code在企业编程场景快速渗透被认为是核心驱动力，IPO进程随之加速。谷歌同日正式下线三款Imagen 4 API，将图像生成能力整合进Gemini体系，同时Gemini 3.7 Flash在编程、自动化等多项基准创新高。OpenAI则联合Cerebras推出GPT-5.6 Sol Ultrafast限量预览，以硬件创新突破推理速度天花板，三大厂商在模型能力与商业化两条战线同步竞争。",
+      "summary": "Anthropic年化收入突破650亿美元加速IPO，OpenAI推出青少年安全模式拓展合规场景",
+      "content": "AI模型层商业化加速显著。Anthropic年化收入运行率突破650亿美元，较年初增长逾7倍，IPO进程明显提速，预计最快今秋上市，有望早于OpenAI。OpenAI则于8月18日推出ChatGPT青少年模式，针对13-17岁用户强化内容过滤与安全防护，布局教育与安全合规场景。两大头部AI实验室的动作均显示模型商业化已进入快速变现阶段，平台竞争从技术能力拓展至用户分层运营与合规差异化。",
       "roles": [
         { "id": "llm_lab",        "name": "大模型研发" },
         { "id": "cloud_platform", "name": "云计算平台" },
@@ -93,10 +93,10 @@
       "id": "apps",
       "name": "AI应用层",
       "icon": "📱",
-      "trend": "bullish",
-      "trend_label": "利好",
-      "summary": "Stripe以70亿美元整合AI模型路由赛道，宇树人形机器人科创板上市在即，AI应用并购与资本化加速。",
-      "content": "AI应用层8月17日出现两项标志性事件：Stripe以逾70亿美元收购OpenRouter，将涵盖400余款大模型的智能路由能力并入支付生态，意图掌控AI时代的计量计费基础设施。宇树科技（Unitree）预计8月19日登陆上交所科创板，成为中国首家上市的通用人形机器人企业，IPO认购超8000倍创纪录，2025年营收约17亿元，验证了具身智能的商业化落地潜力。两起事件均显示AI应用层资本化进程持续提速。",
+      "trend": "neutral",
+      "trend_label": "中性",
+      "summary": "AI应用向垂直场景深化，Meta大型诉讼开庭令监管压力进一步显现",
+      "content": "AI应用层呈现机遇与监管双线并行格局。谷歌联合英国政府将AI用于跨大西洋航迹云预测，代表AI气候科学应用落地；OpenAI推出青少年专属ChatGPT，拓展安全合规类应用场景。另一方面，Meta于8月18日迎来美国29州联合诉讼正式开庭，被指控社交媒体设计危害青少年心理健康，潜在罚款高达2000亿美元，CEO扎克伯格将出庭作证。该案判决将对整个AI社交与推荐算法行业的监管走向产生深远影响。",
       "roles": [
         { "id": "enterprise_saas", "name": "企业SaaS" },
         { "id": "autonomous",      "name": "自动驾驶" },
@@ -109,8 +109,8 @@
       "icon": "🏗️",
       "trend": "bullish",
       "trend_label": "利好",
-      "summary": "英伟达1050亿美元为OpenAI俄亥俄州8吉瓦园区担保，刷新全球单体AI数据中心投资纪录，电力供给成核心瓶颈。",
-      "content": "数据中心基础设施领域8月17日迎来历史性节点：英伟达宣布为OpenAI在俄亥俄州派克县建设的PORTS-Pike科技园区提供高达1050亿美元融资担保，项目规划容量达8吉瓦，SB Energy负责建设与运营，OpenAI签署20年租约。英伟达将向该项目投资约15亿美元股权并供应约150万块GPU，首批800兆瓦预计2028年投产。该项目规模远超此前任何单体AI数据中心项目，再度凸显电力基础设施是AI扩容的核心约束——美国电网容量、变压器供应和输电建设周期已成为制约AI算力落地的长期瓶颈。",
+      "summary": "英伟达为俄亥俄州OpenAI超大规模数据中心提供1050亿美元融资担保，算力建设跃升新量级",
+      "content": "AI基础设施投资规模再创新高。英伟达宣布将为俄亥俄州PORTS-Pike科技园区提供最高1050亿美元融资担保，OpenAI签署20年租约，初期部署4.25GW算力，可扩展至8GW，成为迄今规模最大的单一AI数据中心项目。该项目部署约150万块英伟达GPU，首批800MW预计2028年上线。超大规模算力建设从百亿美元量级跃升至千亿美元量级，对电力供给、液冷散热等基础设施环节形成强劲的同步需求拉动。",
       "roles": [
         { "id": "dc_operator",    "name": "数据中心运营" },
         { "id": "power_supply",   "name": "电力供给" },
@@ -118,10 +118,10 @@
       ]
     }
   ],
-  "macro": "欧盟AI法案已于8月2日起正式执法，新透明度要求开始约束聊天机器人、合成内容及深度伪造等场景。中国推进半导体自主化，华为芯片国内市占率接近50%，政策驱动本土AI产业链完整度持续提升。美国AI基础设施投资规模持续创纪录，Anthropic首次盈利标志AI产业商业逻辑日趋成熟。",
+  "macro": "欧盟《人工智能法案》（AI Act）自8月2日起正式执法，聊天机器人须告知用户其AI身份，深度伪造须标注，违规最高罚款全球营收7%。美国方面，Meta面临29州联合诉讼，AI与社交平台的监管合规风险扩大。全球AI基础设施投资持续高涨，英伟达-OpenAI俄亥俄数据中心项目标志算力军备竞赛进入新量级，中国AI芯片国产替代进程加快。",
   "tomorrow_focus": [
-    "宇树科技（688836.SH）8月19日科创板上市首日交易走势及开盘定价",
-    "Anthropic IPO进展：摩根士丹利、高盛等机构承销时间表是否进一步明朗",
-    "英伟达Q2 FY2027财报（预计8月26日）前分析师数据中心收入预期修正动向"
+    "Meta 29州诉讼庭审推进，开庭陈述或揭示平台算法设计的关键证据",
+    "Anthropic IPO时间表及估值区间细节，机构对AI模型公司的定价逻辑",
+    "Etched推理芯片规模化交付进展，及专用推理芯片对英伟达GPU市场份额的潜在冲击"
   ]
 }
